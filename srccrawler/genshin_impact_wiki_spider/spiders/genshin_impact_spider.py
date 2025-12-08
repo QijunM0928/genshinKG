@@ -21,22 +21,22 @@ class GenshinImpactSpider(Spider):
 
     def parse(self, response, **kwargs):
         # 角色筛选页
-        # links = LinkExtractor(restrict_xpaths='//a[@title="角色图鉴"]')
-        # for link in links.extract_links(response):
-        #     yield Request(link.url, callback=self.parse_character)
+        links = LinkExtractor(restrict_xpaths='//a[@title="角色图鉴"]')
+        for link in links.extract_links(response):
+            yield Request(link.url, callback=self.parse_character)
 
         # 角色详情页 + 角色语音
-        # links = LinkExtractor(restrict_xpaths='//a[@title="角色图鉴"]')
-        # for link in links.extract_links(response):
-        #     yield Request(link.url, callback=self.parse_url, cb_kwargs={'cb': 'parse_character_detail'}, dont_filter=True)
+        links = LinkExtractor(restrict_xpaths='//a[@title="角色图鉴"]')
+        for link in links.extract_links(response):
+            yield Request(link.url, callback=self.parse_url, cb_kwargs={'cb': 'parse_character_detail'}, dont_filter=True)
 
         # 武器图鉴
-        # links = LinkExtractor(restrict_xpaths='//a[@title="武器图鉴"]')
-        # for link in links.extract_links(response):
-        #     yield Request(link.url, callback=self.parse_weapon)
+        links = LinkExtractor(restrict_xpaths='//a[@title="武器图鉴"]')
+        for link in links.extract_links(response):
+            yield Request(link.url, callback=self.parse_weapon)
 
         # API请求：材料和怪物
-        # yield self._build_api_request(self.MATERIAL_API_URL, 0, self.parse_material)
+        yield self._build_api_request(self.MATERIAL_API_URL, 0, self.parse_material)
         yield self._build_api_request(self.MONSTER_API_URL, 0, self.parse_monster)
 
     def parse_url(self, response, cb, **kwargs):
@@ -280,7 +280,8 @@ class GenshinImpactSpider(Spider):
             }
         }
 
-    def parse_character_strategy(self, response, character, **kwargs):
+    @staticmethod
+    def parse_character_strategy(response, character, **kwargs):
         soup = BeautifulSoup(response.text, 'lxml')
         char_name = character
 
@@ -316,47 +317,21 @@ class GenshinImpactSpider(Spider):
                     if text and len(text) > 5:  # 简单的长度过滤，避免空行
                         role_paragraphs.append(text)
 
-        # 2. 配装推荐 -> 武器 h4 下的表格（武器 / 推荐理由）
-        weapons = []
-        equip_h2 = None
-
-        # 找到 h2 = 配装推荐
-        for h in h2_list:
-            if "配装推荐" in h.get_text(strip=True):
-                equip_h2 = h
-                break
-
-        weapon_h = None
-        if equip_h2:
-            # 在 配装推荐 区块内，找到 h4 = 武器
-            for sibling in equip_h2.next_siblings:
-                name = getattr(sibling, "name", None)
-                if name == "h4":
-                    title_text = sibling.get_text(strip=True)
-                    if "武器" in title_text:
-                        weapon_h = sibling
-                        break
-
-        weapon_table = None
-        if weapon_h:
-            # 在 h4 武器 下面找第一张 table
-            for sibling in weapon_h.next_siblings:
-                name = getattr(sibling, "name", None)
-                if name == "table":
-                    weapon_table = sibling
-                    break
-
-        if weapon_table:
-            trs = weapon_table.find_all("tr")
-            for tr in trs:
-                tds = tr.find_all("td")
-                weapon_name = tds[0].get_text(strip=True)
-                reason = tds[1].get_text(strip=True)
-                if weapon_name:
-                    weapons.append({
-                        "weapon": weapon_name,
-                        "reason": reason
-                    })
+        # 2. 配装推荐 -> 武器下的表格（武器 / 推荐理由）
+        weapons = {}
+        headline = soup.find('span', class_='mw-headline', id='武器')
+        if headline:
+            hx = headline.find_parent('h4')
+            weapon_table = hx.find_next('table', class_='wikitable')
+            if weapon_table:
+                trs = weapon_table.find_all("tr")
+                for tr in trs:
+                    tds = tr.find_all("td")
+                    if not tds:
+                        continue
+                    for a in tds[0].find_all("a"):
+                        weapon_name = a.get('title', '').strip()
+                        weapons[weapon_name] = tds[1].get_text(" ", strip=True)
 
         # --- 3. 阵容搭配 ---
         lineups = []
@@ -426,7 +401,7 @@ class GenshinImpactSpider(Spider):
                     # 安全获取数据的 helper
                     def get_cell_text(idx):
                         if idx is not None and idx < len(cells):
-                            return cells[idx].get_text(strip=True)
+                            return cells[idx].get_text(" ", strip=True)
                         return ""
 
                     role_name = get_cell_text(role_idx)
@@ -465,7 +440,16 @@ class GenshinImpactSpider(Spider):
             for row in tbl.find_all('tr')[1:]:
                 weapon = {}
                 tds =  row.find_all('td')
-                for k, v in zip(ths, tds): weapon[k.get_text(strip=True)] = v.get_text(strip=True)
+                for i, (k, v) in enumerate(zip(ths, tds)):
+                    key = k.get_text(strip=True)
+                    if i == 0:
+                        # 第一个 td：抓取图标链接
+                        img = v.find('img')
+                        if img and img.has_attr('src'):
+                            weapon[key] = img['src']
+                    else:
+                        # 后续 td 内容仍然是文本
+                        weapon[key] = v.get_text(strip=True)
                 yield {'type': 'weapon', 'data': weapon}
 
     def parse_material(self, response, offset, **kwargs):
@@ -529,20 +513,23 @@ class GenshinImpactSpider(Spider):
         if len(rows) > 1:
             yield self._build_api_request(self.MONSTER_API_URL, offset + 50, self.parse_monster)
 
-    def parse_monster_detail(self, response, base_data, **kwargs):
+    @staticmethod
+    def parse_monster_detail(response, base_data, **kwargs):
         soup = BeautifulSoup(response.text, 'lxml')
         monster = dict(base_data)
         # 补充推荐角色
         headline = soup.find('span', class_='mw-headline', id='挑战推荐角色')
+        monster['recommend'] = []
+        monster['info'] = ''
         if headline:
             hx = headline.find_parent(['h2', 'h3'])
             table = hx.find_next('table', class_='wikitable')
             p = hx.find_next('p').get_text(separator=' ', strip=True)
-            monster['info'] = p if p else ''
+            monster['info'] = p if p!="游戏中心 | 帐号安全 | 找回密码 | 家长监控 | 用户协议" else ''
             if table:
                 trs = table.find_all('tr')
-                recommend = {}
-                for i, tr in enumerate(trs[1:]):
+                recommend = []
+                for tr in trs[1:]:
                     cells = tr.find_all(['th','td']) # 兼容<th><td>和<td><td>两种格式
                     if len(cells) < 1:
                         continue
@@ -550,6 +537,6 @@ class GenshinImpactSpider(Spider):
                         txt = ''
                         for cell in cells:
                             txt += cell.get_text(' ', strip=True)
-                        recommend[i] = txt
+                        recommend.append(txt)
                 monster['recommend'] = recommend
         yield {'type': 'monster', 'data': monster}
