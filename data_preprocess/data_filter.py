@@ -1,6 +1,7 @@
 """该脚本用于从指定目录加载最新爬取的源数据文件，并按 schema 定义的字段读取和清洗数据。"""
 
 import os
+import re
 import glob
 import json
 
@@ -37,16 +38,19 @@ def safe_get(data, *keys, default=""):
     return data
 
 # 1、按schema定义的字段读取/清洗character数据
-def get_character_full_info(characters, details):
+def get_character_full(characters, details):
     characters_merged = []
+    stories_merged = []
     for i, c in enumerate(characters):
         merged = {}
+        stories = {}
         name = c.get("名称", "")
         # 在 details 里找对应的详细信息，details中每个角色有三个字典
         detail1 = next((d for d in details if d.get("character", "") == name and d.get("section", "") == name), {})
         detail2 = next((d for d in details if d.get("character", "") == name and d.get("section", "") == "其他信息"), {})
+        detail3 = next((d for d in details if d.get("character", "") == name and d.get("section", "") == "角色故事"),{})
         # 合并schema定义的图谱所需字段
-        merged['id']= f"character{i+1}"
+        merged['id']=f"character{i+1}"
         merged["name"] = name
         merged["nickname"] = [x.strip() for x in safe_get(detail2, "table", "昵称/外号").split('、') if x.strip()]
         merged["title"] = safe_get(detail1, "table", "称号")
@@ -68,18 +72,23 @@ def get_character_full_info(characters, details):
         merged["cn_CV"] = safe_get(detail2, "table", "中文CV")
         merged["jp_CV"] = safe_get(detail2, "table", "日文CV")
         merged["img_src"] = detail1.get("artworks", "")[0].get("url", "") if detail1.get("artworks", "") else ""
-
         characters_merged.append(merged)
-    return characters_merged
 
-# 提取character数据
-characters_data = get_character_full_info(load_latest_json("character_2"), load_latest_json("character_detail_"))
+        stories["id"]=f"character_story{i+1}"
+        stories["name"]=name
+        stories["stories"]=detail3.get("table", {})
+        stories_merged.append(stories)
+    return characters_merged, stories_merged
+
+# 提取character, story数据
+characters_data, stories_data = get_character_full(load_latest_json("character_2"), load_latest_json("character_detail_"))
 with open("data_preprocess/dataKG/entities/character.json", "w", encoding="utf-8") as f:
     json.dump(characters_data, f, ensure_ascii=False, indent=2)
-
+with open("data_preprocess/dataExternal/character_story.json", "w", encoding="utf-8") as f:
+    json.dump(stories_data, f, ensure_ascii=False, indent=2)
 
 # 2、武器数据
-def get_weapon_full_info(weapons):
+def get_weapon_full(weapons):
     weapons_merged = []
     for i, w in enumerate(weapons):
         merged = {
@@ -92,19 +101,30 @@ def get_weapon_full_info(weapons):
             "max_attack": w.get("最高攻击力", ""),
             "min_subproperty": w.get("初始副属性", ""),
             "max_subproperty": w.get("最高副属性", ""),
-            "effect": w.get("技能", "")
+            "effect": w.get("技能", ""),
+            "img_src": w.get("图标", "")
         }
         weapons_merged.append(merged)
     return weapons_merged
 
-weapons_data = get_weapon_full_info(load_latest_json("weapon_"))
+weapons_data = get_weapon_full(load_latest_json("weapon_"))
 with open("data_preprocess/dataKG/entities/weapon.json", "w", encoding="utf-8") as f:
     json.dump(weapons_data, f, ensure_ascii=False, indent=2)
 
 
 # 3、材料数据
-material_data = load_latest_json("material_")
-m_type = set()
-for m in material_data:
-    m_type.add(m["type"])
-print(m_type)
+def get_material_full(materials):
+    materials_merged = []
+    for i, m in enumerate(materials):
+        merged = {
+            "id": f"material{i+1}",
+            "name": m.get("name", ""),
+            "type": m.get("type", ""),
+            "img_src": m.get("icon", "")
+        }
+    return materials_merged
+
+# 4、怪物数据
+
+
+
