@@ -467,7 +467,7 @@ class GenshinImpactSpider(Spider):
                     'name': tds[1].get_text(strip=True),
                     'rarity': tds[2].get_text(strip=True),
                     'type': tds[3].get_text(strip=True),
-                    'source': tds[4].get_text(strip=True),
+                    'source': tds[4].get_text(" ", strip=True),
                     'usage': tds[5].get_text(strip=True),
                 }
             }

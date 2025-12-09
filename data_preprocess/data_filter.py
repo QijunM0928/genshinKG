@@ -72,10 +72,39 @@ def get_character_full_info(characters, details):
         characters_merged.append(merged)
     return characters_merged
 
-
+# 提取character数据
 characters_data = get_character_full_info(load_latest_json("character_2"), load_latest_json("character_detail_"))
-with open("data_preprocess/dataKG/character.json", "w", encoding="utf-8") as f:
+with open("data_preprocess/dataKG/entities/character.json", "w", encoding="utf-8") as f:
     json.dump(characters_data, f, ensure_ascii=False, indent=2)
 
 
-# 2、材料数据
+# 2、武器数据
+def get_weapon_full_info(weapons):
+    weapons_merged = []
+    for i, w in enumerate(weapons):
+        merged = {
+            "id": f"weapon{i + 1}",
+            "name": w.get("名称", ""),
+            "type": w.get("类型", ""),
+            "rarity": w.get("稀有度", "")+"星",
+            "source": w.get("获取途径", ""),
+            "min_attack": w.get("初始攻击力", ""),
+            "max_attack": w.get("最高攻击力", ""),
+            "min_subproperty": w.get("初始副属性", ""),
+            "max_subproperty": w.get("最高副属性", ""),
+            "effect": w.get("技能", "")
+        }
+        weapons_merged.append(merged)
+    return weapons_merged
+
+weapons_data = get_weapon_full_info(load_latest_json("weapon_"))
+with open("data_preprocess/dataKG/entities/weapon.json", "w", encoding="utf-8") as f:
+    json.dump(weapons_data, f, ensure_ascii=False, indent=2)
+
+
+# 3、材料数据
+material_data = load_latest_json("material_")
+m_type = set()
+for m in material_data:
+    m_type.add(m["type"])
+print(m_type)
