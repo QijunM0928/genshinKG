@@ -781,19 +781,6 @@
   },
   {
     "id": "weapon61",
-    "name": "天空之卷",
-    "type": "法器",
-    "rarity": "5星",
-    "source": "祈愿",
-    "min_attack": "48",
-    "max_attack": "674",
-    "min_subproperty": "攻击力7.2%",
-    "max_subproperty": "攻击力33.1%",
-    "effect": "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/5e/ljga8vdrkv9u3erfguhsuv9i568l8yo.png/150px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%8D%B7.png"
-  },
-  {
-    "id": "weapon62",
     "name": "四风原典",
     "type": "法器",
     "rarity": "5星",
@@ -804,6 +791,19 @@
     "max_subproperty": "暴击率33.1%",
     "effect": "无边际的眷顾：移动速度提高10%；在场上每4秒获得8%/10%/12%/14%/16%元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/85/h2any7ypjy8nejtlu4dshfb5ds73n7r.png/150px-%E5%9B%9B%E9%A3%8E%E5%8E%9F%E5%85%B8.png"
+  },
+  {
+    "id": "weapon62",
+    "name": "天空之卷",
+    "type": "法器",
+    "rarity": "5星",
+    "source": "祈愿",
+    "min_attack": "48",
+    "max_attack": "674",
+    "min_subproperty": "攻击力7.2%",
+    "max_subproperty": "攻击力33.1%",
+    "effect": "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/5e/ljga8vdrkv9u3erfguhsuv9i568l8yo.png/150px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%8D%B7.png"
   },
   {
     "id": "weapon63",
@@ -1925,19 +1925,6 @@
   },
   {
     "id": "weapon149",
-    "name": "匣里龙吟",
-    "type": "单手剑",
-    "rarity": "4星",
-    "source": "祈愿",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "攻击力9.0%",
-    "max_subproperty": "攻击力41.3%",
-    "effect": "踏火息雷：对处于火元素或雷元素影响下的敌人，造成的伤害提高20%/24%/28%/32%/36%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b6/fnmxiyrh35272i8h9jydyqadyqkfw0e.png/150px-%E5%8C%A3%E9%87%8C%E9%BE%99%E5%90%9F.png"
-  },
-  {
-    "id": "weapon150",
     "name": "铁蜂刺",
     "type": "单手剑",
     "rarity": "4星",
@@ -1948,6 +1935,19 @@
     "max_subproperty": "元素精通165",
     "effect": "注能之刺：造成元素伤害后的6秒内，角色造成的伤害提高6%/7.5%/9%/10.5%/12%，该效果最多叠加2层。该效果每1秒可以触发一次。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3b/ryh96u1cs5jcf2w02vbhtzw75lylc9m.png/150px-%E9%93%81%E8%9C%82%E5%88%BA.png"
+  },
+  {
+    "id": "weapon150",
+    "name": "匣里龙吟",
+    "type": "单手剑",
+    "rarity": "4星",
+    "source": "祈愿",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "攻击力9.0%",
+    "max_subproperty": "攻击力41.3%",
+    "effect": "踏火息雷：对处于火元素或雷元素影响下的敌人，造成的伤害提高20%/24%/28%/32%/36%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b6/fnmxiyrh35272i8h9jydyqadyqkfw0e.png/150px-%E5%8C%A3%E9%87%8C%E9%BE%99%E5%90%9F.png"
   },
   {
     "id": "weapon151",
@@ -1977,6 +1977,19 @@
   },
   {
     "id": "weapon153",
+    "name": "试作斩岩",
+    "type": "单手剑",
+    "rarity": "4星",
+    "source": "锻造, 冒险等阶10级奖励获取, 完成「星之归还」活动获取",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "物理伤害加成7.5%",
+    "max_subproperty": "物理伤害加成34.5%",
+    "effect": "碎石：普通攻击或重击命中时，攻击力和防御力提高4%/5%/6%/7%/8%，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/af/fq5reyiyfz37umtz3ngdue1pbtnbma6.png/150px-%E8%AF%95%E4%BD%9C%E6%96%A9%E5%B2%A9.png"
+  },
+  {
+    "id": "weapon154",
     "name": "宗室长剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1989,7 +2002,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/53/ei69kfgd5hcuplrcdlrkqp7corrp80j.png/150px-%E5%AE%97%E5%AE%A4%E9%95%BF%E5%89%91.png"
   },
   {
-    "id": "weapon154",
+    "id": "weapon155",
     "name": "笛剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -2000,19 +2013,6 @@
     "max_subproperty": "攻击力41.3%",
     "effect": "和弦：普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成100%/125%/150%/175%/200%攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fd/5hbxsdik3322ar5z2d4s4qkj3gf8gnh.png/150px-%E7%AC%9B%E5%89%91.png"
-  },
-  {
-    "id": "weapon155",
-    "name": "试作斩岩",
-    "type": "单手剑",
-    "rarity": "4星",
-    "source": "锻造, 冒险等阶10级奖励获取, 完成「星之归还」活动获取",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "物理伤害加成7.5%",
-    "max_subproperty": "物理伤害加成34.5%",
-    "effect": "碎石：普通攻击或重击命中时，攻击力和防御力提高4%/5%/6%/7%/8%，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/af/fq5reyiyfz37umtz3ngdue1pbtnbma6.png/150px-%E8%AF%95%E4%BD%9C%E6%96%A9%E5%B2%A9.png"
   },
   {
     "id": "weapon156",
@@ -2055,6 +2055,19 @@
   },
   {
     "id": "weapon159",
+    "name": "钟剑",
+    "type": "双手剑",
+    "rarity": "4星",
+    "source": "祈愿",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "生命值9.0%",
+    "max_subproperty": "生命值41.3%",
+    "effect": "叛逆的守护者：受到伤害时，生成一个伤害吸收等同于生命上限20%/23%/26%/29%/32%的护盾，持续10秒或者直到护盾失效，每45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%/15%/18%/21%/24%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/38/lz61cywx7g0x0gr5g9hmghz050h1h9o.png/150px-%E9%92%9F%E5%89%91.png"
+  },
+  {
+    "id": "weapon160",
     "name": "螭骨剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2067,7 +2080,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4c/a03ookbm5axi3xyxxdkr8g4ky0gw3fv.png/150px-%E8%9E%AD%E9%AA%A8%E5%89%91.png"
   },
   {
-    "id": "weapon160",
+    "id": "weapon161",
     "name": "雨裁",
     "type": "双手剑",
     "rarity": "4星",
@@ -2078,19 +2091,6 @@
     "max_subproperty": "元素精通165",
     "effect": "止水息雷：对处于水元素或雷元素影响下的敌人，造成的伤害提高20％/24%/28%/32%/36%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c9/a2hgbmdegka66sycqn26nof7f5eggaa.png/150px-%E9%9B%A8%E8%A3%81.png"
-  },
-  {
-    "id": "weapon161",
-    "name": "钟剑",
-    "type": "双手剑",
-    "rarity": "4星",
-    "source": "祈愿",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "生命值9.0%",
-    "max_subproperty": "生命值41.3%",
-    "effect": "叛逆的守护者：受到伤害时，生成一个伤害吸收等同于生命上限20%/23%/26%/29%/32%的护盾，持续10秒或者直到护盾失效，每45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%/15%/18%/21%/24%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/38/lz61cywx7g0x0gr5g9hmghz050h1h9o.png/150px-%E9%92%9F%E5%89%91.png"
   },
   {
     "id": "weapon162",
@@ -2198,19 +2198,6 @@
   },
   {
     "id": "weapon170",
-    "name": "黑岩战弓",
-    "type": "弓",
-    "rarity": "4星",
-    "source": "商城兑换",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "暴击伤害8.0%",
-    "max_subproperty": "暴击伤害36.8%",
-    "effect": "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加3层，每层持续时间独立。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/9e/2477l07lereuehc60ssgv4amlcjeayh.png/150px-%E9%BB%91%E5%B2%A9%E6%88%98%E5%BC%93.png"
-  },
-  {
-    "id": "weapon171",
     "name": "试作澹月",
     "type": "弓",
     "rarity": "4星",
@@ -2221,6 +2208,19 @@
     "max_subproperty": "攻击力41.3%",
     "effect": "离簇不归：瞄准射击时，若命中要害，则提升10%移动速度与36%/45%/54%/63%/72%攻击力，持续10秒。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ae/f7vngju0e5np72x0u4e49k847kme9u8.png/150px-%E8%AF%95%E4%BD%9C%E6%BE%B9%E6%9C%88.png"
+  },
+  {
+    "id": "weapon171",
+    "name": "黑岩战弓",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "商城兑换",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "暴击伤害8.0%",
+    "max_subproperty": "暴击伤害36.8%",
+    "effect": "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加3层，每层持续时间独立。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/9e/2477l07lereuehc60ssgv4amlcjeayh.png/150px-%E9%BB%91%E5%B2%A9%E6%88%98%E5%BC%93.png"
   },
   {
     "id": "weapon172",
@@ -2289,19 +2289,6 @@
   },
   {
     "id": "weapon177",
-    "name": "流浪乐章",
-    "type": "法器",
-    "rarity": "4星",
-    "source": "祈愿",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "暴击伤害12.0%",
-    "max_subproperty": "暴击伤害55.1%",
-    "effect": "登场乐：角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升60%/75%/90%/105%/120%；咏叹调：全元素伤害提升48%/60%/72%/84%/96%；间奏曲：元素精通提升240/300/360/420/480。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8b/1gfpyhq0horhcbho0eqs1c62nklx118.png/150px-%E6%B5%81%E6%B5%AA%E4%B9%90%E7%AB%A0.png"
-  },
-  {
-    "id": "weapon178",
     "name": "万国诸海图谱",
     "type": "法器",
     "rarity": "4星",
@@ -2314,20 +2301,20 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b4/snhy06y9px3auxic0wbs7f1pxsme5w7.png/150px-%E4%B8%87%E5%9B%BD%E8%AF%B8%E6%B5%B7%E5%9B%BE%E8%B0%B1.png"
   },
   {
-    "id": "weapon179",
-    "name": "祭礼残章",
+    "id": "weapon178",
+    "name": "流浪乐章",
     "type": "法器",
     "rarity": "4星",
     "source": "祈愿",
-    "min_attack": "41",
-    "max_attack": "454",
-    "min_subproperty": "元素精通48",
-    "max_subproperty": "元素精通221",
-    "effect": "气定神闲：元素战技造成伤害时，有40%/50%/60%/70%/80%的概率重置该技能的冷却时间，该效果每30/26/22/19/16秒只能触发1次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/bf/eey13bo96c5di0j2wfhd6pq1dhsgk5r.png/150px-%E7%A5%AD%E7%A4%BC%E6%AE%8B%E7%AB%A0.png"
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "暴击伤害12.0%",
+    "max_subproperty": "暴击伤害55.1%",
+    "effect": "登场乐：角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升60%/75%/90%/105%/120%；咏叹调：全元素伤害提升48%/60%/72%/84%/96%；间奏曲：元素精通提升240/300/360/420/480。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8b/1gfpyhq0horhcbho0eqs1c62nklx118.png/150px-%E6%B5%81%E6%B5%AA%E4%B9%90%E7%AB%A0.png"
   },
   {
-    "id": "weapon180",
+    "id": "weapon179",
     "name": "匣里日月",
     "type": "法器",
     "rarity": "4星",
@@ -2338,6 +2325,19 @@
     "max_subproperty": "暴击率27.6%",
     "effect": "日月辉：普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高20%/25%/30%/35%/40%；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高20%/25%/30%/35%/40%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/ca/m9wcqu2irdto40c5byid1no15zouv2f.png/150px-%E5%8C%A3%E9%87%8C%E6%97%A5%E6%9C%88.png"
+  },
+  {
+    "id": "weapon180",
+    "name": "祭礼残章",
+    "type": "法器",
+    "rarity": "4星",
+    "source": "祈愿",
+    "min_attack": "41",
+    "max_attack": "454",
+    "min_subproperty": "元素精通48",
+    "max_subproperty": "元素精通221",
+    "effect": "气定神闲：元素战技造成伤害时，有40%/50%/60%/70%/80%的概率重置该技能的冷却时间，该效果每30/26/22/19/16秒只能触发1次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/bf/eey13bo96c5di0j2wfhd6pq1dhsgk5r.png/150px-%E7%A5%AD%E7%A4%BC%E6%AE%8B%E7%AB%A0.png"
   },
   {
     "id": "weapon181",
@@ -2445,19 +2445,6 @@
   },
   {
     "id": "weapon189",
-    "name": "宗室猎枪",
-    "type": "长柄武器",
-    "rarity": "4星",
-    "source": "商城兑换",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "攻击力6.0%",
-    "max_subproperty": "攻击力27.6%",
-    "effect": "专注：攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%,最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2b/aqnkuo83r4dwbohss1f0ekumcyrwcm9.png/150px-%E5%AE%97%E5%AE%A4%E7%8C%8E%E6%9E%AA.png"
-  },
-  {
-    "id": "weapon190",
     "name": "试作星镰",
     "type": "长柄武器",
     "rarity": "4星",
@@ -2468,6 +2455,19 @@
     "max_subproperty": "元素充能效率45.9%",
     "effect": "嗜魔：施放元素战技后，普通攻击和重击造成的伤害提高8%/10%/12%/14%/16%。该效果持续12秒，最多叠加2层。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7d/c08xuqa5babolxeza3469h0h6qakjsd.png/150px-%E8%AF%95%E4%BD%9C%E6%98%9F%E9%95%B0.png"
+  },
+  {
+    "id": "weapon190",
+    "name": "宗室猎枪",
+    "type": "长柄武器",
+    "rarity": "4星",
+    "source": "商城兑换",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "攻击力6.0%",
+    "max_subproperty": "攻击力27.6%",
+    "effect": "专注：攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%,最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2b/aqnkuo83r4dwbohss1f0ekumcyrwcm9.png/150px-%E5%AE%97%E5%AE%A4%E7%8C%8E%E6%9E%AA.png"
   },
   {
     "id": "weapon191",
@@ -2640,19 +2640,6 @@
   },
   {
     "id": "weapon204",
-    "name": "鸦羽弓",
-    "type": "弓",
-    "rarity": "3星",
-    "source": "祈愿",
-    "min_attack": "40",
-    "max_attack": "448",
-    "min_subproperty": "元素精通20",
-    "max_subproperty": "元素精通94",
-    "effect": "踏火止水：对处于火元素或水元素影响下的敌人，造成的伤害提高12%/15%/18%/21%/24%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/05/53ipmiydm1223mgs1553tfvlusefx3g.png/150px-%E9%B8%A6%E7%BE%BD%E5%BC%93.png"
-  },
-  {
-    "id": "weapon205",
     "name": "神射手之誓",
     "type": "弓",
     "rarity": "3星",
@@ -2665,7 +2652,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3c/5nqr8ib8lef2mjjoccgsuej6y5ggd8y.png/150px-%E7%A5%9E%E5%B0%84%E6%89%8B%E4%B9%8B%E8%AA%93.png"
   },
   {
-    "id": "weapon206",
+    "id": "weapon205",
     "name": "弹弓",
     "type": "弓",
     "rarity": "3星",
@@ -2676,6 +2663,19 @@
     "max_subproperty": "暴击率31.2%",
     "effect": "弹弓：普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加36%/42%/48%/54%/60%；否则，造成的伤害下降10%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2a/hz45wjba3c0oe62vs7gq1derhrfut39.png/150px-%E5%BC%B9%E5%BC%93.png"
+  },
+  {
+    "id": "weapon206",
+    "name": "鸦羽弓",
+    "type": "弓",
+    "rarity": "3星",
+    "source": "祈愿",
+    "min_attack": "40",
+    "max_attack": "448",
+    "min_subproperty": "元素精通20",
+    "max_subproperty": "元素精通94",
+    "effect": "踏火止水：对处于火元素或水元素影响下的敌人，造成的伤害提高12%/15%/18%/21%/24%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/05/53ipmiydm1223mgs1553tfvlusefx3g.png/150px-%E9%B8%A6%E7%BE%BD%E5%BC%93.png"
   },
   {
     "id": "weapon207",

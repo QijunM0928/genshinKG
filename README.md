@@ -7,4 +7,4 @@ scrapy crawl genshin_impact_spider
 
 # srccrawler 目录下的data为爬虫结果数据
 
-# data_processing 脚本 data_filter.py执行后的结果 dataKG为存入知识图谱的数据， dataExternal为大文本的外部数据
+# data_processing 脚本 data_filter.py执行后的结果 dataKG为存入知识图谱的数据， dataExternal为大文本的外部数据（仅用于抽关系，不存图谱）

@@ -518,7 +518,7 @@ class GenshinImpactSpider(Spider):
         soup = BeautifulSoup(response.text, 'lxml')
         monster = dict(base_data)
         # 补充推荐角色
-        headline = soup.find('span', class_='mw-headline', id='挑战推荐角色')
+        headline = soup.find('span', class_='mw-headline', id=lambda x: x in ['挑战推荐角色', '相关攻略'])
         monster['recommend'] = []
         monster['info'] = ''
         if headline:

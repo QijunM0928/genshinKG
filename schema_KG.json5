@@ -1,3 +1,28 @@
-// 第一层为实体entity，第二层为属性property 或 相关的实体（可以展开属性的优先考虑作为实体）
-// schema中的实体和属性需要是“重要的”，“可维护的”，“知识图谱所用上的信息”，尽量避免“冗余的”“未使用”的信息
-// 大段文本可以作为外置数据库存储
+// 1、实体主键为id,用实体类型+序号标识，可以展开属性的优先考虑作为实体，属性值可以是字符串、数字、布尔值、时间等基本类型
+// 2、关系的主语、宾语均为实体id，谓词用小写下划线分隔的英文表示，三元组为必须字段，剩下的是可选的增强图谱推理可解释性的字段（可根据不同关系自定义）
+// 3、schema中的实体/属性/关系需要是“重要的”，“可维护的”，“知识图谱所用上的信息”，尽量避免“冗余的”“未使用”的信息，大段文本可以作为外置数据库存储
+
+{
+  "entities": [
+    {
+      "id": "character1",
+      "props": "."
+    },
+  ],
+  "relations": [
+    {
+      // 必需：三元组
+      "subject_id": "character98",
+      "predicate": "from_country",
+      "object_id": "country1",
+      // 可选：关系增强字段
+      "evidence_side": "subject",
+      "evidence_field": "region",
+      "evidence_value": "蒙德",
+      "evidence_rule": "region=>from_country",
+      // 通过大模型抽取隐性关系时要求大模型给出(显性关系时默认置信度为1）
+      "evidence_confidence": 1.0,
+      "reasoning_hint": "角色的 region 字段为蒙德，因此其所属国家为蒙德。"
+    }
+  ]
+}

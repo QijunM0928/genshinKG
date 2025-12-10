@@ -20,12 +20,12 @@
     "constellation": "赤龙座",
     "special_dish": "",
     "TAG": [
-      "减抗"
+      "减抗",
+      "派遣"
     ],
     "description": "在魔女M笔下诞生的龙，最终来到了人类的世界。而他的「故事」，也仍在继续。",
     "birthday": "3月14日",
     "cn_CV": "陶典",
-    "jp_CV": "小林千晃",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/4f/1gapol7m9j3kkdargd7fxk5g0iszobf.png"
   },
   {
@@ -52,12 +52,13 @@
     "special_dish": "「课后作业」",
     "TAG": [
       "治疗",
-      "元素转化"
+      "元素转化",
+      "派遣",
+      "地区交互"
     ],
     "description": "十分可靠，无所不能（自称）的「秘闻馆」员工。",
     "birthday": "1月5日",
     "cn_CV": "韩娇娇",
-    "jp_CV": "稻垣好",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/0d/7qik7ijgluv24vbsubux1hohq6hxub5.png"
   },
   {
@@ -84,7 +85,6 @@
     "description": "笔名「欧科塔维亚」的魔女托付给你和派蒙的人偶，善于探索「千星奇域」中封存的奥秘。",
     "birthday": "与旅行者一致",
     "cn_CV": "——每个语言各有三种声线可供选择，目前仅有日语公布，其他语言在破译",
-    "jp_CV": "男：松冈祯丞/内田雄马/绿川光女：水濑祈/金元寿子/堀江由衣",
     "img_src": ""
   },
   {
@@ -114,12 +114,12 @@
       "派遣",
       "自身元素精通提高",
       "技能延长",
-      "减抗"
+      "减抗",
+      "地区交互"
     ],
     "description": "神通广大的「秘闻馆」之主。",
     "birthday": "5月9日",
     "cn_CV": "曾彤",
-    "jp_CV": "水树奈奈",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/98/7baqf3bv6ihuzszzwf7vxums612zrwj.png"
   },
   {
@@ -155,12 +155,12 @@
       "冷却减少",
       "减抗",
       "擢升",
-      "元素反应基础伤害提升"
+      "元素反应基础伤害提升",
+      "地区交互"
     ],
     "description": "挪德卡莱的「执灯人」，看守着北方小岛上的灯塔与墓地。一位言行举止极富修养的神秘绅士。",
     "birthday": "10月31日",
     "cn_CV": "马正阳",
-    "jp_CV": "中村悠一",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/10/faae4rzd4bupiiqtom3vceyz55t9f6g.png"
   },
   {
@@ -193,12 +193,12 @@
       "生物亲和",
       "特化反应",
       "特产探索",
-      "减抗"
+      "减抗",
+      "地区交互"
     ],
     "description": "被月光与森林祝福的圣女，一个诞生在「霜月之子」中的希望。",
     "birthday": "3月1日",
     "cn_CV": "张安琪",
-    "jp_CV": "桑岛法子",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/4a/8702smxovolmyla40vly22yiz3q28is.png"
   },
   {
@@ -228,12 +228,12 @@
       "位移",
       "自身元素精通提高",
       "协同攻击",
-      "能量恢复"
+      "能量恢复",
+      "地区交互"
     ],
     "description": "挪德卡莱的天才机械发明家，喜欢有趣的机械和甜食。",
     "birthday": "9月21日",
     "cn_CV": "葛子瑞",
-    "jp_CV": "高森奈津美",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/cf/alzeyg74mh023bblnvtot9f5tqmh8xi.png"
   },
   {
@@ -270,12 +270,12 @@
       "精通加成",
       "自身倍率附加",
       "能量回复",
-      "烹饪"
+      "烹饪",
+      "地区交互"
     ],
     "description": "集成了各国机关部件的全能型机器人，胸口处的秘源核心已历经弥久岁月。",
     "birthday": "4月2日",
     "cn_CV": "美加",
-    "jp_CV": "中岛爱",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/06/fc5z8bw9xjptxvr1xqhi3fg87d3t4aa.png"
   },
   {
@@ -317,7 +317,6 @@
     "description": "曾现身于深渊裂隙和原始胎海的来访者，教导达达利亚武技的老师。孤身一人的女武者。",
     "birthday": "11月5日",
     "cn_CV": "谢莹",
-    "jp_CV": "能登麻美子",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f0/gbjq3bhxswsoicaonopqlbgy5lomh10.png"
   },
   {
@@ -351,7 +350,6 @@
     "description": "西风教会的助祭，风神在教会的代行人。",
     "birthday": "5月25日",
     "cn_CV": "风袖",
-    "jp_CV": "山本和臣",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/ab/3t5lzht3kxazvru169c5xs2x1on0sp8.png"
   },
   {
@@ -393,7 +391,6 @@
     "description": "闻名枫丹的前德波大饭店主厨，有着「甜点大校」荣誉的「技术料理」先驱，对烹饪的要求无比严格。",
     "birthday": "6月8日",
     "cn_CV": "蔡海婷",
-    "jp_CV": "佐藤聪美",
     "img_src": "https://patchwiki.biligame.com/images/ys/3/30/3s25j8fjs5gz5pds0p0rniao44jwdwo.png"
   },
   {
@@ -425,7 +422,6 @@
     "description": "来自花羽会的兽医，由衷热爱着与人、动物，以及其他生灵为伴的生活。",
     "birthday": "3月23日",
     "cn_CV": "吕书君",
-    "jp_CV": "寺岛惇太&小松昌平",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/1b/b6b2hzpvtkbomckg77ocy51lllenz6v.png"
   },
   {
@@ -465,7 +461,6 @@
     "description": "悠悠哉哉，无比松弛的「沃陆之邦」战士兼果园主，喜欢充满力量的英雄，还有巨量美食！",
     "birthday": "11月15日",
     "cn_CV": "乔苏",
-    "jp_CV": "M·A·O",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/22/ckqnu7zeftedchrkoanywed6p1317qg.png"
   },
   {
@@ -499,7 +494,6 @@
     "description": "沃陆之邦健身俱乐部的总教练，闻名纳塔的营养师。",
     "birthday": "8月8日",
     "cn_CV": "真理",
-    "jp_CV": "大桥彩香",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/8e/0wagri8hi3y52mf4rlk8l6vwfamr3z7.png"
   },
   {
@@ -537,7 +531,6 @@
     "description": "「秋沙钱汤」的股东，梦貘一族的心理诊疗师，致力于驱散噩梦，为人们带来安宁的心境。",
     "birthday": "3月16日",
     "cn_CV": "浮梦若薇",
-    "jp_CV": "会泽沙弥",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/2a/tsbyq40l17iqgzzvcvwb5h8cbavmm8p.png"
   },
   {
@@ -572,7 +565,6 @@
     "description": "沉玉谷来的藤编师，神清骨秀，像山间清泉一般灵动。",
     "birthday": "1月6日",
     "cn_CV": "刘十四",
-    "jp_CV": "若山诗音",
     "img_src": "https://patchwiki.biligame.com/images/ys/3/3b/pcyw6voblmjzardu3k2iypp6fvmseb7.png"
   },
   {
@@ -609,7 +601,6 @@
     "description": "纳塔的领袖，继承「基扬戈兹」之古名，誓以圣火为战争国度照亮未来。",
     "birthday": "8月28日",
     "cn_CV": "李晔",
-    "jp_CV": "小松未可子",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/41/pwvljpmr0uduc3uo2wqzk3fdq2t21d2.png"
   },
   {
@@ -652,7 +643,6 @@
     "description": "烟谜主的大萨满，令所有族人敬畏的黑曜石奶奶。",
     "birthday": "1月20日",
     "cn_CV": "柳知萧",
-    "jp_CV": "田野麻美",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/c3/nnrhtwdu4dnujuaol7ptdlz97vdjele.png"
   },
   {
@@ -684,7 +674,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -717,7 +706,6 @@
     "description": "特拉洛坎的「调停人」，万千争端的终结者。",
     "birthday": "12月10日",
     "cn_CV": "张若瑜",
-    "jp_CV": "甲斐田裕子",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/fd/sib2fn30bj37sdxrvoajhdlz4vgq930.png"
   },
   {
@@ -753,7 +741,6 @@
     "description": "来自烟谜主的年轻人，却与万千生灵一起，生活在原野之中。",
     "birthday": "10月14日",
     "cn_CV": "梁达伟",
-    "jp_CV": "近藤隆",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a1/1qb1wevxtdykcov8kje4riaqzlcrvrj.png"
   },
   {
@@ -799,7 +786,6 @@
     "description": "纳茨卡延的铸名师，善于在工作的重担与舒适的生活之间找到平衡点。",
     "birthday": "3月13日",
     "cn_CV": "弭洋",
-    "jp_CV": "菲鲁兹·蓝",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a3/hwc7l4hbgw3lz7x2nd7yiz6jrwpkqs8.png"
   },
   {
@@ -837,7 +823,6 @@
     "description": "维茨特兰的猎龙人，精于度量代价。",
     "birthday": "11月11日",
     "cn_CV": "斑马&弭洋",
-    "jp_CV": "杉山纪彰&竹内顺子",
     "img_src": "https://patchwiki.biligame.com/images/ys/5/5a/ca43v1uelterlvg9oaxexnf9su6vm13.png"
   },
   {
@@ -875,7 +860,6 @@
     "description": "纳塔远近闻名的向导，水上用品商店的经营者，精通各类水上运动的逐浪客。",
     "birthday": "8月3日",
     "cn_CV": "王晓彤",
-    "jp_CV": "东山奈央",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/97/h81o20kv0qqche2e8yil9upbc6wfyjj.png"
   },
   {
@@ -910,7 +894,6 @@
     "description": "纳茨卡延的年轻战士，受赐古名「乌沙博蒂」。善良执着的少女，在挫折中不断成长。",
     "birthday": "4月22日",
     "cn_CV": "静宸",
-    "jp_CV": "久保百合花",
     "img_src": "https://patchwiki.biligame.com/images/ys/3/34/0f4tklgi7sp39eynan86ibhbj1au892.png"
   },
   {
@@ -946,7 +929,6 @@
     "description": "枫丹香水设计师，将秘密藏于瓶中之人。",
     "birthday": "9月22日",
     "cn_CV": "木子橙",
-    "jp_CV": "日笠阳子",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/6a/a44bcsoongr43dwtsdw8fd9p3fagva5.png"
   },
   {
@@ -985,7 +967,6 @@
     "description": "梅洛彼得堡的美露莘护士长，平等地关爱着海底监牢中的每一名罪人。",
     "birthday": "3月30日",
     "cn_CV": "赵爽",
-    "jp_CV": "木野日菜",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a6/lx72oj4dik2njowvf12ypsm4n83gfs1.png"
   },
   {
@@ -1024,7 +1005,6 @@
     "description": "不败的决斗代理人。以手中的剑维护着枫丹廷的「公义」。",
     "birthday": "9月20日",
     "cn_CV": "赵涵雨",
-    "jp_CV": "石川由依",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b7/ttjbd1yjyxb8x4vkyufw3mlnozzrf8r.png"
   },
   {
@@ -1059,7 +1039,6 @@
     "description": "缄默之殿的继承者。背负着秘密，自沙中而来。",
     "birthday": "5月31日",
     "cn_CV": "李兰陵",
-    "jp_CV": "千叶翔也",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/82/le4qmtgk1gjxkaet2hiso7ybiyqqd8m.png"
   },
   {
@@ -1103,7 +1082,6 @@
     "description": "愚人众执行官第四席，「仆人」。沉静冷酷的外交官，「壁炉之家」所有孩子们畏惧又依赖的「父亲」。",
     "birthday": "8月22日",
     "cn_CV": "黄莺",
-    "jp_CV": "森奈奈子",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b0/86qckc3u5yltn23qa4q4l31j6gyhkbf.png"
   },
   {
@@ -1139,7 +1117,6 @@
     "description": "「千织屋」的老板。枫丹著名服装设计师。",
     "birthday": "8月17日",
     "cn_CV": "陈阳",
-    "jp_CV": "竹达彩奈",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/ab/gojwzpjusk9l9e1wyu2kyb6upee7l5m.png"
   },
   {
@@ -1186,7 +1163,6 @@
     "description": "绝云仙众「三眼五显仙人」之一，雅号「留云借风真君」。擅使机关奇术，心向红尘烟火，正以「闲云」之名行走人间。",
     "birthday": "4月11日",
     "cn_CV": "秦紫翼",
-    "jp_CV": "中臣真菜",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/47/lk2tocfr8n73ygnwlbdkt6s6vlqrvou.png"
   },
   {
@@ -1224,7 +1200,6 @@
     "description": "剑匣镖局的镖师，威水舞兽队的话事人。",
     "birthday": "12月22日",
     "cn_CV": "谢莹",
-    "jp_CV": "小松昌平",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/ba/37apt69ofjpwpmdqyy36wwom8dt3zfo.png"
   },
   {
@@ -1263,7 +1238,6 @@
     "description": "时刻恪守着心中「正义」的特巡队队长，手中的铳枪只会指向负罪之人。",
     "birthday": "1月10日",
     "cn_CV": "潘丹妮",
-    "jp_CV": "下地紫野",
     "img_src": "https://patchwiki.biligame.com/images/ys/3/30/rkhl28ab6k5guen5z49cbey5f7jur0v.png"
   },
   {
@@ -1303,7 +1277,6 @@
     "description": "刺玫会现任会长，一位可爱、尽责的好老板。",
     "birthday": "8月16日",
     "cn_CV": "小敢",
-    "jp_CV": "丰崎爱生",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/23/ivvas1ubnlt8zgcios29xbxolgc9au6.png"
   },
   {
@@ -1346,7 +1319,6 @@
     "description": "审判舞台上的绝对焦点，直至谢幕的掌声响起。",
     "birthday": "10月13日",
     "cn_CV": "钱琛",
-    "jp_CV": "水濑祈",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/68/gf8q0j490ygvze7w9npx35e49hw6iu0.png"
   },
   {
@@ -1385,7 +1357,6 @@
     "description": "充满活力的蒸汽鸟报记者，每时每刻都在为「真相」而奔走。",
     "birthday": "4月10日",
     "cn_CV": "阮从青",
-    "jp_CV": "和气杏未",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b8/l6ikncd3l3upyuu83zvfl954jl4bnc6.png"
   },
   {
@@ -1430,7 +1401,6 @@
     "description": "梅洛彼得堡的公爵，隐于漆黑海底的领主。",
     "birthday": "11月23日",
     "cn_CV": "刘北辰",
-    "jp_CV": "小野大辅",
     "img_src": "https://patchwiki.biligame.com/images/ys/d/de/024en1mdkzgxcmndv1s2pw64z7su5nq.png"
   },
   {
@@ -1467,7 +1437,6 @@
     "description": "枫丹的最高审判官，因其无懈可击的「秉公无私」而闻名。",
     "birthday": "12月18日",
     "cn_CV": "桑毓泽",
-    "jp_CV": "神谷浩史",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/12/586c68eu5xrmi7xu3ah7z8nrmlcae62.png"
   },
   {
@@ -1502,7 +1471,6 @@
     "description": "精于潜水的寡言少年，在如寒冰般拒人千里的外表下，藏有一颗无瑕的纯真之心。",
     "birthday": "9月24日",
     "cn_CV": "锦鲤",
-    "jp_CV": "土岐隼一",
     "img_src": "https://patchwiki.biligame.com/images/ys/5/50/ii0njgeknl2alomr4x8qfm58mldfitf.png"
   },
   {
@@ -1539,7 +1507,6 @@
     "description": "伶牙俐齿，演技精湛的著名枫丹魔术师，以精妙的手法和言语牵动着观众的心。",
     "birthday": "2月2日",
     "cn_CV": "锦鲤",
-    "jp_CV": "下野紘",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/c4/8a5ucerkclsfg6gkax387kbreo5kz7r.png"
   },
   {
@@ -1571,7 +1538,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -1611,7 +1577,6 @@
     "description": "寡言少语，罕有表情的魔术助手，性情像猫一样难以猜测。",
     "birthday": "2月2日",
     "cn_CV": "可可味",
-    "jp_CV": "篠原侑",
     "img_src": "https://patchwiki.biligame.com/images/ys/7/70/iv7dviodlgfi8upe9spcic3227ru3yi.png"
   },
   {
@@ -1648,7 +1613,6 @@
     "description": "稻妻快递公司「狛荷屋」的送货员，一只热爱自己工作、向往人类社会的「猫又」。",
     "birthday": "1月22日",
     "cn_CV": "孙艳琦",
-    "jp_CV": "铃代纱弓",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/fa/lcr0e95moixu4jupxbiucpkxwi6f3im.png"
   },
   {
@@ -1677,13 +1641,12 @@
       "治疗",
       "护盾",
       "协同攻击",
-      "生物交互",
-      "伤害提升"
+      "伤害提升",
+      "采集"
     ],
     "description": "药庐「不卜庐」的主人，随身悬着名为「长生」的白蛇。精于药石，深于城府。",
     "birthday": "4月25日",
     "cn_CV": "秦且歌&王晓彤",
-    "jp_CV": "游佐浩二&庄子裕衣",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/99/gza8ba1amp86df3wel5johh8rxanzoq.png"
   },
   {
@@ -1722,7 +1685,6 @@
     "description": "须弥著名建筑设计师，对太多事物抱有过度关怀心。美学主义者，为现实所困扰。",
     "birthday": "7月9日",
     "cn_CV": "刘三木",
-    "jp_CV": "内田雄马",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b5/5rp3xyjhz8c6vnc1czhu5bie7d65jh1.png"
   },
   {
@@ -1759,7 +1721,6 @@
     "description": "平凡家庭出身的年轻骑士，在小队中担任「前进测绘员」一职。为人低调，谨小慎微。",
     "birthday": "8月11日",
     "cn_CV": "邓宥希",
-    "jp_CV": "三瓶由布子",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/1e/5qdz8mws5ggcdfqrwd0pf06grbqpcgp.png"
   },
   {
@@ -1803,7 +1764,6 @@
     "description": "横行须弥沙漠地佣兵组织「镀金旅团」的成员，勇敢而又强大的战士，在「镀金旅团」内部声名赫赫。",
     "birthday": "4月7日",
     "cn_CV": "陈雨",
-    "jp_CV": "福原绫香",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f1/sijapawx2rodvc76wyb3cjp18d5571v.png"
   },
   {
@@ -1844,7 +1804,6 @@
     "description": "须弥教令院现任书记官，有过人的智慧与才能。生活得自由自在，一般人基本找不到他。",
     "birthday": "2月11日",
     "cn_CV": "杨超然",
-    "jp_CV": "梅原裕一郎",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/ad/b0f0p1uvu21o9iuxz8flecrdw59158d.png"
   },
   {
@@ -1883,7 +1842,6 @@
     "description": "歌尘浪市真君膝下最年幼的弟子，温柔体贴的「小大人」。",
     "birthday": "3月6日",
     "cn_CV": "刘颐诺",
-    "jp_CV": "门胁舞以",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/6f/f938z4tr7yefj4gdkao294j4yvwvdhy.png"
   },
   {
@@ -1928,7 +1886,6 @@
     "description": "身份成谜的流浪人士。衣着打扮像是修验者，言行却并不是修验者应有的模样。",
     "birthday": "1月3日",
     "cn_CV": "鹿喑",
-    "jp_CV": "柿原彻也",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/0b/ntnfsuoph71gmv89uf5e7o1ik132h41.png"
   },
   {
@@ -1969,7 +1926,6 @@
     "description": "来自「一百年前」的学者，喜欢以前辈自居，对各类古老文字与古典机关都颇有研究。",
     "birthday": "8月20日",
     "cn_CV": "阎萌萌",
-    "jp_CV": "堀江由衣",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/0a/m2li2d2xxvl5jde8ca89g6pxkua5dht.png"
   },
   {
@@ -2007,7 +1963,6 @@
     "description": "专攻理论星相学的梨多梵谛学院学生。时常梦游，长期缺觉，饱受睡眠问题困扰。",
     "birthday": "12月19日",
     "cn_CV": "侯小菲",
-    "jp_CV": "富田美优",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f9/7r9c825ys1qgr9jzzdnfeyvori1lsvq.png"
   },
   {
@@ -2043,13 +1998,13 @@
       "减防",
       "特化反应",
       "技能延长",
-      "生物交互",
-      "自身暴击率提升"
+      "自身暴击率提升",
+      "地区交互",
+      "采集"
     ],
     "description": "深居净善宫的笼中之鸟，只能在梦中将世界尽收眼底。",
     "birthday": "10月27日",
     "cn_CV": "花玲",
-    "jp_CV": "田村由加莉",
     "img_src": "https://patchwiki.biligame.com/images/ys/3/30/6mlpdxkvtkncah5h2xe26bsmyhfqpfp.png"
   },
   {
@@ -2091,7 +2046,6 @@
     "description": "祖拜尔剧场的知名舞者，舞姿灵动优美，为人纯真亲善。",
     "birthday": "12月3日",
     "cn_CV": "紫苏九月",
-    "jp_CV": "金元寿子",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/91/15xlbtahvg7483lkxq0zaac0oxoz31s.png"
   },
   {
@@ -2136,7 +2090,6 @@
     "description": "教令院内负责监管学者们的「大风纪官」。工作时比刹诃伐罗学院制作的「大风机关」更有效率。",
     "birthday": "6月23日",
     "cn_CV": "李轻扬",
-    "jp_CV": "入野自由",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f1/aq4p5bv949720pnhh5pevmi2fd8kw1f.png"
   },
   {
@@ -2171,7 +2124,6 @@
     "description": "有着琥珀色左眼的赤王后裔，阿如村的守护者。",
     "birthday": "5月3日",
     "cn_CV": "张琦",
-    "jp_CV": "柚木凉香",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/6a/rd4geg2xan3uvp00k40x0srr81hq9p5.png"
   },
   {
@@ -2210,7 +2162,6 @@
     "description": "神出鬼没的旅行百货商人，最喜欢亮闪闪的摩拉。",
     "birthday": "12月21日",
     "cn_CV": "王晓彤",
-    "jp_CV": "金田朋子",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/96/dp77h3xex22vu8c8hfrmm1f26ngr0a8.png"
   },
   {
@@ -2240,7 +2191,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -2281,7 +2231,6 @@
     "description": "精通植物学的少年学者，现于道成林任巡林官一职。直率热忱，擅长教导脑瓜糊涂的人。",
     "birthday": "12月29日",
     "cn_CV": "莫然",
-    "jp_CV": "小林沙苗",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/2b/hcwuh3cbgc5dyfcx4qlqp95qlzbp619.png"
   },
   {
@@ -2318,7 +2267,6 @@
     "description": "活跃于道成林的见习巡林员，热情的言行背后是一颗依旧稍显内向的心。",
     "birthday": "5月8日",
     "cn_CV": "秦文静",
-    "jp_CV": "前川凉子",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/6c/4seebknt6b2qtq12l8ye7wftv5cok03.png"
   },
   {
@@ -2361,7 +2309,6 @@
     "description": "天领奉行的天才少年侦探，直觉敏锐，心思玲珑。",
     "birthday": "7月24日",
     "cn_CV": "林景",
-    "jp_CV": "井口祐一",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/18/sj0qhfhaqx76bcxfgrbznea7n8wwa1w.png"
   },
   {
@@ -2404,7 +2351,6 @@
     "description": "干练可靠的「荒泷派」的副手——特别注明：干练可靠形容的不是「荒泷派」而是副手。",
     "birthday": "7月27日",
     "cn_CV": "杨凝",
-    "jp_CV": "水桥香织",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/29/9ygtjqdfi73fry6y9lt9x3708or5v7w.png"
   },
   {
@@ -2444,7 +2390,6 @@
     "description": "自称供职于总务司的神秘人士，却又是总务司名录里的「不存在之人」。",
     "birthday": "4月20日",
     "cn_CV": "徐慧",
-    "jp_CV": "远藤绫",
     "img_src": "https://patchwiki.biligame.com/images/ys/e/e1/n4zqro7l3mez5ut84ihjfnok8epci7x.png"
   },
   {
@@ -2490,7 +2435,6 @@
     "description": "社奉行神里家年轻有为的现任家主，为人温雅有礼，处事颇有手段。",
     "birthday": "3月26日",
     "cn_CV": "赵路",
-    "jp_CV": "石田彰",
     "img_src": "https://patchwiki.biligame.com/images/ys/d/df/lyoozc49yez3ayimtoimqy6t5vczdl9.png"
   },
   {
@@ -2535,7 +2479,6 @@
     "description": "鸣神大社的宫司大人，兼任「八重堂」总编。艳丽动人的外表下藏着令人意想不到的聪慧与狡黠。",
     "birthday": "6月27日",
     "cn_CV": "杜冥鸦",
-    "jp_CV": "佐仓绫音",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/85/gjqvylplehterr9n2qjykh2bhlcikfm.png"
   },
   {
@@ -2575,7 +2518,6 @@
     "description": "气质出尘的仙家子弟。隐修在璃月群山之间，个性也如仙人般淡漠疏离。",
     "birthday": "3月10日",
     "cn_CV": "秦紫翼",
-    "jp_CV": "川澄绫子",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/ae/p7f6pidw64a7g4on68hkuf6d01ghp0q.png"
   },
   {
@@ -2613,7 +2555,6 @@
     "description": "集剧作与演唱能力于一身的璃月戏曲名角。风格自成一派，雅致柔美，恰如其人。",
     "birthday": "5月21日",
     "cn_CV": "贺文潇&杨扬所有语言的戏剧部分一律使用汉语，由专业青年京剧演员杨扬配音，下面不再列出",
-    "jp_CV": "小岩井小鸟",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/8f/5eedbfa8wch0gl7cpo12jjopqiy2jre.png"
   },
   {
@@ -2682,7 +2623,6 @@
     "description": "活跃在稻妻城花见坂的「荒泷派」初代目头领。什么，从没听说过荒泷派？你是想找茬吗？",
     "birthday": "6月1日",
     "cn_CV": "刘照坤",
-    "jp_CV": "西川贵教",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a0/h0pel900kaa6369psjiy1lrdndlz3f1.png"
   },
   {
@@ -2725,7 +2665,6 @@
     "description": "海祇岛军的大将，深受部下信赖。",
     "birthday": "5月18日",
     "cn_CV": "杨昕燃",
-    "jp_CV": "畠中祐",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/ba/d8t0djc3babb7a8vrpb9y97akutdmpj.png"
   },
   {
@@ -2759,7 +2698,6 @@
     "description": "神里家的家政官，活跃在稻妻的「地头蛇」。",
     "birthday": "1月9日",
     "cn_CV": "张沛",
-    "jp_CV": "森田成一",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/fb/e7n8m1c02wfg5ywrxo8jnjt2u28e4mu.png"
   },
   {
@@ -2803,7 +2741,6 @@
     "description": "海衹岛的「现人神巫女」，统管海祇岛各项事宜的少女。",
     "birthday": "2月22日",
     "cn_CV": "龟娘",
-    "jp_CV": "三森铃子",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/97/kdlj0cftz0y9ed3hc1jrs1h91io8h65.png"
   },
   {
@@ -2837,7 +2774,6 @@
     "description": "曾经是流放者，如今则是无比机敏的猎手。随时准备着为了正当之事而挽弓放箭。",
     "birthday": "4月4日",
     "cn_CV": "沐霏",
-    "jp_CV": "高垣彩阳",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b8/spgh6ar3itjue0w0oja9tq0xgsksibq.png"
   },
   {
@@ -2891,7 +2827,6 @@
     "description": "其身为御建鸣神主尊大御所大人，许稻妻人民以亘古不变之「永恒」",
     "birthday": "6月26日",
     "cn_CV": "菊花花",
-    "jp_CV": "泽城美雪",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f9/1tc98q94ddh4ly2he2f4lm4k4as0osx.png"
   },
   {
@@ -2934,7 +2869,6 @@
     "description": "「天领奉行」的大将，杀伐果断，骁勇善战。",
     "birthday": "7月14日",
     "cn_CV": "杨梦露",
-    "jp_CV": "濑户麻沙美",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/47/3xh1pw9seuxfl452rr6lnk2rc0ju0o9.png"
   },
   {
@@ -2971,7 +2905,6 @@
     "description": "「长野原烟花店」店长，「夏祭的女王」，将人们的愿望寄托于烟花中的能工巧匠。",
     "birthday": "6月21日",
     "cn_CV": "金娜",
-    "jp_CV": "植田佳奈",
     "img_src": "https://patchwiki.biligame.com/images/ys/7/71/97xepcaijrwp2w0au37pnrxb4qluf8d.png"
   },
   {
@@ -3013,7 +2946,6 @@
     "description": "属于「终末番」的忍者。身形小巧，总像没睡饱一样。",
     "birthday": "10月19日",
     "cn_CV": "Sakula小舞",
-    "jp_CV": "洲崎绫",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/fe/c4pw527lrypmhoffxgh88jvmdbwj12s.png"
   },
   {
@@ -3051,7 +2983,6 @@
     "description": "稻妻「社奉行」神里家的大小姐。端庄而文雅，聪慧又坚韧。",
     "birthday": "9月28日",
     "cn_CV": "小N",
-    "jp_CV": "早见沙织",
     "img_src": "https://patchwiki.biligame.com/images/ys/1/1b/qpsc6k80c4fl9xklo0qxy1mznquwa0r.png"
   },
   {
@@ -3080,7 +3011,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -3124,7 +3054,6 @@
     "description": "来自稻妻的浪人武士，如今栖身于璃月船队「南十字」中。性情温和而洒脱，心中埋藏着许多往事。",
     "birthday": "10月29日",
     "cn_CV": "斑马",
-    "jp_CV": "岛崎信长",
     "img_src": "https://patchwiki.biligame.com/images/ys/d/db/fr7q01g7bxcf22oco5qbc3qdkkjl0ow.png"
   },
   {
@@ -3161,7 +3090,6 @@
     "description": "古老家族出身的「浪花骑士」，西风骑士团游击小队队长。身为旧贵族后裔却加入了堪称死对头的西风骑士团，该事件至今仍是蒙德一大谜团。",
     "birthday": "10月25日",
     "cn_CV": "子音",
-    "jp_CV": "佐藤利奈",
     "img_src": "https://patchwiki.biligame.com/images/ys/f/f8/3nzfj3fub35l79p1l58umkpxs5xbg8v.png"
   },
   {
@@ -3196,7 +3124,6 @@
     "description": "活跃在璃月港的知名律法咨询师，混有仙兽血脉的精明少女。",
     "birthday": "7月28日",
     "cn_CV": "苏子芜",
-    "jp_CV": "花守由美里",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/2b/d4i72lqffsl7cgb6peojh9k2lr1ntn4.png"
   },
   {
@@ -3231,7 +3158,6 @@
     "description": "除了打扮哪里都不像神职人员的修女。冷淡的言行中透着锐利。总是单独行动。",
     "birthday": "1月24日",
     "cn_CV": "张安琪",
-    "jp_CV": "加隈亚衣",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/c5/li7teekt1udt847swopxw9zjokjb0uz.png"
   },
   {
@@ -3276,7 +3202,6 @@
     "description": "「往生堂」七十七代堂主，年纪轻轻就已主掌璃月的葬仪事务",
     "birthday": "7月15日",
     "cn_CV": "陶典",
-    "jp_CV": "高桥李依",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/c8/0jmb8q468s1wezd5n9r3npcawz8eua3.png"
   },
   {
@@ -3322,7 +3247,6 @@
     "description": "守护璃月的仙人，「夜叉」。美号「降魔大圣」，妙称「护法夜叉大将」。",
     "birthday": "4月17日",
     "cn_CV": "kinsen",
-    "jp_CV": "松冈祯丞",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/af/q4bs39azjximxqs18tymlmsgzyrar90.png"
   },
   {
@@ -3361,7 +3285,6 @@
     "description": "月海亭的秘书，体内流淌着仙兽「麒麟」的血脉。",
     "birthday": "12月2日",
     "cn_CV": "林簌",
-    "jp_CV": "上田丽奈",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/0a/7bpzoigphsck8n51qlxiwcwgtq6q6oc.png"
   },
   {
@@ -3405,7 +3328,6 @@
     "description": "西风骑士团首席炼金术师兼调查小队队长，被称作「白垩之子」的天才。",
     "birthday": "9月13日",
     "cn_CV": "Mace",
-    "jp_CV": "野岛健儿",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a4/d2te0yt6a8rtf4agfwfdqpus16967s8.png"
   },
   {
@@ -3452,7 +3374,6 @@
     "description": "被「往生堂」请来的神秘客卿，知识渊博，对各种事物都颇有见地。",
     "birthday": "12月31日",
     "cn_CV": "彭博",
-    "jp_CV": "前野智昭",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/81/8393e6kjulrau058jy9qolyv30bfkiz.png"
   },
   {
@@ -3487,7 +3408,6 @@
     "description": "璃月港唯一的摇滚歌手，以音乐和热情歌颂着对「成见」的反抗。",
     "birthday": "10月16日",
     "cn_CV": "王雅欣",
-    "jp_CV": "高桥智秋",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/20/t6fp8zqo2mwjx8hotd3wa3mpj6debls.png"
   },
   {
@@ -3530,7 +3450,6 @@
     "description": "愚人众执行官第十一位，「公子」，其战绩威名远扬。",
     "birthday": "7月20日",
     "cn_CV": "鱼冻/薄棠二人分别负责成年和幼年配音",
-    "jp_CV": "木村良平",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/45/ieew3b5t7jm6nl86btuvwh9b5rb7uwm.png"
   },
   {
@@ -3571,7 +3490,6 @@
     "description": "遗传了稀薄的「非人」血统的少女,「猫尾酒馆」的超人气调酒师。",
     "birthday": "1月18日",
     "cn_CV": "诺亚",
-    "jp_CV": "井泽诗织",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/04/mr4oeodo7tnaqko564qqiz897r2f8rx.png"
   },
   {
@@ -3615,7 +3533,6 @@
     "description": "西风骑士团禁闭室的常客，蒙德的爆破大师。人称「逃跑的太阳」。",
     "birthday": "7月27日",
     "cn_CV": "花玲",
-    "jp_CV": "久野美咲",
     "img_src": "https://patchwiki.biligame.com/images/ys/5/54/bnk8fvrgjvfz1o44m8f7bob3ita0xp3.png"
   },
   {
@@ -3659,7 +3576,6 @@
     "description": "蒙德城诸多吟游诗人中的一位，自由自在地穿行在街头巷尾。",
     "birthday": "6月16日",
     "cn_CV": "喵酱",
-    "jp_CV": "村濑步",
     "img_src": "https://patchwiki.biligame.com/images/ys/e/e7/8b0k0v04mmzivr5iibcdyiswrb2v5z1.png"
   },
   {
@@ -3703,7 +3619,6 @@
     "description": "坐拥蒙德大半酒业的贵公子，财力、人望、能力都令人无法小觑。",
     "birthday": "4月30日",
     "cn_CV": "马洋",
-    "jp_CV": "小野贤章",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/cb/oxvsh22iqva7b6t4f69oo13vr5rj2oj.png"
   },
   {
@@ -3736,7 +3651,6 @@
     "description": "药庐“不卜庐”的采药姑娘兼学徒，面色苍白如纸的不死之人。话很少，也没有什么表情。曾因“仙缘”而拥有了被凡间称作僵尸的不死之身，外表永远停留在了逝去那年，年龄不可考。",
     "birthday": "3月3日",
     "cn_CV": "宴宁",
-    "jp_CV": "田村由加莉",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a7/ebfzfyxg4wzpfpzm8bc33fkgsgwwid4.png"
   },
   {
@@ -3780,7 +3694,6 @@
     "description": "正直严谨的蒲公英骑士，蒙德西风骑士团的代理团长。",
     "birthday": "3月14日",
     "cn_CV": "林簌",
-    "jp_CV": "斋藤千和",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b0/dfc739glycpbg2vyp98zxui8ehzslhy.png"
   },
   {
@@ -3811,7 +3724,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -3849,7 +3761,6 @@
     "description": "神秘的少女占星术士，声称自己是「伟大的占星术士莫娜」，拥有与名号相符的不俗实力，博学而高傲。",
     "birthday": "8月31日",
     "cn_CV": "陈婷婷",
-    "jp_CV": "小原好美",
     "img_src": "https://patchwiki.biligame.com/images/ys/9/9d/r92x5kttsnrvkc0l08yefu5zhabj4fn.png"
   },
   {
@@ -3881,7 +3792,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -3924,7 +3834,6 @@
     "description": "璃月七星之一，玉衡星。对「帝君一言而决的璃月」颇有微词——但实际上，神挺欣赏她这样的人。",
     "birthday": "11月20日",
     "cn_CV": "谢莹",
-    "jp_CV": "喜多村英梨",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/05/8c9hbw8vgn7omiecnpu911rw8d4afe0.png"
   },
   {
@@ -3950,7 +3859,6 @@
     "description": "",
     "birthday": "",
     "cn_CV": "",
-    "jp_CV": "",
     "img_src": ""
   },
   {
@@ -3990,7 +3898,6 @@
     "description": "来自璃月，名声在外的少女厨师，对料理之道极具热情，拿手麻辣菜肴堪称一绝。",
     "birthday": "11月2日",
     "cn_CV": "小N同时也为「锅巴」配音",
-    "jp_CV": "小泽亚李",
     "img_src": "https://patchwiki.biligame.com/images/ys/0/00/226gsdds7m5fg4tq9rha4c5hdpdc0ud.png"
   },
   {
@@ -4037,7 +3944,6 @@
     "description": "经常能在书摊看到的少年人。手执长剑，胸中常怀侠义之心。",
     "birthday": "10月9日",
     "cn_CV": "唐雅菁",
-    "jp_CV": "皆川纯子",
     "img_src": "https://patchwiki.biligame.com/images/ys/4/48/kbpj3ldtjpmckt8lyppspsuvg1vu3yc.png"
   },
   {
@@ -4084,7 +3990,6 @@
     "description": "住在蒙德地区奔狼领，远离城市与人群，和狼一同生活的少年。直觉锐利，身姿迅捷。",
     "birthday": "9月9日",
     "cn_CV": "周帅",
-    "jp_CV": "内山昂辉",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/cc/1kc3as9oj8rxzdzrct2fy0ak0h2v38y.png"
   },
   {
@@ -4121,7 +4026,6 @@
     "description": "永远充满活力的女孩，骑士团最优秀，同时也是最后的侦察骑士",
     "birthday": "8月10日",
     "cn_CV": "蔡书瑾",
-    "jp_CV": "石见舞菜香",
     "img_src": "https://patchwiki.biligame.com/images/ys/6/63/qoyadhio1imipyhzglkvftydsvnjszy.png"
   },
   {
@@ -4154,7 +4058,6 @@
     "description": "「璃月七星」中的「天权」，其名下财富之多，全大陆鲜有人能望其项背。",
     "birthday": "8月26日",
     "cn_CV": "杜冥鸦",
-    "jp_CV": "大原沙耶香",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/c9/m9pvanyhz3w1t0xi5nndp669o7k4pgz.png"
   },
   {
@@ -4189,7 +4092,6 @@
     "description": "自称「断罪之皇女」，与名为奥兹的漆黑夜鸦同行的神秘少女",
     "birthday": "5月27日",
     "cn_CV": "Mace&赵悦程",
-    "jp_CV": "内田真礼&增谷康纪",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/b4/ppczedqihpaf67jup4c2buhpm5o9nux.png"
   },
   {
@@ -4220,7 +4122,6 @@
     "description": "慵懒而博学的图书管理员，须弥教令院「两百年一见」的天才毕业生。",
     "birthday": "6月9日",
     "cn_CV": "钟可",
-    "jp_CV": "田中理惠",
     "img_src": "https://patchwiki.biligame.com/images/ys/8/85/qdsfc1kic18pxlz7qmobf0xb96wckww.png"
   },
   {
@@ -4255,7 +4156,6 @@
     "description": "对万物充满好奇的炼金术士，「生物炼金」学派的研究者。",
     "birthday": "11月26日",
     "cn_CV": "小敢",
-    "jp_CV": "藤田茜",
     "img_src": "https://patchwiki.biligame.com/images/ys/a/a0/f195zevfxtn7bv026lm1tge0mtg445l.png"
   },
   {
@@ -4294,7 +4194,6 @@
     "description": "「西风骑士团」的可靠女仆，梦想有天能成为正式的骑士。",
     "birthday": "3月21日",
     "cn_CV": "宴宁",
-    "jp_CV": "高尾奏音",
     "img_src": "https://patchwiki.biligame.com/images/ys/c/cd/d24zp3hv7t0frts7m98azd2r5sjfrwn.png"
   },
   {
@@ -4332,7 +4231,6 @@
     "description": "异国面容的剑斗士，西风骑士团的头脑派人物。",
     "birthday": "11月30日",
     "cn_CV": "孙晔",
-    "jp_CV": "鸟海浩辅",
     "img_src": "https://patchwiki.biligame.com/images/ys/5/5f/1ovtt1l5lhop1t12zso2ll8exm9hjhi.png"
   },
   {
@@ -4372,7 +4270,6 @@
     "description": "蒙德的冒险家少年，拥有与他的善良毫不相称的霉运。",
     "birthday": "2月29日",
     "cn_CV": "穆雪婷/葛子瑞二人分别负责少年和婴儿配音",
-    "jp_CV": "逢坂良太",
     "img_src": "https://patchwiki.biligame.com/images/ys/2/2e/tf34rxtd4qrb2m9d155gslcc2l7y1dv.png"
   },
   {
@@ -4411,7 +4308,6 @@
     "description": "蒙德城的大家都喜欢芭芭拉。「偶像」这个词是她从一本杂志里看到的。",
     "birthday": "7月5日",
     "cn_CV": "宋媛媛",
-    "jp_CV": "鬼头明里",
     "img_src": "https://patchwiki.biligame.com/images/ys/b/bb/6df02t037knchcm86lxhqp588fp5tju.png"
   },
   {
@@ -4451,7 +4347,6 @@
     "description": "武装船队「南十字」的首领，豪快的大姐头。",
     "birthday": "2月14日",
     "cn_CV": "唐雅菁",
-    "jp_CV": "小清水亚美",
     "img_src": "https://patchwiki.biligame.com/images/ys/7/7e/m61gfspfisdeyv46e82t639tpijtw4f.png"
   },
   {
@@ -4486,7 +4381,6 @@
     "description": "驱邪世家的年轻方士，为压制自身的「纯阳之体」费尽心机。",
     "birthday": "9月7日",
     "cn_CV": "kinsen",
-    "jp_CV": "齐藤壮马",
     "img_src": "https://patchwiki.biligame.com/images/ys/5/55/t89h3psqczqephx6xwqall98oz8wjxf.png"
   }
 ]
