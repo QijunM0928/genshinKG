@@ -24,5 +24,11 @@
       "evidence_confidence": 1.0,
       "reasoning_hint": "角色的 region 字段为蒙德，因此其所属国家为蒙德。"
     }
-  ]
+  ],
+  // 下面是关系类型字典
+  "角色-材料、武器-材料、材料-材料": "needs_material",
+  "怪物-材料": "drop_material",
+  "角色-国家": "from_country",
 }
+
+

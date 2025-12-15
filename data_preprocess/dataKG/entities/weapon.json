@@ -313,19 +313,6 @@
   },
   {
     "id": "weapon25",
-    "name": "万世流涌大典",
-    "type": "法器",
-    "rarity": "5星",
-    "source": "限定祈愿",
-    "min_attack": "44",
-    "max_attack": "542",
-    "min_subproperty": "暴击伤害19.2%",
-    "max_subproperty": "暴击伤害88.2%",
-    "effect": "万世的浪涛：生命值提升16%/20%/24%/28%/32%。当前生命值提升或降低时，重击造成的伤害提升14%/18%/22%/26%/30%。该效果持续4秒，至多叠加3次，每0.3秒至多触发一次；叠加至3层或3层的持续时间刷新时，恢复8/9/10/11/12点元素能量，每12秒至多通过这种方式恢复一次元素能量。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/be/5n256v9as24li27bmn5k2iv0i084hxy.png/150px-%E4%B8%87%E4%B8%96%E6%B5%81%E6%B6%8C%E5%A4%A7%E5%85%B8.png"
-  },
-  {
-    "id": "weapon26",
     "name": "金流监督",
     "type": "法器",
     "rarity": "5星",
@@ -336,6 +323,19 @@
     "max_subproperty": "暴击率22.1%",
     "effect": "黄金的血潮：攻击力提升16%/20%/24%/28%/32%。当前生命值提升或降低时，普通攻击造成的伤害提升16%/20%/24%/28%/32%，重击造成的伤害提升14%/17.5%/21%/24.5%/28%。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升8%/10%/12%/14%/16%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/12/76fp8j27g42j5acnqlu9al5jpvs2tci.png/150px-%E9%87%91%E6%B5%81%E7%9B%91%E7%9D%A3.png"
+  },
+  {
+    "id": "weapon26",
+    "name": "万世流涌大典",
+    "type": "法器",
+    "rarity": "5星",
+    "source": "限定祈愿",
+    "min_attack": "44",
+    "max_attack": "542",
+    "min_subproperty": "暴击伤害19.2%",
+    "max_subproperty": "暴击伤害88.2%",
+    "effect": "万世的浪涛：生命值提升16%/20%/24%/28%/32%。当前生命值提升或降低时，重击造成的伤害提升14%/18%/22%/26%/30%。该效果持续4秒，至多叠加3次，每0.3秒至多触发一次；叠加至3层或3层的持续时间刷新时，恢复8/9/10/11/12点元素能量，每12秒至多通过这种方式恢复一次元素能量。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/be/5n256v9as24li27bmn5k2iv0i084hxy.png/150px-%E4%B8%87%E4%B8%96%E6%B5%81%E6%B6%8C%E5%A4%A7%E5%85%B8.png"
   },
   {
     "id": "weapon27",
@@ -781,19 +781,6 @@
   },
   {
     "id": "weapon61",
-    "name": "四风原典",
-    "type": "法器",
-    "rarity": "5星",
-    "source": "祈愿",
-    "min_attack": "46",
-    "max_attack": "608",
-    "min_subproperty": "暴击率7.2%",
-    "max_subproperty": "暴击率33.1%",
-    "effect": "无边际的眷顾：移动速度提高10%；在场上每4秒获得8%/10%/12%/14%/16%元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/85/h2any7ypjy8nejtlu4dshfb5ds73n7r.png/150px-%E5%9B%9B%E9%A3%8E%E5%8E%9F%E5%85%B8.png"
-  },
-  {
-    "id": "weapon62",
     "name": "天空之卷",
     "type": "法器",
     "rarity": "5星",
@@ -804,6 +791,19 @@
     "max_subproperty": "攻击力33.1%",
     "effect": "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/5e/ljga8vdrkv9u3erfguhsuv9i568l8yo.png/150px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%8D%B7.png"
+  },
+  {
+    "id": "weapon62",
+    "name": "四风原典",
+    "type": "法器",
+    "rarity": "5星",
+    "source": "祈愿",
+    "min_attack": "46",
+    "max_attack": "608",
+    "min_subproperty": "暴击率7.2%",
+    "max_subproperty": "暴击率33.1%",
+    "effect": "无边际的眷顾：移动速度提高10%；在场上每4秒获得8%/10%/12%/14%/16%元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/85/h2any7ypjy8nejtlu4dshfb5ds73n7r.png/150px-%E5%9B%9B%E9%A3%8E%E5%8E%9F%E5%85%B8.png"
   },
   {
     "id": "weapon63",
@@ -1327,19 +1327,6 @@
   },
   {
     "id": "weapon103",
-    "name": "烈阳之嗣",
-    "type": "弓",
-    "rarity": "4星",
-    "source": "纪行",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "暴击率4.0%",
-    "max_subproperty": "暴击率18.4%",
-    "effect": "阳炎古道：重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力60%/75%/90%/105%/120%的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升28%/35%/42%/49%/56%。阳炎矢每10秒至多触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/dd/7ojaysucd6cgwvhwoivbq98qf3bp9xj.png/150px-%E7%83%88%E9%98%B3%E4%B9%8B%E5%97%A3.png"
-  },
-  {
-    "id": "weapon104",
     "name": "静谧之曲",
     "type": "弓",
     "rarity": "4星",
@@ -1350,6 +1337,19 @@
     "max_subproperty": "攻击力41.3%",
     "effect": "深海弦振：受到治疗后，造成的伤害提升16%/20%/24%/28%/32%，持续8秒。角色处于队伍后台也能触发。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fe/8iwkuxzq146dkeymlh6qkuxbvfdpoqc.png/150px-%E9%9D%99%E8%B0%A7%E4%B9%8B%E6%9B%B2.png"
+  },
+  {
+    "id": "weapon104",
+    "name": "烈阳之嗣",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "纪行",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "暴击率4.0%",
+    "max_subproperty": "暴击率18.4%",
+    "effect": "阳炎古道：重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力60%/75%/90%/105%/120%的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升28%/35%/42%/49%/56%。阳炎矢每10秒至多触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/dd/7ojaysucd6cgwvhwoivbq98qf3bp9xj.png/150px-%E7%83%88%E9%98%B3%E4%B9%8B%E5%97%A3.png"
   },
   {
     "id": "weapon105",
@@ -2068,19 +2068,6 @@
   },
   {
     "id": "weapon160",
-    "name": "螭骨剑",
-    "type": "双手剑",
-    "rarity": "4星",
-    "source": "纪行",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "暴击率6.0%",
-    "max_subproperty": "暴击率27.6%",
-    "effect": "破浪：角色在场上时，每4秒提升6%/7%/8%/9%/10%造成的伤害，3%/2.7%/2.4%/2.2%/2%受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4c/a03ookbm5axi3xyxxdkr8g4ky0gw3fv.png/150px-%E8%9E%AD%E9%AA%A8%E5%89%91.png"
-  },
-  {
-    "id": "weapon161",
     "name": "雨裁",
     "type": "双手剑",
     "rarity": "4星",
@@ -2091,6 +2078,19 @@
     "max_subproperty": "元素精通165",
     "effect": "止水息雷：对处于水元素或雷元素影响下的敌人，造成的伤害提高20％/24%/28%/32%/36%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c9/a2hgbmdegka66sycqn26nof7f5eggaa.png/150px-%E9%9B%A8%E8%A3%81.png"
+  },
+  {
+    "id": "weapon161",
+    "name": "螭骨剑",
+    "type": "双手剑",
+    "rarity": "4星",
+    "source": "纪行",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "暴击率6.0%",
+    "max_subproperty": "暴击率27.6%",
+    "effect": "破浪：角色在场上时，每4秒提升6%/7%/8%/9%/10%造成的伤害，3%/2.7%/2.4%/2.2%/2%受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4c/a03ookbm5axi3xyxxdkr8g4ky0gw3fv.png/150px-%E8%9E%AD%E9%AA%A8%E5%89%91.png"
   },
   {
     "id": "weapon162",
@@ -2224,19 +2224,6 @@
   },
   {
     "id": "weapon172",
-    "name": "宗室长弓",
-    "type": "弓",
-    "rarity": "4星",
-    "source": "商城兑换",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "攻击力9.0%",
-    "max_subproperty": "攻击力41.3%",
-    "effect": "专注：攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c6/ejsd6fjfdctyhkp0mc4jel6xr7037sv.png/150px-%E5%AE%97%E5%AE%A4%E9%95%BF%E5%BC%93.png"
-  },
-  {
-    "id": "weapon173",
     "name": "钢轮弓",
     "type": "弓",
     "rarity": "4星",
@@ -2247,6 +2234,19 @@
     "max_subproperty": "物理伤害加成69.0%",
     "effect": "注能之矢：普通攻击与重击命中时，提升4%/5%/6%/7%/8%攻击力与1.2%/1.5%/1.8%/2.1%/2.4%普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7a/0z9oqbgp7xmufb10i51oopdi285ewfi.png/150px-%E9%92%A2%E8%BD%AE%E5%BC%93.png"
+  },
+  {
+    "id": "weapon173",
+    "name": "宗室长弓",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "商城兑换",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "攻击力9.0%",
+    "max_subproperty": "攻击力41.3%",
+    "effect": "专注：攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c6/ejsd6fjfdctyhkp0mc4jel6xr7037sv.png/150px-%E5%AE%97%E5%AE%A4%E9%95%BF%E5%BC%93.png"
   },
   {
     "id": "weapon174",
@@ -2289,19 +2289,6 @@
   },
   {
     "id": "weapon177",
-    "name": "万国诸海图谱",
-    "type": "法器",
-    "rarity": "4星",
-    "source": "锻造,「星之归还」第二期",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "元素精通24",
-    "max_subproperty": "元素精通110",
-    "effect": "注能之卷：触发元素反应后的10秒内，获得8%/10%/12%/14%/16%元素伤害加成，该效果最多可叠加2层。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b4/snhy06y9px3auxic0wbs7f1pxsme5w7.png/150px-%E4%B8%87%E5%9B%BD%E8%AF%B8%E6%B5%B7%E5%9B%BE%E8%B0%B1.png"
-  },
-  {
-    "id": "weapon178",
     "name": "流浪乐章",
     "type": "法器",
     "rarity": "4星",
@@ -2312,6 +2299,19 @@
     "max_subproperty": "暴击伤害55.1%",
     "effect": "登场乐：角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升60%/75%/90%/105%/120%；咏叹调：全元素伤害提升48%/60%/72%/84%/96%；间奏曲：元素精通提升240/300/360/420/480。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8b/1gfpyhq0horhcbho0eqs1c62nklx118.png/150px-%E6%B5%81%E6%B5%AA%E4%B9%90%E7%AB%A0.png"
+  },
+  {
+    "id": "weapon178",
+    "name": "万国诸海图谱",
+    "type": "法器",
+    "rarity": "4星",
+    "source": "锻造,「星之归还」第二期",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "元素精通24",
+    "max_subproperty": "元素精通110",
+    "effect": "注能之卷：触发元素反应后的10秒内，获得8%/10%/12%/14%/16%元素伤害加成，该效果最多可叠加2层。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b4/snhy06y9px3auxic0wbs7f1pxsme5w7.png/150px-%E4%B8%87%E5%9B%BD%E8%AF%B8%E6%B5%B7%E5%9B%BE%E8%B0%B1.png"
   },
   {
     "id": "weapon179",

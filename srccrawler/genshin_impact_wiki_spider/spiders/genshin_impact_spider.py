@@ -6,6 +6,7 @@ from scrapy.spiders import Spider
 from scrapy.http import Request
 from scrapy.linkextractors import LinkExtractor
 
+BLOCK_TAGS = {"p", "li", "dd", "dt", "h1", "h2", "h3", "h4", "h5", "h6"}
 
 class GenshinImpactSpider(Spider):
     name = 'genshin_impact_spider'
@@ -34,6 +35,11 @@ class GenshinImpactSpider(Spider):
         links = LinkExtractor(restrict_xpaths='//a[@title="武器图鉴"]')
         for link in links.extract_links(response):
             yield Request(link.url, callback=self.parse_weapon)
+
+        # 圣遗物图鉴
+        links = LinkExtractor(restrict_xpaths='//a[@title="圣遗物图鉴"]')
+        for link in links.extract_links(response):
+            yield Request(link.url, callback=self.parse_artifact)
 
         # API请求：材料和怪物
         yield self._build_api_request(self.MATERIAL_API_URL, 0, self.parse_material)
@@ -318,117 +324,97 @@ class GenshinImpactSpider(Spider):
                         role_paragraphs.append(text)
 
         # 2. 配装推荐 -> 武器下的表格（武器 / 推荐理由）
-        weapons = {}
+        weapons = []
         headline = soup.find('span', class_='mw-headline', id='武器')
         if headline:
-            hx = headline.find_parent('h4')
-            weapon_table = hx.find_next('table', class_='wikitable')
+            hx = headline.find_parent(['h2', 'h3', 'h4', 'h5'])
+            if hx:
+                weapon_table = hx.find_next('table', class_='wikitable')
             if weapon_table:
                 trs = weapon_table.find_all("tr")
+                priority=0
                 for tr in trs:
                     tds = tr.find_all("td")
                     if not tds:
                         continue
+
+                    # 在 for 循环外先初始化一次
+                    seen_weapon_names = set()
+                    last_description = None
                     for a in tds[0].find_all("a"):
+                        weapon = {}
                         weapon_name = a.get('title', '').strip()
-                        weapons[weapon_name] = tds[1].get_text(" ", strip=True)
+
+                        # 规则1：本轮 weapon_name 之前出现过 -> 跳过
+                        if weapon_name in seen_weapon_names:
+                            continue
+                        seen_weapon_names.add(weapon_name)
+
+                        weapon["weapon"] = weapon_name
+
+                        if len(tds) >= 2:
+                            weapon["description"] = tds[1].get_text(" ", strip=True)
+                        else:
+                            weapon["description"] = ''
+
+                        # 规则2：仅当本轮 description 和上一轮(上一次成功处理的)不同，priority 才加一
+                        if last_description is None or weapon["description"] != last_description:
+                            priority += 1
+                        last_description = weapon["description"]
+
+                        weapon["priority"] = priority
+                        weapons.append(weapon)
 
         # --- 3. 阵容搭配 ---
-        lineups = []
-        lineup_h2 = None
-        for h in h2_list:
-            if "阵容" in h.get_text():
-                lineup_h2 = h
+
+        root = soup.select_one("#CharGuide2")
+        if not root:
+            return ""
+
+        stop = root.select_one("table.wikitable.TeamGuide")
+        if not stop:
+            # 如果页面没有这个表，就退化为整个 CharGuide2 的文本
+            return root.get_text("\n", strip=True)
+
+        lines = []
+        for node in root.descendants:
+            # 到达 table 就停止（不包含 table）
+            if node is stop:
                 break
 
-        if lineup_h2:
-            # 收集该区块下的所有 table，不论是否在 tabbertab 里
-            tables_found = []
+            if isinstance(node, Tag) and node.name in BLOCK_TAGS:
+                text = node.get_text(" ", strip=True)
+                if not text:
+                    continue
 
-            # 遍历兄弟节点直到下一个 h2
-            current = lineup_h2.next_sibling
-            while current:
-                if getattr(current, "name", None) == "h2":
-                    break
+                # 轻微格式化：列表加个前缀，更像“文本内容”
+                if node.name == "li":
+                    text = f"- {text}"
 
-                if isinstance(current, Tag):
-                    # 检查自身是不是 table
-                    if current.name == 'table':
-                        tables_found.append((None, current))  # (Tab Title, Table Element)
+                lines.append(text)
 
-                    # 检查内部有没有 tabbertab
-                    tabbers = current.find_all("div", class_="tabbertab")
-                    if tabbers:
-                        for tab in tabbers:
-                            title = tab.get("title", "默认")
-                            tbl = tab.find("table", class_="wikitable")
-                            if tbl: tables_found.append((title, tbl))
+        # 去掉连续重复（避免某些嵌套结构造成的重复行）
+        out = []
+        prev = None
+        for t in lines:
+            t = t.replace("\xa0", " ").strip()  # 处理 &nbsp; 之类
+            if t and t != prev:
+                out.append(t)
+                prev = t
 
-                    # 检查内部有没有普通 table (非 tabber 情况)
-                    elif not tabbers:
-                        inner_tbls = current.find_all("table", class_="wikitable")
-                        for tbl in inner_tbls:
-                            tables_found.append(("通用", tbl))
-
-                current = current.next_sibling
-
-            # 解析找到的所有表格
-            for tab_title, table in tables_found:
-                # 解析表头
-                header_cells = table.select("tr th") or table.select("thead th")
-                headers = [th.get_text(strip=True) for th in header_cells]
-
-                # 使用模糊匹配查找列
-                # 只要找到 "角色" 这一列，我们就认为这是个阵容表
-                role_idx = get_index(headers, ["角色", "队友"])
-                if role_idx is None:
-                    continue  # 不是阵容表，跳过
-
-                panel_idx = get_index(headers, ["面板", "属性"])
-                arti_idx = get_index(headers, ["圣遗物", "套装"])
-                # 低星武器是可选的，不强求
-                low_weap_idx = get_index(headers, ["低星", "过渡", "替代"])
-
-                rows = table.find_all("tr")
-                # 跳过表头行 (通常是第一行，也可能是前两行，这里简单处理)
-                data_rows = [r for r in rows if not r.find('th')]
-
-                tab_rows = []
-                for tr in data_rows:
-                    cells = tr.find_all("td")
-                    if not cells: continue
-
-                    # 安全获取数据的 helper
-                    def get_cell_text(idx):
-                        if idx is not None and idx < len(cells):
-                            return cells[idx].get_text(" ", strip=True)
-                        return ""
-
-                    role_name = get_cell_text(role_idx)
-                    if not role_name: continue  # 没有角色名的行跳过
-
-                    tab_rows.append({
-                        "role": role_name,
-                        "panel": get_cell_text(panel_idx),
-                        "artifacts": get_cell_text(arti_idx),
-                        "low_star_weapons": get_cell_text(low_weap_idx),
-                    })
-
-                if tab_rows:
-                    lineups.append({
-                        "tab_title": tab_title,
-                        "rows": tab_rows
-                    })
-
-        yield {
-            "type": "character_strategy",
-            "data": {
-                "character": char_name,
-                "role_paragraphs": role_paragraphs,
-                "weapons": weapons,
-                "lineups": lineups,
+        try:
+            yield {
+                "type": "character_strategy",
+                "data": {
+                    "character": char_name,
+                    "role_paragraphs": role_paragraphs,
+                    "weapons": weapons,
+                    "team_strategy": "\n".join(out),
+                }
             }
-        }
+        except Exception as e:
+            # 至少把错误和角色名打出来，避免被上层吞掉
+            print(f"[parse fail] {character} url={getattr(response, 'url', None)} err={repr(e)}")
 
     @staticmethod
     def parse_weapon(response, **kwargs):
@@ -451,6 +437,77 @@ class GenshinImpactSpider(Spider):
                         # 后续 td 内容仍然是文本
                         weapon[key] = v.get_text(strip=True)
                 yield {'type': 'weapon', 'data': weapon}
+
+    def parse_artifact(self, response, **kwargs):
+        soup = BeautifulSoup(response.text, 'lxml')
+        tbl = soup.find('table', id='CardSelectTr')
+        if tbl:
+            ths = tbl.find_all('tr')[0].find_all('th')
+            for row in tbl.find_all('tr')[1:]:
+                artifact = {}
+                tds =  row.find_all('td')
+                for i, (k, v) in enumerate(zip(ths, tds)):
+                    key = k.get_text(strip=True)
+                    if i == 0:
+                        img = v.find('img')
+                        if img and img.has_attr('src'):
+                            artifact[key] = img['src']
+                    else:
+                        artifact[key] = v.get_text(strip=True)
+                link = tds[1].find('a') or tds[0].find('a')
+                if link and link.get('href'):
+                    yield Request(response.urljoin(link['href']), callback=self.parse_artifact_detail,
+                                  cb_kwargs={'base_data': artifact})
+                else:
+                    yield {'type': 'artifact', 'data': artifact}
+
+    @staticmethod
+    def parse_artifact_detail(response, base_data, **kwargs):
+        soup = BeautifulSoup(response.text, "lxml")
+        artifact = dict(base_data)
+
+        base_url = kwargs.get("base_url") or response.url  # 用于补全相对链接
+
+        recommended_block = soup.select_one("div.recommended")
+        rec_list = []
+
+        if recommended_block:
+            # 每一条推荐（可能有多条）
+            for rec in recommended_block.select("div.rolerec"):
+                # 1) 推荐角色列表
+                roles = []
+                for roleicon in rec.select("div.icon div.roleicon"):
+                    # 攻略链接（最后那个 a 通常是 /攻略）
+                    guide_a = roleicon.select_one('a[title$="/攻略"]')
+
+                    # 角色名：优先 .L，其次用攻略 a 的文字
+                    name_el = roleicon.select_one(".L")
+                    name = name_el.get_text(strip=True) if name_el else None
+                    if not name and guide_a:
+                        name = guide_a.get_text(strip=True)
+
+                    # 兜底：如果都没拿到，跳过
+                    if not name:
+                        continue
+
+                    roles.append(name)
+
+                # 2) 推荐说明
+                desc_el = rec.select_one("div.main div.item")
+                desc_text = desc_el.get_text(" ", strip=True) if desc_el else ""
+
+                # 3) 仅当这一条确实解析到角色或说明时才记录
+                if roles or desc_text:
+                    rec_list.append({
+                        "roles": roles,
+                        "desc": desc_text,
+                    })
+
+        # 写回 artifact
+        artifact["recommended_roles"] = rec_list
+
+        yield {"type": "artifact", "data": artifact}
+
 
     def parse_material(self, response, offset, **kwargs):
         soup = BeautifulSoup(json.loads(response.text)['parse']['text']['*'], 'lxml')

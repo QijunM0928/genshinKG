@@ -2,3 +2,5 @@
 *.pyi
 *cache*
 .DS_Store
+.env
+.stfolder

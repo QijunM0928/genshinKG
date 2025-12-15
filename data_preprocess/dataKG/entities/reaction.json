@@ -1,0 +1,82 @@
+[
+  {
+    "id": "reaction1",
+    "name": "蒸发",
+    "reaction_element": "火+水"
+  },
+  {
+    "id": "reaction2",
+    "name": "融化",
+    "reaction_element": "火+冰"
+  },
+  {
+    "id": "reaction3",
+    "name": "超载",
+    "reaction_element": "火+雷"
+  },
+  {
+    "id": "reaction4",
+    "name": "超导",
+    "reaction_element": "冰+雷"
+  },
+  {
+    "id": "reaction5",
+    "name": "感电",
+    "reaction_element": "水+雷"
+  },
+  {
+    "id": "reaction6",
+    "name": "冻结",
+    "reaction_element": "水+冰"
+  },
+  {
+    "id": "reaction7",
+    "name": "碎冰",
+    "reaction_element": "冻结+重攻击(岩/大剑)"
+  },
+  {
+    "id": "reaction8",
+    "name": "扩散",
+    "reaction_element": "风+(水/火/冰/雷)"
+  },
+  {
+    "id": "reaction9",
+    "name": "结晶",
+    "reaction_element": "岩+(水/火/冰/雷)"
+  },
+  {
+    "id": "reaction10",
+    "name": "燃烧",
+    "reaction_element": "草+火"
+  },
+  {
+    "id": "reaction11",
+    "name": "绽放",
+    "reaction_element": "草+水"
+  },
+  {
+    "id": "reaction12",
+    "name": "烈绽放",
+    "reaction_element": "绽放(草原核)+火"
+  },
+  {
+    "id": "reaction13",
+    "name": "超绽放",
+    "reaction_element": "绽放(草原核)+雷"
+  },
+  {
+    "id": "reaction14",
+    "name": "原激化",
+    "reaction_element": "草+雷"
+  },
+  {
+    "id": "reaction15",
+    "name": "超激化",
+    "reaction_element": "原激化+雷"
+  },
+  {
+    "id": "reaction16",
+    "name": "蔓激化",
+    "reaction_element": "原激化+草"
+  }
+]

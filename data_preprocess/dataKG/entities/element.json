@@ -1,0 +1,30 @@
+[
+  {
+    "id": "element1",
+    "name": "火"
+  },
+  {
+    "id": "element2",
+    "name": "水"
+  },
+  {
+    "id": "element3",
+    "name": "风"
+  },
+  {
+    "id": "element4",
+    "name": "雷"
+  },
+  {
+    "id": "element5",
+    "name": "草"
+  },
+  {
+    "id": "element6",
+    "name": "冰"
+  },
+  {
+    "id": "element7",
+    "name": "岩"
+  }
+]

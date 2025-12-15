@@ -1,19 +1,9 @@
-"""该脚本用于从指定目录加载最新爬取的源数据文件，并按 schema 定义的字段读取和清洗数据。同时抽取显性关系"""
+"""该脚本用于从指定目录加载最新爬取的源数据文件，并按 schema 定义的字段读取和清洗数据,生成entities路径下的实体数据"""
 
 import os
 import re
 import glob
 import json
-
-# 按材料类型配置 predicate 和解释模板
-MATERIAL_REL_CONFIG = {
-    # 通用 predicate
-    "DEFAULT": {
-        "predicate": "needs_material",
-        "hint_template": "{subject_name} 需要材料 {material_name} 用于{usage}"
-    }
-}
-
 
 """ --- part0 函数封装 --- """
 
@@ -89,26 +79,20 @@ def extract_char_usage(text: str, keep_latest=False):
     return result
 
 
-def name_to_id(data):
-    n2id = {}
-    for d in data:
-        d_name = d.get("name", "")
-        if d_name:
-            n2id[d_name] = d.get("id", "")
-    return n2id
-
-
-
 """ --- part1 实体数据清洗 --- """
 
 # 1、按schema定义的字段读取/清洗character数据
-def get_character_full(characters, details):
+def get_character_full():
+    # 提取character, story数据
+    characters, details = load_latest_json("character_2"), load_latest_json("character_detail_")
     characters_merged = []
     stories_merged = []
     for i, c in enumerate(characters):
         merged = {}
         stories = {}
         name = c.get("名称", "")
+        if "旅行者/" in name:
+            name=name[-1:]+"主"
         # 在 details 里找对应的详细信息，details中每个角色有三个字典
         detail1 = next((d for d in details if d.get("character", "") == name and d.get("section", "") == name), {})
         detail2 = next((d for d in details if d.get("character", "") == name and d.get("section", "") == "其他信息"),
@@ -126,7 +110,7 @@ def get_character_full(characters, details):
         merged["element"] = c.get("元素属性", "")
         merged["primordial_force"] = safe_get(detail1, "table", "始基力")
         merged["weapon_type"] = c.get("武器类型", "")
-        merged["region"] = safe_get(detail1, "table", "所属地区")
+        merged["country"] = safe_get(detail1, "table", "所属地区")
         merged["affiliation"] = safe_get(detail2, "table", "所属")
         merged["profession"] = safe_get(detail2, "table", "职业")
         merged["species"] = safe_get(detail1, "table", "种族")
@@ -143,20 +127,17 @@ def get_character_full(characters, details):
         stories["name"] = name
         stories["stories"] = detail3.get("table", {})
         stories_merged.append(stories)
+
+    with open("data_preprocess/dataKG/entities/character.json", "w", encoding="utf-8") as f:
+        json.dump(characters_merged, f, ensure_ascii=False, indent=2)
+    with open("data_preprocess/dataExternal/character_story.json", "w", encoding="utf-8") as f:
+        json.dump(stories_merged, f, ensure_ascii=False, indent=2)
+
     return characters_merged, stories_merged
 
-
-# 提取character, story数据
-characters_data, stories_data = get_character_full(load_latest_json("character_2"),
-                                                   load_latest_json("character_detail_"))
-with open("data_preprocess/dataKG/entities/character.json", "w", encoding="utf-8") as f:
-    json.dump(characters_data, f, ensure_ascii=False, indent=2)
-with open("data_preprocess/dataExternal/character_story.json", "w", encoding="utf-8") as f:
-    json.dump(stories_data, f, ensure_ascii=False, indent=2)
-
-
 # 2、武器数据
-def get_weapon_full(weapons):
+def get_weapon_full():
+    weapons = load_latest_json("weapon_")
     weapons_merged = []
     for i, w in enumerate(weapons):
         merged = {
@@ -173,16 +154,15 @@ def get_weapon_full(weapons):
             "img_src": w.get("图标", "")
         }
         weapons_merged.append(merged)
+
+    with open("data_preprocess/dataKG/entities/weapon.json", "w", encoding="utf-8") as f:
+        json.dump(weapons_merged, f, ensure_ascii=False, indent=2)
     return weapons_merged
 
 
-weapons_data = get_weapon_full(load_latest_json("weapon_"))
-with open("data_preprocess/dataKG/entities/weapon.json", "w", encoding="utf-8") as f:
-    json.dump(weapons_data, f, ensure_ascii=False, indent=2)
-
-
 # 3、材料数据
-def get_material_full(materials):
+def get_material_full():
+    materials = load_latest_json("material_")
     materials_merged = []
     for i, m in enumerate(materials):
         merged = {
@@ -194,34 +174,33 @@ def get_material_full(materials):
             "img_src": m.get("icon", "")
         }
         materials_merged.append(merged)
+
+    for m in materials_merged:
+        if m.get("type") != "天赋培养素材":
+            continue
+
+        usage = m.get("usage")
+        # 确保 usage 是 dict 且包含 "角色"
+        if isinstance(usage, dict) and "角色" in usage:
+            common_usage = usage.get("角色", "")
+
+            # 给除 "角色" 外的所有角色补上用途
+            for name in list(usage.keys()):
+                if name == "角色":
+                    continue
+                if not usage[name]:  # 只覆盖空值
+                    usage[name] = common_usage
+
+            # 最后删除 "角色" 这个虚拟 key
+            usage.pop("角色", None)
+    with open("data_preprocess/dataKG/entities/material.json", "w", encoding="utf-8") as f:
+        json.dump(materials_merged, f, ensure_ascii=False, indent=2)
     return materials_merged
 
 
-materials_data = get_material_full(load_latest_json("material_"))
-for m in materials_data:
-    if m.get("type") != "天赋培养素材":
-        continue
-
-    usage = m.get("usage")
-    # 确保 usage 是 dict 且包含 "角色"
-    if isinstance(usage, dict) and "角色" in usage:
-        common_usage = usage.get("角色", "")
-
-        # 给除 "角色" 外的所有角色补上用途
-        for name in list(usage.keys()):
-            if name == "角色":
-                continue
-            if not usage[name]:  # 只覆盖空值
-                usage[name] = common_usage
-
-        # 最后删除 "角色" 这个虚拟 key
-        usage.pop("角色", None)
-with open("data_preprocess/dataKG/entities/material.json", "w", encoding="utf-8") as f:
-    json.dump(materials_data, f, ensure_ascii=False, indent=2)
-
-
 # 4、语音数据
-def get_voice_full(voices):
+def get_voice_full():
+    voices=load_latest_json("character_voice_")
     voices_merged = []
     i = 0
     for voice in voices:
@@ -238,16 +217,14 @@ def get_voice_full(voices):
                 "cn_audio": v.get("cn_audio", "")
             }
             voices_merged.append(merged)
+
+    with open("data_preprocess/dataExternal/character_voice.json", "w", encoding="utf-8") as f:
+        json.dump(voices_merged, f, ensure_ascii=False, indent=2)
     return voices_merged
 
-
-voices_data = get_voice_full(load_latest_json("character_voice_"))
-with open("data_preprocess/dataKG/entities/character_voice.json", "w", encoding="utf-8") as f:
-    json.dump(voices_data, f, ensure_ascii=False, indent=2)
-
-
 # 5、怪物数据
-def get_monster_full(monsters):
+def get_monster_full():
+    monsters=load_latest_json("monster_")
     monsters_merged = []
     for i, m in enumerate(monsters):
         merged = {
@@ -269,86 +246,46 @@ def get_monster_full(monsters):
         merged["strategy"] = "\n---\n".join(parts)
 
         monsters_merged.append(merged)
+
+    with open("data_preprocess/dataKG/entities/monster.json", "w", encoding="utf-8") as f:
+        json.dump(monsters_merged, f, ensure_ascii=False, indent=2)
     return monsters_merged
 
 
-monsters_data = get_monster_full(load_latest_json("monster_"))
-with open("data_preprocess/dataKG/entities/monster.json", "w", encoding="utf-8") as f:
-    json.dump(monsters_data, f, ensure_ascii=False, indent=2)
+# 6、圣遗物数据
+def get_artifact_full():
+    artifacts = load_latest_json("artifact_")
+    artifacts_merged = []
+    for i, a in enumerate(artifacts):
+        merged = {
+            "id": f"artifact{i + 1}",
+            "name": a.get("名称", ""),
+            "min/max_rarity": a.get("最低/高稀有度", ""),
+            "source": a.get("获取途径", ""),
+            "2piece_effect": a.get("两件套效果", ""),
+            "4piece_effect": a.get("四件套效果", ""),
+            "img_src": a.get("图标", "")
+        }
+        parts = []
+        if a.get("recommended_roles", []):
+            for r in a.get("recommended_roles", []):
+                if not r.get("roles", []):
+                    continue
+                parts.extend(r.get("roles", []))
+        merged["suits_roles"] = parts
+        merged["recommended_roles"]=a.get("recommended_roles", [])
+
+        artifacts_merged.append(merged)
+
+        with open("data_preprocess/dataKG/entities/artifact.json", "w", encoding="utf-8") as f:
+            json.dump(artifacts_merged, f, ensure_ascii=False, indent=2)
+    return artifacts_merged
 
 
-# 6、攻略数据（待补充）
-
-def get_strategy_full(strategies):
-    pass
-
-
-""" --- part2 关系抽取 --- """
-
-# 实体名称跟id的字典，方面查找
-name2id = {}
-for data in [characters_data, materials_data, weapons_data, monsters_data]:
-    name2id.update(name_to_id(data))
-all_entity_name_set = name2id.keys()
-
-def build_material_relation(subject_name, material, usage_text):
-    """
-    subject_name: 可能是角色名、武器名等
-    material: 一条材料 JSON（来自 materials_data）
-    usage_text: usage[subject_name] 的值（一般是用途描述）
-    """
-    subject_id = name2id.get(subject_name)
-    if not subject_id:
-        return None  # 实体表里没有这个名字，直接丢弃
-
-    material_id = material.get("id", "")
-    material_name = material.get("name", "")
-    material_type = material.get("type", "")
-
-    # 选配置：优先使用具体 type，否则用 DEFAULT
-    cfg = MATERIAL_REL_CONFIG.get(material_type, MATERIAL_REL_CONFIG["DEFAULT"])
-    predicate = cfg["predicate"]
-
-    evidence_field = "usage"  # 这里统一约定来自 usage 字段
-
-    relation = {
-        "subject_id": subject_id,
-        "predicate": predicate,
-        "object_id": material_id,
-
-        "evidence_side": "object",                 # 证据在材料那边（材料的 usage）
-        "evidence_field": evidence_field,          # usage
-        "evidence_value": str(usage_text),         # usage 的原始值
-        "evidence_confidence": 1.0,                # 结构化数据，置信度可以直接 1.0
-        "evidence_rule": f"{evidence_field}=>{predicate}",
-
-        "reasoning_hint": cfg["hint_template"].format(
-            subject_name=subject_name,
-            material_name=material_name,
-            usage=usage_text
-        )
-    }
-    return relation
-
-# 1、实体-需要-材料 关系
-relations = []
-
-for m in materials_data:
-    usage = m.get("usage", {})
-    if not isinstance(usage, dict):
-        continue
-
-    # 所有 带usage 的材料都尝试处理
-    for subject_name, use in usage.items():
-        # 只处理实体表中存在的名字（角色、武器、材料等）
-        if subject_name not in all_entity_name_set or not use:
-            continue
-
-        relation = build_material_relation(subject_name, m, use)
-        if relation:
-            relations.append(relation)
-
-    if relations:
-        with open("data_preprocess/dataKG/relations/needs_material_relation.json", "w", encoding="utf-8") as f:
-            json.dump(relations, f, ensure_ascii=False, indent=2)
-
+if __name__ == "__main__":
+    get_character_full()
+    get_weapon_full()
+    get_material_full()
+    get_monster_full()
+    get_voice_full()
+    get_artifact_full()
