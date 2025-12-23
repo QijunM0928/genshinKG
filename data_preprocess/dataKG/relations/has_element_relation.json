@@ -22,7 +22,7 @@
     "reasoning_hint": "角色 雅珂达 拥有 风 元素能力"
   },
   {
-    "subject_id": "character3",
+    "subject_id": "character4",
     "predicate": "has_element",
     "object_id": "element5",
     "evidence_side": "subject",
@@ -173,21 +173,10 @@
     "evidence_value": "火",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 火主 拥有 火 元素能力"
-  },
-  {
-    "subject_id": "character18",
-    "predicate": "has_element",
-    "object_id": "element1",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "火",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
     "reasoning_hint": "角色 玛薇卡 拥有 火 元素能力"
   },
   {
-    "subject_id": "character19",
+    "subject_id": "character18",
     "predicate": "has_element",
     "object_id": "element6",
     "evidence_side": "subject",
@@ -196,6 +185,17 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
     "reasoning_hint": "角色 茜特菈莉 拥有 冰 元素能力"
+  },
+  {
+    "subject_id": "character19",
+    "predicate": "has_element",
+    "object_id": "element1",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "火",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 火主 拥有 火 元素能力"
   },
   {
     "subject_id": "character20",
@@ -431,17 +431,6 @@
   {
     "subject_id": "character41",
     "predicate": "has_element",
-    "object_id": "element2",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "水",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 水主 拥有 水 元素能力"
-  },
-  {
-    "subject_id": "character42",
-    "predicate": "has_element",
     "object_id": "element1",
     "evidence_side": "subject",
     "evidence_field": "element",
@@ -449,6 +438,17 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
     "reasoning_hint": "角色 林尼 拥有 火 元素能力"
+  },
+  {
+    "subject_id": "character42",
+    "predicate": "has_element",
+    "object_id": "element2",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "水",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 水主 拥有 水 元素能力"
   },
   {
     "subject_id": "character43",
@@ -635,7 +635,7 @@
     "evidence_value": "草",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 提纳里 拥有 草 元素能力"
+    "reasoning_hint": "角色 草主 拥有 草 元素能力"
   },
   {
     "subject_id": "character60",
@@ -646,7 +646,7 @@
     "evidence_value": "草",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 草主 拥有 草 元素能力"
+    "reasoning_hint": "角色 提纳里 拥有 草 元素能力"
   },
   {
     "subject_id": "character61",
@@ -838,17 +838,6 @@
   {
     "subject_id": "character78",
     "predicate": "has_element",
-    "object_id": "element4",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "雷",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 雷主 拥有 雷 元素能力"
-  },
-  {
-    "subject_id": "character79",
-    "predicate": "has_element",
     "object_id": "element6",
     "evidence_side": "subject",
     "evidence_field": "element",
@@ -856,6 +845,17 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
     "reasoning_hint": "角色 神里绫华 拥有 冰 元素能力"
+  },
+  {
+    "subject_id": "character79",
+    "predicate": "has_element",
+    "object_id": "element4",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "雷",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 雷主 拥有 雷 元素能力"
   },
   {
     "subject_id": "character80",
@@ -1014,50 +1014,6 @@
   {
     "subject_id": "character94",
     "predicate": "has_element",
-    "object_id": "element3",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "风",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 风主 拥有 风 元素能力"
-  },
-  {
-    "subject_id": "character95",
-    "predicate": "has_element",
-    "object_id": "element2",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "水",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 莫娜 拥有 水 元素能力"
-  },
-  {
-    "subject_id": "character96",
-    "predicate": "has_element",
-    "object_id": "element7",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "岩",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 岩主 拥有 岩 元素能力"
-  },
-  {
-    "subject_id": "character97",
-    "predicate": "has_element",
-    "object_id": "element4",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "雷",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 刻晴 拥有 雷 元素能力"
-  },
-  {
-    "subject_id": "character99",
-    "predicate": "has_element",
     "object_id": "element1",
     "evidence_side": "subject",
     "evidence_field": "element",
@@ -1067,7 +1023,7 @@
     "reasoning_hint": "角色 迪卢克 拥有 火 元素能力"
   },
   {
-    "subject_id": "character100",
+    "subject_id": "character95",
     "predicate": "has_element",
     "object_id": "element6",
     "evidence_side": "subject",
@@ -1078,7 +1034,7 @@
     "reasoning_hint": "角色 七七 拥有 冰 元素能力"
   },
   {
-    "subject_id": "character101",
+    "subject_id": "character96",
     "predicate": "has_element",
     "object_id": "element3",
     "evidence_side": "subject",
@@ -1089,40 +1045,18 @@
     "reasoning_hint": "角色 琴 拥有 风 元素能力"
   },
   {
-    "subject_id": "character102",
+    "subject_id": "character97",
     "predicate": "has_element",
-    "object_id": "element7",
+    "object_id": "element3",
     "evidence_side": "subject",
     "evidence_field": "element",
-    "evidence_value": "岩",
+    "evidence_value": "风",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 诺艾尔 拥有 岩 元素能力"
+    "reasoning_hint": "角色 风主 拥有 风 元素能力"
   },
   {
-    "subject_id": "character103",
-    "predicate": "has_element",
-    "object_id": "element6",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "冰",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 凯亚 拥有 冰 元素能力"
-  },
-  {
-    "subject_id": "character104",
-    "predicate": "has_element",
-    "object_id": "element1",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "火",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 班尼特 拥有 火 元素能力"
-  },
-  {
-    "subject_id": "character105",
+    "subject_id": "character98",
     "predicate": "has_element",
     "object_id": "element2",
     "evidence_side": "subject",
@@ -1130,10 +1064,21 @@
     "evidence_value": "水",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 芭芭拉 拥有 水 元素能力"
+    "reasoning_hint": "角色 莫娜 拥有 水 元素能力"
   },
   {
-    "subject_id": "character106",
+    "subject_id": "character99",
+    "predicate": "has_element",
+    "object_id": "element7",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "岩",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 岩主 拥有 岩 元素能力"
+  },
+  {
+    "subject_id": "character100",
     "predicate": "has_element",
     "object_id": "element4",
     "evidence_side": "subject",
@@ -1141,21 +1086,10 @@
     "evidence_value": "雷",
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 北斗 拥有 雷 元素能力"
+    "reasoning_hint": "角色 刻晴 拥有 雷 元素能力"
   },
   {
-    "subject_id": "character107",
-    "predicate": "has_element",
-    "object_id": "element6",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "冰",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 重云 拥有 冰 元素能力"
-  },
-  {
-    "subject_id": "character108",
+    "subject_id": "character102",
     "predicate": "has_element",
     "object_id": "element1",
     "evidence_side": "subject",
@@ -1166,7 +1100,7 @@
     "reasoning_hint": "角色 香菱 拥有 火 元素能力"
   },
   {
-    "subject_id": "character109",
+    "subject_id": "character103",
     "predicate": "has_element",
     "object_id": "element2",
     "evidence_side": "subject",
@@ -1177,7 +1111,7 @@
     "reasoning_hint": "角色 行秋 拥有 水 元素能力"
   },
   {
-    "subject_id": "character110",
+    "subject_id": "character104",
     "predicate": "has_element",
     "object_id": "element4",
     "evidence_side": "subject",
@@ -1188,18 +1122,7 @@
     "reasoning_hint": "角色 雷泽 拥有 雷 元素能力"
   },
   {
-    "subject_id": "character111",
-    "predicate": "has_element",
-    "object_id": "element1",
-    "evidence_side": "subject",
-    "evidence_field": "element",
-    "evidence_value": "火",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "element=>has_element",
-    "reasoning_hint": "角色 安柏 拥有 火 元素能力"
-  },
-  {
-    "subject_id": "character112",
+    "subject_id": "character105",
     "predicate": "has_element",
     "object_id": "element7",
     "evidence_side": "subject",
@@ -1210,7 +1133,18 @@
     "reasoning_hint": "角色 凝光 拥有 岩 元素能力"
   },
   {
-    "subject_id": "character113",
+    "subject_id": "character106",
+    "predicate": "has_element",
+    "object_id": "element1",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "火",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 安柏 拥有 火 元素能力"
+  },
+  {
+    "subject_id": "character107",
     "predicate": "has_element",
     "object_id": "element4",
     "evidence_side": "subject",
@@ -1221,7 +1155,7 @@
     "reasoning_hint": "角色 菲谢尔 拥有 雷 元素能力"
   },
   {
-    "subject_id": "character114",
+    "subject_id": "character108",
     "predicate": "has_element",
     "object_id": "element4",
     "evidence_side": "subject",
@@ -1232,7 +1166,7 @@
     "reasoning_hint": "角色 丽莎 拥有 雷 元素能力"
   },
   {
-    "subject_id": "character115",
+    "subject_id": "character109",
     "predicate": "has_element",
     "object_id": "element3",
     "evidence_side": "subject",
@@ -1241,5 +1175,71 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "element=>has_element",
     "reasoning_hint": "角色 砂糖 拥有 风 元素能力"
+  },
+  {
+    "subject_id": "character110",
+    "predicate": "has_element",
+    "object_id": "element7",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "岩",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 诺艾尔 拥有 岩 元素能力"
+  },
+  {
+    "subject_id": "character111",
+    "predicate": "has_element",
+    "object_id": "element6",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "冰",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 凯亚 拥有 冰 元素能力"
+  },
+  {
+    "subject_id": "character112",
+    "predicate": "has_element",
+    "object_id": "element1",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "火",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 班尼特 拥有 火 元素能力"
+  },
+  {
+    "subject_id": "character113",
+    "predicate": "has_element",
+    "object_id": "element2",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "水",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 芭芭拉 拥有 水 元素能力"
+  },
+  {
+    "subject_id": "character114",
+    "predicate": "has_element",
+    "object_id": "element6",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "冰",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 重云 拥有 冰 元素能力"
+  },
+  {
+    "subject_id": "character115",
+    "predicate": "has_element",
+    "object_id": "element4",
+    "evidence_side": "subject",
+    "evidence_field": "element",
+    "evidence_value": "雷",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "element=>has_element",
+    "reasoning_hint": "角色 北斗 拥有 雷 元素能力"
   }
 ]

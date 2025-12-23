@@ -4,10 +4,10 @@ import os
 import time
 from openai import OpenAI
 from dotenv import load_dotenv
-from data_preprocess.data_filter import load_latest_json
 from pathlib import Path
 from datetime import datetime
-from data_preprocess.prompts import ROLE_TAG_PROMPT_V2, MONSTER_PROMPT_V3
+from data_preprocess.data_filter import load_latest_json
+from data_preprocess.prompts import ROLE_TAG_PROMPT_V2, MONSTER_PROMPT_V3, C2C_PROMPT, STRATEGY_PROMPT
 
 load_dotenv()
 
@@ -100,27 +100,85 @@ def run_llm_and_save(
 
     print("全部完成")
 
-if __name__ == "__main__":
-    # 1、LLM抽取角色定位
-    # strategy_data = load_latest_json("character_strategy_")
-    # run_llm_and_save(
-    #     data_list=strategy_data,
-    #     prompt=ROLE_TAG_PROMPT_V2,
-    #     build_text_fn=lambda s: "\n".join(s.get("role_paragraphs", [])),
-    #     extract_fn=extract_with_llm,
-    #     output_file="data_preprocess/role_tag_LLM.json",
-    #     id_key="character"
-    # )
+# 1、LLM抽取角色定位
+def extract_role_tags():
+    strategy_data = load_latest_json("character_strategy_")
+    run_llm_and_save(
+        data_list=strategy_data,
+        prompt=ROLE_TAG_PROMPT_V2,
+        build_text_fn=lambda s: "\n".join(s.get("role_paragraphs", [])),
+        extract_fn=extract_with_llm,
+        output_file="data_preprocess/dataKG/LLM_extracted/role_tag_LLM.json",
+        id_key="character"
+    )
 
-    # 2、LLM抽取角色-怪物攻略关系
+# 2、LLM抽取角色-怪物攻略关系
+def extract_character_monsters():
+    with open("data_preprocess/dataExternal/character_voice.json", "r", encoding="utf-8") as f:
+        voices_data = json.load(f)
+    all_characters = set([v["name"] for v in voices_data])
     with open("data_preprocess/dataKG/entities/monster.json", "r", encoding="utf-8") as f:
         monsters_data = json.load(f)
-    monsters_data = [m for m in monsters_data if m.get("strategy")!=""]
+    monsters_data = [m for m in monsters_data if any(c in m.get("strategy","") for c in all_characters)]
     run_llm_and_save(
         data_list=monsters_data,
         prompt=MONSTER_PROMPT_V3,
-        build_text_fn=lambda m: f"monster:{m.get('name','')}, strategy:"+m.get("strategy", ""),
+        build_text_fn=lambda m: f"攻略文本:{m.get('strategy', '')}",
         extract_fn=extract_with_llm,
-        output_file="data_preprocess/character_monster_LLM1.json",
+        output_file="data_preprocess/dataKG/LLM_extracted/character_monster_LLM2.json",
         id_key="name"
     )
+
+# 3、LLM抽取角色-角色关系
+def extract_c2c():
+    with open("data_preprocess/dataExternal/character_voice.json", "r", encoding="utf-8") as f:
+        voices_data = json.load(f)
+    v_data = []
+    all_characters = set([v["name"] for v in voices_data])
+    # 过滤一遍不包含两个角色的语音
+    for v in voices_data:
+        for char_name in all_characters:
+            if char_name == v["name"]:
+                continue
+            if char_name in v["title"] or char_name in v["cn_text"]:
+                v_data.append({
+                    "id": v["id"],
+                    "subject": v["name"],
+                    "object": char_name,
+                    "title": v["title"],
+                    "cn_text": v["cn_text"],
+                    "cn_audio": v["cn_audio"]
+                })
+    run_llm_and_save(
+        data_list=v_data,
+        prompt=C2C_PROMPT,
+        build_text_fn=lambda v: f"subject:{v.get('subject','')}, object:{v.get('object','')},{v.get('subject','')}的语音文本:"+v.get("cn_text", ""),
+        extract_fn=extract_with_llm,
+        output_file="data_preprocess/dataKG/LLM_extracted/character2character_LLM.json",
+        id_key="id"
+    )
+
+
+# 4、LLM抽取角色-配队攻略关系
+def extract_strategy():
+    with open("data_preprocess/dataExternal/character_strategy.json", "r", encoding="utf-8") as f:
+        strategies_data = json.load(f)
+    strategies_data = [s for s in strategies_data if s.get("team_strategy","")!=""]
+    run_llm_and_save(
+        data_list=strategies_data,
+        prompt=STRATEGY_PROMPT,
+        build_text_fn=lambda
+            s: f"core_character:{s['character']}, 攻略文本:{s['team_strategy']}",
+        extract_fn=extract_with_llm,
+        output_file="data_preprocess/dataKG/LLM_extracted/team_strategy_LLM.json",
+        id_key="character"
+    )
+
+if __name__ == "__main__":
+    # 需要用大模型抽取，一次最多跑一个任务
+
+    # extract_role_tags()
+    # extract_character_monsters()
+    extract_c2c()
+    # extract_strategy()
+

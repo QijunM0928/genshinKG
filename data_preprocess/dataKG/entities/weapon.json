@@ -313,19 +313,6 @@
   },
   {
     "id": "weapon25",
-    "name": "金流监督",
-    "type": "法器",
-    "rarity": "5星",
-    "source": "限定祈愿",
-    "min_attack": "48",
-    "max_attack": "674",
-    "min_subproperty": "暴击率4.8%",
-    "max_subproperty": "暴击率22.1%",
-    "effect": "黄金的血潮：攻击力提升16%/20%/24%/28%/32%。当前生命值提升或降低时，普通攻击造成的伤害提升16%/20%/24%/28%/32%，重击造成的伤害提升14%/17.5%/21%/24.5%/28%。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升8%/10%/12%/14%/16%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/12/76fp8j27g42j5acnqlu9al5jpvs2tci.png/150px-%E9%87%91%E6%B5%81%E7%9B%91%E7%9D%A3.png"
-  },
-  {
-    "id": "weapon26",
     "name": "万世流涌大典",
     "type": "法器",
     "rarity": "5星",
@@ -336,6 +323,19 @@
     "max_subproperty": "暴击伤害88.2%",
     "effect": "万世的浪涛：生命值提升16%/20%/24%/28%/32%。当前生命值提升或降低时，重击造成的伤害提升14%/18%/22%/26%/30%。该效果持续4秒，至多叠加3次，每0.3秒至多触发一次；叠加至3层或3层的持续时间刷新时，恢复8/9/10/11/12点元素能量，每12秒至多通过这种方式恢复一次元素能量。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/be/5n256v9as24li27bmn5k2iv0i084hxy.png/150px-%E4%B8%87%E4%B8%96%E6%B5%81%E6%B6%8C%E5%A4%A7%E5%85%B8.png"
+  },
+  {
+    "id": "weapon26",
+    "name": "金流监督",
+    "type": "法器",
+    "rarity": "5星",
+    "source": "限定祈愿",
+    "min_attack": "48",
+    "max_attack": "674",
+    "min_subproperty": "暴击率4.8%",
+    "max_subproperty": "暴击率22.1%",
+    "effect": "黄金的血潮：攻击力提升16%/20%/24%/28%/32%。当前生命值提升或降低时，普通攻击造成的伤害提升16%/20%/24%/28%/32%，重击造成的伤害提升14%/17.5%/21%/24.5%/28%。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升8%/10%/12%/14%/16%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/12/76fp8j27g42j5acnqlu9al5jpvs2tci.png/150px-%E9%87%91%E6%B5%81%E7%9B%91%E7%9D%A3.png"
   },
   {
     "id": "weapon27",
@@ -781,19 +781,6 @@
   },
   {
     "id": "weapon61",
-    "name": "天空之卷",
-    "type": "法器",
-    "rarity": "5星",
-    "source": "祈愿",
-    "min_attack": "48",
-    "max_attack": "674",
-    "min_subproperty": "攻击力7.2%",
-    "max_subproperty": "攻击力33.1%",
-    "effect": "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/5e/ljga8vdrkv9u3erfguhsuv9i568l8yo.png/150px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%8D%B7.png"
-  },
-  {
-    "id": "weapon62",
     "name": "四风原典",
     "type": "法器",
     "rarity": "5星",
@@ -804,6 +791,19 @@
     "max_subproperty": "暴击率33.1%",
     "effect": "无边际的眷顾：移动速度提高10%；在场上每4秒获得8%/10%/12%/14%/16%元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/85/h2any7ypjy8nejtlu4dshfb5ds73n7r.png/150px-%E5%9B%9B%E9%A3%8E%E5%8E%9F%E5%85%B8.png"
+  },
+  {
+    "id": "weapon62",
+    "name": "天空之卷",
+    "type": "法器",
+    "rarity": "5星",
+    "source": "祈愿",
+    "min_attack": "48",
+    "max_attack": "674",
+    "min_subproperty": "攻击力7.2%",
+    "max_subproperty": "攻击力33.1%",
+    "effect": "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/5e/ljga8vdrkv9u3erfguhsuv9i568l8yo.png/150px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%8D%B7.png"
   },
   {
     "id": "weapon63",
@@ -833,6 +833,19 @@
   },
   {
     "id": "weapon65",
+    "name": "虹蛇的雨弦",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "活动, 月之三版本活动「炽魂斗士的雪界之旅」活动限定武器",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "元素充能效率10.0%",
+    "max_subproperty": "元素充能效率45.9%",
+    "effect": "圣座外的星语：装备者处于队伍后台时，装备者的攻击命中敌人后的8秒内，攻击力提升28%/35%/42%/49%/56%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/52/1t2t3i8xshxfxo2kaalp6bp501sak8c.png/150px-%E8%99%B9%E8%9B%87%E7%9A%84%E9%9B%A8%E5%BC%A6.png"
+  },
+  {
+    "id": "weapon66",
     "name": "霜辰",
     "type": "法器",
     "rarity": "4星",
@@ -845,7 +858,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/39/0gfsp9vdoxfz2pmw23e1bzmzyd0ls3f.png/150px-%E9%9C%9C%E8%BE%B0.png"
   },
   {
-    "id": "weapon66",
+    "id": "weapon67",
     "name": "圣祭者的辉杖",
     "type": "长柄武器",
     "rarity": "4星",
@@ -858,7 +871,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/f7/c8tf6upkfnllvipuo5o4kekhd85c01i.png/150px-%E5%9C%A3%E7%A5%AD%E8%80%85%E7%9A%84%E8%BE%89%E6%9D%96.png"
   },
   {
-    "id": "weapon67",
+    "id": "weapon68",
     "name": "谧音吹哨",
     "type": "单手剑",
     "rarity": "4星",
@@ -871,7 +884,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/18/3gp2laxpflfd0mm9c8jy39fkzqog63a.png/150px-%E8%B0%A7%E9%9F%B3%E5%90%B9%E5%93%A8.png"
   },
   {
-    "id": "weapon68",
+    "id": "weapon69",
     "name": "织月者的曙色",
     "type": "单手剑",
     "rarity": "4星",
@@ -884,7 +897,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/15/4yvq2v8s2cvesb18j7ri98sekltuq7y.png/150px-%E7%BB%87%E6%9C%88%E8%80%85%E7%9A%84%E6%9B%99%E8%89%B2.png"
   },
   {
-    "id": "weapon69",
+    "id": "weapon70",
     "name": "万能钥匙",
     "type": "双手剑",
     "rarity": "4星",
@@ -897,7 +910,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/15/7dee6ubikl8lav6pwx07chujcqn88od.png/150px-%E4%B8%87%E8%83%BD%E9%92%A5%E5%8C%99.png"
   },
   {
-    "id": "weapon70",
+    "id": "weapon71",
     "name": "罗网勾针",
     "type": "弓",
     "rarity": "4星",
@@ -910,7 +923,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/72/ibs96xvdazsor3lk9vod6j55aw405sk.png/150px-%E7%BD%97%E7%BD%91%E5%8B%BE%E9%92%88.png"
   },
   {
-    "id": "weapon71",
+    "id": "weapon72",
     "name": "天光的纺琴",
     "type": "法器",
     "rarity": "4星",
@@ -923,7 +936,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/ee/p031n1bwm5e9muzfwmdca7zezmxolj6.png/150px-%E5%A4%A9%E5%85%89%E7%9A%84%E7%BA%BA%E7%90%B4.png"
   },
   {
-    "id": "weapon72",
+    "id": "weapon73",
     "name": "乌髓孑灯",
     "type": "法器",
     "rarity": "4星",
@@ -936,7 +949,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/95/c641sel3ofnr6eoax4uwusii9da09vg.png/150px-%E4%B9%8C%E9%AB%93%E5%AD%91%E7%81%AF.png"
   },
   {
-    "id": "weapon73",
+    "id": "weapon74",
     "name": "掘金之锹",
     "type": "长柄武器",
     "rarity": "4星",
@@ -949,7 +962,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/46/8qr8zj64ie52u9rmktypcy4yx76p6kl.png/150px-%E6%8E%98%E9%87%91%E4%B9%8B%E9%94%B9.png"
   },
   {
-    "id": "weapon74",
+    "id": "weapon75",
     "name": "拾慧铸熔",
     "type": "双手剑",
     "rarity": "4星",
@@ -962,7 +975,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/88/fjn5c9sh42xn6j5n32b4mh6tso7kv2w.png/150px-%E6%8B%BE%E6%85%A7%E9%93%B8%E7%86%94.png"
   },
   {
-    "id": "weapon75",
+    "id": "weapon76",
     "name": "冷寂迸音",
     "type": "弓",
     "rarity": "4星",
@@ -975,7 +988,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/09/8js08lxizwjvse27ux5wbqgo4exlmv0.png/150px-%E5%86%B7%E5%AF%82%E8%BF%B8%E9%9F%B3.png"
   },
   {
-    "id": "weapon76",
+    "id": "weapon77",
     "name": "且住亭御咄",
     "type": "长柄武器",
     "rarity": "4星",
@@ -988,7 +1001,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b0/mibk0hgwrzmchtvc4kn8v6zhv7g0834.png/150px-%E4%B8%94%E4%BD%8F%E4%BA%AD%E5%BE%A1%E5%92%84.png"
   },
   {
-    "id": "weapon77",
+    "id": "weapon78",
     "name": "厄水之祸",
     "type": "单手剑",
     "rarity": "4星",
@@ -1001,7 +1014,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e6/3h24efaas5b72f5gz0qjf5lkjm4sy1x.png/150px-%E5%8E%84%E6%B0%B4%E4%B9%8B%E7%A5%B8.png"
   },
   {
-    "id": "weapon78",
+    "id": "weapon79",
     "name": "缀花之翎",
     "type": "弓",
     "rarity": "4星",
@@ -1014,7 +1027,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d7/1r3jb5m3l6h53i3uczy3vwz5dalka55.png/150px-%E7%BC%80%E8%8A%B1%E4%B9%8B%E7%BF%8E.png"
   },
   {
-    "id": "weapon79",
+    "id": "weapon80",
     "name": "乘浪的回旋",
     "type": "法器",
     "rarity": "4星",
@@ -1027,7 +1040,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/6b/bqpxby90jhfofr7ghewce881nyq8rv8.png/150px-%E4%B9%98%E6%B5%AA%E7%9A%84%E5%9B%9E%E6%97%8B.png"
   },
   {
-    "id": "weapon80",
+    "id": "weapon81",
     "name": "弥坚骨",
     "type": "单手剑",
     "rarity": "4星",
@@ -1040,7 +1053,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1a/mys2cxiagtnmu0u5tx6tazoy7gcee3x.png/150px-%E5%BC%A5%E5%9D%9A%E9%AA%A8.png"
   },
   {
-    "id": "weapon81",
+    "id": "weapon82",
     "name": "硕果钩",
     "type": "双手剑",
     "rarity": "4星",
@@ -1053,7 +1066,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/84/17wrujpxwumojgl5orae6b0dla4dcqj.png/150px-%E7%A1%95%E6%9E%9C%E9%92%A9.png"
   },
   {
-    "id": "weapon82",
+    "id": "weapon83",
     "name": "镇山之钉",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1066,7 +1079,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/18/q83vlslbeosh0exn85qsmj2us0yryso.png/150px-%E9%95%87%E5%B1%B1%E4%B9%8B%E9%92%89.png"
   },
   {
-    "id": "weapon83",
+    "id": "weapon84",
     "name": "息燧之笛",
     "type": "单手剑",
     "rarity": "4星",
@@ -1079,7 +1092,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4d/a9e00276hu6undc2ae5n1te947jp3u3.png/150px-%E6%81%AF%E7%87%A7%E4%B9%8B%E7%AC%9B.png"
   },
   {
-    "id": "weapon84",
+    "id": "weapon85",
     "name": "撼地者",
     "type": "双手剑",
     "rarity": "4星",
@@ -1092,7 +1105,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/25/5xs5lrydfug84wjw5c6z1iwif0qr2tk.png/150px-%E6%92%BC%E5%9C%B0%E8%80%85.png"
   },
   {
-    "id": "weapon85",
+    "id": "weapon86",
     "name": "碎链",
     "type": "弓",
     "rarity": "4星",
@@ -1105,7 +1118,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/24/5x7znu6nnajgl6cxlfbbu3bpexjzx4s.png/150px-%E7%A2%8E%E9%93%BE.png"
   },
   {
-    "id": "weapon86",
+    "id": "weapon87",
     "name": "木棉之环",
     "type": "法器",
     "rarity": "4星",
@@ -1118,7 +1131,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/df/mbepakz9iiptk9t1mcu4p0jlgo6oloy.png/150px-%E6%9C%A8%E6%A3%89%E4%B9%8B%E7%8E%AF.png"
   },
   {
-    "id": "weapon87",
+    "id": "weapon88",
     "name": "苍纹角杯",
     "type": "法器",
     "rarity": "4星",
@@ -1131,7 +1144,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e7/ctkm7wlhm0ogif2n79zzyjj8nytuds4.png/150px-%E8%8B%8D%E7%BA%B9%E8%A7%92%E6%9D%AF.png"
   },
   {
-    "id": "weapon88",
+    "id": "weapon89",
     "name": "虹的行迹",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1144,7 +1157,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7c/syhebsx0c0l48x1rf5wxjxfial5lhc5.png/150px-%E8%99%B9%E7%9A%84%E8%A1%8C%E8%BF%B9.png"
   },
   {
-    "id": "weapon89",
+    "id": "weapon90",
     "name": "筑云",
     "type": "弓",
     "rarity": "4星",
@@ -1157,7 +1170,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fc/g63p5b04sgfk5f0idzhk828o0mwpc1a.png/150px-%E7%AD%91%E4%BA%91.png"
   },
   {
-    "id": "weapon90",
+    "id": "weapon91",
     "name": "沙中伟贤的对答",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1170,7 +1183,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/ce/6adbrpkf46xktozti6rkjh2w9osrl0w.png/150px-%E6%B2%99%E4%B8%AD%E4%BC%9F%E8%B4%A4%E7%9A%84%E5%AF%B9%E7%AD%94.png"
   },
   {
-    "id": "weapon91",
+    "id": "weapon92",
     "name": "「究极霸王超级魔剑」",
     "type": "双手剑",
     "rarity": "4星",
@@ -1183,7 +1196,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/bd/dr982oib5k9cegtr8n4db26sc2ft0dt.png/150px-%E3%80%8C%E7%A9%B6%E6%9E%81%E9%9C%B8%E7%8E%8B%E8%B6%85%E7%BA%A7%E9%AD%94%E5%89%91%E3%80%8D.png"
   },
   {
-    "id": "weapon92",
+    "id": "weapon93",
     "name": "水仙十字之剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1196,7 +1209,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e4/1zojb0qra2xlt9qm0lfwn8yl51jdgwf.png/150px-%E6%B0%B4%E4%BB%99%E5%8D%81%E5%AD%97%E4%B9%8B%E5%89%91.png"
   },
   {
-    "id": "weapon93",
+    "id": "weapon94",
     "name": "船坞长剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1209,7 +1222,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1f/l7anxgch136tb02e6zsf1dewwuh9kje.png/150px-%E8%88%B9%E5%9D%9E%E9%95%BF%E5%89%91.png"
   },
   {
-    "id": "weapon94",
+    "id": "weapon95",
     "name": "便携动力锯",
     "type": "双手剑",
     "rarity": "4星",
@@ -1222,7 +1235,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/a4/ftueb8igqc763l2dl4m68chx6rkesb0.png/150px-%E4%BE%BF%E6%90%BA%E5%8A%A8%E5%8A%9B%E9%94%AF.png"
   },
   {
-    "id": "weapon95",
+    "id": "weapon96",
     "name": "测距规",
     "type": "弓",
     "rarity": "4星",
@@ -1235,7 +1248,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/72/g36dswb8dm5zsafv8f78yozd8g2trbr.png/150px-%E6%B5%8B%E8%B7%9D%E8%A7%84.png"
   },
   {
-    "id": "weapon96",
+    "id": "weapon97",
     "name": "无垠蔚蓝之歌",
     "type": "法器",
     "rarity": "4星",
@@ -1248,7 +1261,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/02/s88xozo7tb09d9zhnaji09ntb9ml520.png/150px-%E6%97%A0%E5%9E%A0%E8%94%9A%E8%93%9D%E4%B9%8B%E6%AD%8C.png"
   },
   {
-    "id": "weapon97",
+    "id": "weapon98",
     "name": "勘探钻机",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1261,7 +1274,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b9/gd2u4yis2xwrxtc2y69g91vyxcucpt8.png/150px-%E5%8B%98%E6%8E%A2%E9%92%BB%E6%9C%BA.png"
   },
   {
-    "id": "weapon98",
+    "id": "weapon99",
     "name": "狼牙",
     "type": "单手剑",
     "rarity": "4星",
@@ -1274,7 +1287,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/0e/tq44n4433mw4y3ctf1i1d947qs8k9u8.png/150px-%E7%8B%BC%E7%89%99.png"
   },
   {
-    "id": "weapon99",
+    "id": "weapon100",
     "name": "灰河渡手",
     "type": "单手剑",
     "rarity": "4星",
@@ -1287,7 +1300,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/db/lzxhapado63gswzjtx4u60xlq61k6k7.png/150px-%E7%81%B0%E6%B2%B3%E6%B8%A1%E6%89%8B.png"
   },
   {
-    "id": "weapon100",
+    "id": "weapon101",
     "name": "海渊终曲",
     "type": "单手剑",
     "rarity": "4星",
@@ -1300,7 +1313,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/84/ndbcgqpimkebuo232ipomls00godnzz.png/150px-%E6%B5%B7%E6%B8%8A%E7%BB%88%E6%9B%B2.png"
   },
   {
-    "id": "weapon101",
+    "id": "weapon102",
     "name": "聊聊棒",
     "type": "双手剑",
     "rarity": "4星",
@@ -1313,7 +1326,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/21/3qjtjdg21v7gu05olw8iuzdeyxoa5or.png/150px-%E8%81%8A%E8%81%8A%E6%A3%92.png"
   },
   {
-    "id": "weapon102",
+    "id": "weapon103",
     "name": "浪影阔剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -1324,19 +1337,6 @@
     "max_subproperty": "攻击力41.3%",
     "effect": "巡航的白浪：受到治疗后，攻击力提升24%/30%/36%/42%/48%，持续8秒。角色处于队伍后台也能触发。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e6/mbzt338m0h7y62szk32fietoy61431d.png/150px-%E6%B5%AA%E5%BD%B1%E9%98%94%E5%89%91.png"
-  },
-  {
-    "id": "weapon103",
-    "name": "静谧之曲",
-    "type": "弓",
-    "rarity": "4星",
-    "source": "锻造",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "攻击力9.0%",
-    "max_subproperty": "攻击力41.3%",
-    "effect": "深海弦振：受到治疗后，造成的伤害提升16%/20%/24%/28%/32%，持续8秒。角色处于队伍后台也能触发。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fe/8iwkuxzq146dkeymlh6qkuxbvfdpoqc.png/150px-%E9%9D%99%E8%B0%A7%E4%B9%8B%E6%9B%B2.png"
   },
   {
     "id": "weapon104",
@@ -1353,6 +1353,19 @@
   },
   {
     "id": "weapon105",
+    "name": "静谧之曲",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "锻造",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "攻击力9.0%",
+    "max_subproperty": "攻击力41.3%",
+    "effect": "深海弦振：受到治疗后，造成的伤害提升16%/20%/24%/28%/32%，持续8秒。角色处于队伍后台也能触发。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fe/8iwkuxzq146dkeymlh6qkuxbvfdpoqc.png/150px-%E9%9D%99%E8%B0%A7%E4%B9%8B%E6%9B%B2.png"
+  },
+  {
+    "id": "weapon106",
     "name": "纯水流华",
     "type": "法器",
     "rarity": "4星",
@@ -1365,7 +1378,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/6c/jp429se0l1ghr2k140civ57xhrqab70.png/150px-%E7%BA%AF%E6%B0%B4%E6%B5%81%E5%8D%8E.png"
   },
   {
-    "id": "weapon106",
+    "id": "weapon107",
     "name": "遗祀玉珑",
     "type": "法器",
     "rarity": "4星",
@@ -1378,7 +1391,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7b/jj6meh7rkkdb0kx9bnu9rmcn1if8nyr.png/150px-%E9%81%97%E7%A5%80%E7%8E%89%E7%8F%91.png"
   },
   {
-    "id": "weapon107",
+    "id": "weapon108",
     "name": "峡湾长歌",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1391,7 +1404,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3a/jrh07qi2uggsfuf679f8dm5aqzvrvui.png/150px-%E5%B3%A1%E6%B9%BE%E9%95%BF%E6%AD%8C.png"
   },
   {
-    "id": "weapon108",
+    "id": "weapon109",
     "name": "公义的酬报",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1404,7 +1417,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e0/jm3wlkv8dkptu0zkqquo0dngim44jyw.png/150px-%E5%85%AC%E4%B9%89%E7%9A%84%E9%85%AC%E6%8A%A5.png"
   },
   {
-    "id": "weapon109",
+    "id": "weapon110",
     "name": "鹮穿之喙",
     "type": "弓",
     "rarity": "4星",
@@ -1417,7 +1430,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/f0/g10fvdm9o5fy4v69i21ci8ig37y15g9.png/150px-%E9%B9%AE%E7%A9%BF%E4%B9%8B%E5%96%99.png"
   },
   {
-    "id": "weapon110",
+    "id": "weapon111",
     "name": "饰铁之花",
     "type": "双手剑",
     "rarity": "4星",
@@ -1430,7 +1443,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fc/fk6kgg3m2h8kooteago3bxkj3qyphtp.png/150px-%E9%A5%B0%E9%93%81%E4%B9%8B%E8%8A%B1.png"
   },
   {
-    "id": "weapon111",
+    "id": "weapon112",
     "name": "东花坊时雨",
     "type": "单手剑",
     "rarity": "4星",
@@ -1443,7 +1456,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/ed/4e0h36rcyvqlf36b7r5zxm6u4m0s38q.png/150px-%E4%B8%9C%E8%8A%B1%E5%9D%8A%E6%97%B6%E9%9B%A8.png"
   },
   {
-    "id": "weapon112",
+    "id": "weapon113",
     "name": "西福斯的月光",
     "type": "单手剑",
     "rarity": "4星",
@@ -1456,7 +1469,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d1/tgc0wwtcukbxy8q3sowun37n4et9fho.png/150px-%E8%A5%BF%E7%A6%8F%E6%96%AF%E7%9A%84%E6%9C%88%E5%85%89.png"
   },
   {
-    "id": "weapon113",
+    "id": "weapon114",
     "name": "玛海菈的水色",
     "type": "双手剑",
     "rarity": "4星",
@@ -1469,7 +1482,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/0f/anoh0a2ndrq4iuxhtmcjrri33165n4v.png/150px-%E7%8E%9B%E6%B5%B7%E8%8F%88%E7%9A%84%E6%B0%B4%E8%89%B2.png"
   },
   {
-    "id": "weapon114",
+    "id": "weapon115",
     "name": "流浪的晚星",
     "type": "法器",
     "rarity": "4星",
@@ -1482,7 +1495,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/84/enl7iak6z4p4lett8xwf7zhkxwyzxby.png/150px-%E6%B5%81%E6%B5%AA%E7%9A%84%E6%99%9A%E6%98%9F.png"
   },
   {
-    "id": "weapon115",
+    "id": "weapon116",
     "name": "风信之锋",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1495,7 +1508,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c9/eyn2f5y5jkxwjw6eb87rmpv1ea9pose.png/150px-%E9%A3%8E%E4%BF%A1%E4%B9%8B%E9%94%8B.png"
   },
   {
-    "id": "weapon116",
+    "id": "weapon117",
     "name": "原木刀",
     "type": "单手剑",
     "rarity": "4星",
@@ -1508,7 +1521,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/49/r9ibrj3g5yzqec8f3ymxiw6sg9mrntd.png/150px-%E5%8E%9F%E6%9C%A8%E5%88%80.png"
   },
   {
-    "id": "weapon117",
+    "id": "weapon118",
     "name": "森林王器",
     "type": "双手剑",
     "rarity": "4星",
@@ -1521,7 +1534,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b0/1capo52qkoo0yeu1djmpj0g31ag7k4z.png/150px-%E6%A3%AE%E6%9E%97%E7%8E%8B%E5%99%A8.png"
   },
   {
-    "id": "weapon118",
+    "id": "weapon119",
     "name": "王下近侍",
     "type": "弓",
     "rarity": "4星",
@@ -1534,7 +1547,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8f/qok3iyhogwja8km8f6mxvt1wrsvneal.png/150px-%E7%8E%8B%E4%B8%8B%E8%BF%91%E4%BE%8D.png"
   },
   {
-    "id": "weapon119",
+    "id": "weapon120",
     "name": "竭泽",
     "type": "弓",
     "rarity": "4星",
@@ -1547,7 +1560,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/67/h5i21t2g2n62m6zax4vkv4nu8yfk24k.png/150px-%E7%AB%AD%E6%B3%BD.png"
   },
   {
-    "id": "weapon120",
+    "id": "weapon121",
     "name": "盈满之实",
     "type": "法器",
     "rarity": "4星",
@@ -1560,7 +1573,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/cd/0sw6m7f5rc45ryknd89k5yw9wxvjg9v.png/150px-%E7%9B%88%E6%BB%A1%E4%B9%8B%E5%AE%9E.png"
   },
   {
-    "id": "weapon121",
+    "id": "weapon122",
     "name": "贯月矢",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1573,7 +1586,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b9/s7qocxbf763pg6au1x6epx4pm22vr9r.png/150px-%E8%B4%AF%E6%9C%88%E7%9F%A2.png"
   },
   {
-    "id": "weapon122",
+    "id": "weapon123",
     "name": "笼钓瓶一心",
     "type": "单手剑",
     "rarity": "4星",
@@ -1586,7 +1599,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/60/dgcvrkjcfs3iaob8kw61eg3bvshfp4z.png/150px-%E7%AC%BC%E9%92%93%E7%93%B6%E4%B8%80%E5%BF%83.png"
   },
   {
-    "id": "weapon123",
+    "id": "weapon124",
     "name": "落霞",
     "type": "弓",
     "rarity": "4星",
@@ -1599,7 +1612,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/81/gediyggl2thgj9wm8nf9oymdflomtc7.png/150px-%E8%90%BD%E9%9C%9E.png"
   },
   {
-    "id": "weapon124",
+    "id": "weapon125",
     "name": "证誓之明瞳",
     "type": "法器",
     "rarity": "4星",
@@ -1612,7 +1625,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/04/gfrop4sutfitpg1ie8pz1eo7ooemrcn.png/150px-%E8%AF%81%E8%AA%93%E4%B9%8B%E6%98%8E%E7%9E%B3.png"
   },
   {
-    "id": "weapon125",
+    "id": "weapon126",
     "name": "辰砂之纺锤",
     "type": "单手剑",
     "rarity": "4星",
@@ -1625,7 +1638,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/ba/rilaqrv0x0t8dt3ehgqimtp8ncgp941.png/150px-%E8%BE%B0%E7%A0%82%E4%B9%8B%E7%BA%BA%E9%94%A4.png"
   },
   {
-    "id": "weapon126",
+    "id": "weapon127",
     "name": "恶王丸",
     "type": "双手剑",
     "rarity": "4星",
@@ -1638,7 +1651,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2a/gftfk28thmd4w9nsyle85ondi9rtq6n.png/150px-%E6%81%B6%E7%8E%8B%E4%B8%B8.png"
   },
   {
-    "id": "weapon127",
+    "id": "weapon128",
     "name": "曚云之月",
     "type": "弓",
     "rarity": "4星",
@@ -1651,7 +1664,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8a/5uwhczptaxydt6t86gog4sgcwjw5jwf.png/150px-%E6%9B%9A%E4%BA%91%E4%B9%8B%E6%9C%88.png"
   },
   {
-    "id": "weapon128",
+    "id": "weapon129",
     "name": "断浪长鳍",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1664,7 +1677,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/13/iu6ewa4gmjv0krtkkuh07i3eowazy9i.png/150px-%E6%96%AD%E6%B5%AA%E9%95%BF%E9%B3%8D.png"
   },
   {
-    "id": "weapon129",
+    "id": "weapon130",
     "name": "衔珠海皇",
     "type": "双手剑",
     "rarity": "4星",
@@ -1677,7 +1690,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/fb/930ty97yrmcqrz5oh5cykv8ms6a6hv9.png/150px-%E8%A1%94%E7%8F%A0%E6%B5%B7%E7%9A%87.png"
   },
   {
-    "id": "weapon130",
+    "id": "weapon131",
     "name": "掠食者",
     "type": "弓",
     "rarity": "4星",
@@ -1690,7 +1703,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/86/dpteyjptbn4lgnsr48jneoeneh096kb.png/150px-%E6%8E%A0%E9%A3%9F%E8%80%85.png"
   },
   {
-    "id": "weapon131",
+    "id": "weapon132",
     "name": "「渔获」",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1703,7 +1716,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2b/rbmrxt4t11u67sr50far44n8su5a0h7.png/150px-%E3%80%8C%E6%B8%94%E8%8E%B7%E3%80%8D.png"
   },
   {
-    "id": "weapon132",
+    "id": "weapon133",
     "name": "天目影打刀",
     "type": "单手剑",
     "rarity": "4星",
@@ -1716,7 +1729,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4b/ao0uepct6aszst6l97nbxmib6s5cx14.png/150px-%E5%A4%A9%E7%9B%AE%E5%BD%B1%E6%89%93%E5%88%80.png"
   },
   {
-    "id": "weapon133",
+    "id": "weapon134",
     "name": "桂木斩长正",
     "type": "双手剑",
     "rarity": "4星",
@@ -1729,7 +1742,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b5/j3umncqaavs05j2kge17blv1cyjnr1a.png/150px-%E6%A1%82%E6%9C%A8%E6%96%A9%E9%95%BF%E6%AD%A3.png"
   },
   {
-    "id": "weapon134",
+    "id": "weapon135",
     "name": "破魔之弓",
     "type": "弓",
     "rarity": "4星",
@@ -1742,7 +1755,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/95/fg7r5aov1jfstcpsokahqhzb1mxzsmv.png/150px-%E7%A0%B4%E9%AD%94%E4%B9%8B%E5%BC%93.png"
   },
   {
-    "id": "weapon135",
+    "id": "weapon136",
     "name": "白辰之环",
     "type": "法器",
     "rarity": "4星",
@@ -1755,7 +1768,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/a4/48ctquzv8v71zn053n89l43eahuoica.png/150px-%E7%99%BD%E8%BE%B0%E4%B9%8B%E7%8E%AF.png"
   },
   {
-    "id": "weapon136",
+    "id": "weapon137",
     "name": "喜多院十文字",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1768,7 +1781,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7a/ndxblaqimgtu2arafzv2zrjxmzptmcz.png/150px-%E5%96%9C%E5%A4%9A%E9%99%A2%E5%8D%81%E6%96%87%E5%AD%97.png"
   },
   {
-    "id": "weapon137",
+    "id": "weapon138",
     "name": "幽夜华尔兹",
     "type": "弓",
     "rarity": "4星",
@@ -1781,7 +1794,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/0e/b5mx66j5mn9zt1rvw2le4getvtz8aw5.png/150px-%E5%B9%BD%E5%A4%9C%E5%8D%8E%E5%B0%94%E5%85%B9.png"
   },
   {
-    "id": "weapon138",
+    "id": "weapon139",
     "name": "嘟嘟可故事集",
     "type": "法器",
     "rarity": "4星",
@@ -1794,7 +1807,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/a9/to27idcbyyvjyozelpt281o2wqpkppu.png/150px-%E5%98%9F%E5%98%9F%E5%8F%AF%E6%95%85%E4%BA%8B%E9%9B%86.png"
   },
   {
-    "id": "weapon139",
+    "id": "weapon140",
     "name": "暗巷闪光",
     "type": "单手剑",
     "rarity": "4星",
@@ -1807,7 +1820,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/89/m0uex1u5qswbnpqebv75ppgf19dowrc.png/150px-%E6%9A%97%E5%B7%B7%E9%97%AA%E5%85%89.png"
   },
   {
-    "id": "weapon140",
+    "id": "weapon141",
     "name": "暗巷猎手",
     "type": "弓",
     "rarity": "4星",
@@ -1820,7 +1833,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/40/5ymxa0sdy5ymls5y9fj3zkej2d5mx6c.png/150px-%E6%9A%97%E5%B7%B7%E7%8C%8E%E6%89%8B.png"
   },
   {
-    "id": "weapon141",
+    "id": "weapon142",
     "name": "风花之颂",
     "type": "弓",
     "rarity": "4星",
@@ -1833,7 +1846,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4c/1anq6ld3vkvak7egwrw9cnmor6ed0t7.png/150px-%E9%A3%8E%E8%8A%B1%E4%B9%8B%E9%A2%82.png"
   },
   {
-    "id": "weapon142",
+    "id": "weapon143",
     "name": "暗巷的酒与诗",
     "type": "法器",
     "rarity": "4星",
@@ -1846,7 +1859,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1b/8p7ebo8ma61z683tkjnrvw2llmqnx6f.png/150px-%E6%9A%97%E5%B7%B7%E7%9A%84%E9%85%92%E4%B8%8E%E8%AF%97.png"
   },
   {
-    "id": "weapon143",
+    "id": "weapon144",
     "name": "千岩古剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -1859,7 +1872,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c0/67h6ygjm57faxd8odp71kmi5kaqneuk.png/150px-%E5%8D%83%E5%B2%A9%E5%8F%A4%E5%89%91.png"
   },
   {
-    "id": "weapon144",
+    "id": "weapon145",
     "name": "千岩长枪",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1872,7 +1885,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b9/t90pbsrnnvhmrakx518y6v48buiwvf9.png/150px-%E5%8D%83%E5%B2%A9%E9%95%BF%E6%9E%AA.png"
   },
   {
-    "id": "weapon145",
+    "id": "weapon146",
     "name": "腐殖之剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1885,7 +1898,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c2/qf4xr9irx3sj3mh2ohzihtwwhixo8h5.png/150px-%E8%85%90%E6%AE%96%E4%B9%8B%E5%89%91.png"
   },
   {
-    "id": "weapon146",
+    "id": "weapon147",
     "name": "雪葬的星银",
     "type": "双手剑",
     "rarity": "4星",
@@ -1898,7 +1911,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d9/okmj08vuwblqbc5hm8rc51hs14hkv0c.png/150px-%E9%9B%AA%E8%91%AC%E7%9A%84%E6%98%9F%E9%93%B6.png"
   },
   {
-    "id": "weapon147",
+    "id": "weapon148",
     "name": "忍冬之果",
     "type": "法器",
     "rarity": "4星",
@@ -1911,7 +1924,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1e/0mqvavh1ryy2zpz6wt3apvph7ral6v7.png/150px-%E5%BF%8D%E5%86%AC%E4%B9%8B%E6%9E%9C.png"
   },
   {
-    "id": "weapon148",
+    "id": "weapon149",
     "name": "龙脊长枪",
     "type": "长柄武器",
     "rarity": "4星",
@@ -1922,19 +1935,6 @@
     "max_subproperty": "物理伤害加成69.0%",
     "effect": "霜葬：普通攻击与重击命中敌人时，有60%/70%/80%/90%/100%概率在敌人上方生成恒冰晶核并坠落，造成80%/95%/110%/125%/140%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%/240%/280%/320%/360%攻击力的伤害。该效果每10秒至多触发一次。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/f6/g0wtjxe5sk8el47lmax1ixuv862629y.png/150px-%E9%BE%99%E8%84%8A%E9%95%BF%E6%9E%AA.png"
-  },
-  {
-    "id": "weapon149",
-    "name": "铁蜂刺",
-    "type": "单手剑",
-    "rarity": "4星",
-    "source": "锻造",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "元素精通36",
-    "max_subproperty": "元素精通165",
-    "effect": "注能之刺：造成元素伤害后的6秒内，角色造成的伤害提高6%/7.5%/9%/10.5%/12%，该效果最多叠加2层。该效果每1秒可以触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3b/ryh96u1cs5jcf2w02vbhtzw75lylc9m.png/150px-%E9%93%81%E8%9C%82%E5%88%BA.png"
   },
   {
     "id": "weapon150",
@@ -1951,6 +1951,19 @@
   },
   {
     "id": "weapon151",
+    "name": "铁蜂刺",
+    "type": "单手剑",
+    "rarity": "4星",
+    "source": "锻造",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "元素精通36",
+    "max_subproperty": "元素精通165",
+    "effect": "注能之刺：造成元素伤害后的6秒内，角色造成的伤害提高6%/7.5%/9%/10.5%/12%，该效果最多叠加2层。该效果每1秒可以触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3b/ryh96u1cs5jcf2w02vbhtzw75lylc9m.png/150px-%E9%93%81%E8%9C%82%E5%88%BA.png"
+  },
+  {
+    "id": "weapon152",
     "name": "祭礼剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1963,7 +1976,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/a0/94o647bri6ccuviq733khmrzfekwixv.png/150px-%E7%A5%AD%E7%A4%BC%E5%89%91.png"
   },
   {
-    "id": "weapon152",
+    "id": "weapon153",
     "name": "黑岩长剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -1974,19 +1987,6 @@
     "max_subproperty": "暴击伤害36.8%",
     "effect": "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加三层，每层持续时间独立。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3b/sb1fghkah0hn4is9a3jmfhqkmslz44q.png/150px-%E9%BB%91%E5%B2%A9%E9%95%BF%E5%89%91.png.jpeg"
-  },
-  {
-    "id": "weapon153",
-    "name": "试作斩岩",
-    "type": "单手剑",
-    "rarity": "4星",
-    "source": "锻造, 冒险等阶10级奖励获取, 完成「星之归还」活动获取",
-    "min_attack": "44",
-    "max_attack": "565",
-    "min_subproperty": "物理伤害加成7.5%",
-    "max_subproperty": "物理伤害加成34.5%",
-    "effect": "碎石：普通攻击或重击命中时，攻击力和防御力提高4%/5%/6%/7%/8%，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/af/fq5reyiyfz37umtz3ngdue1pbtnbma6.png/150px-%E8%AF%95%E4%BD%9C%E6%96%A9%E5%B2%A9.png"
   },
   {
     "id": "weapon154",
@@ -2016,6 +2016,19 @@
   },
   {
     "id": "weapon156",
+    "name": "试作斩岩",
+    "type": "单手剑",
+    "rarity": "4星",
+    "source": "锻造, 冒险等阶10级奖励获取, 完成「星之归还」活动获取",
+    "min_attack": "44",
+    "max_attack": "565",
+    "min_subproperty": "物理伤害加成7.5%",
+    "max_subproperty": "物理伤害加成34.5%",
+    "effect": "碎石：普通攻击或重击命中时，攻击力和防御力提高4%/5%/6%/7%/8%，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/af/fq5reyiyfz37umtz3ngdue1pbtnbma6.png/150px-%E8%AF%95%E4%BD%9C%E6%96%A9%E5%B2%A9.png"
+  },
+  {
+    "id": "weapon157",
     "name": "降临之剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -2028,7 +2041,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/74/3g8bzrgm3e8pl9sla0jmjtyg9jonk19.png/150px-%E9%99%8D%E4%B8%B4%E4%B9%8B%E5%89%91.png"
   },
   {
-    "id": "weapon157",
+    "id": "weapon158",
     "name": "黑剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -2041,7 +2054,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4a/3ve4num887ksh8gqh12a5z2k0mmbegm.png/150px-%E9%BB%91%E5%89%91.png"
   },
   {
-    "id": "weapon158",
+    "id": "weapon159",
     "name": "西风剑",
     "type": "单手剑",
     "rarity": "4星",
@@ -2052,19 +2065,6 @@
     "max_subproperty": "元素充能效率61.3%",
     "effect": "顺风而行：攻击造成暴击时，有60%/70%/80%/90%/100%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12/10.5/9/7.5/6秒只能触发一次。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/6d/id86h90vm78lyntq48f46j4l47zdmxk.png/150px-%E8%A5%BF%E9%A3%8E%E5%89%91.png"
-  },
-  {
-    "id": "weapon159",
-    "name": "钟剑",
-    "type": "双手剑",
-    "rarity": "4星",
-    "source": "祈愿",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "生命值9.0%",
-    "max_subproperty": "生命值41.3%",
-    "effect": "叛逆的守护者：受到伤害时，生成一个伤害吸收等同于生命上限20%/23%/26%/29%/32%的护盾，持续10秒或者直到护盾失效，每45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%/15%/18%/21%/24%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/38/lz61cywx7g0x0gr5g9hmghz050h1h9o.png/150px-%E9%92%9F%E5%89%91.png"
   },
   {
     "id": "weapon160",
@@ -2081,6 +2081,19 @@
   },
   {
     "id": "weapon161",
+    "name": "钟剑",
+    "type": "双手剑",
+    "rarity": "4星",
+    "source": "祈愿",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "生命值9.0%",
+    "max_subproperty": "生命值41.3%",
+    "effect": "叛逆的守护者：受到伤害时，生成一个伤害吸收等同于生命上限20%/23%/26%/29%/32%的护盾，持续10秒或者直到护盾失效，每45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%/15%/18%/21%/24%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/38/lz61cywx7g0x0gr5g9hmghz050h1h9o.png/150px-%E9%92%9F%E5%89%91.png"
+  },
+  {
+    "id": "weapon162",
     "name": "螭骨剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2093,7 +2106,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4c/a03ookbm5axi3xyxxdkr8g4ky0gw3fv.png/150px-%E8%9E%AD%E9%AA%A8%E5%89%91.png"
   },
   {
-    "id": "weapon162",
+    "id": "weapon163",
     "name": "祭礼大剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2106,7 +2119,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d3/ph4fb03f9uc9jqek1u2li6si3bp9ep6.png/150px-%E7%A5%AD%E7%A4%BC%E5%A4%A7%E5%89%91.png"
   },
   {
-    "id": "weapon163",
+    "id": "weapon164",
     "name": "黑岩斩刀",
     "type": "双手剑",
     "rarity": "4星",
@@ -2119,7 +2132,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/44/buzpaggrxsisk8l4kiaz5zba19ug2e3.png/150px-%E9%BB%91%E5%B2%A9%E6%96%A9%E5%88%80.png"
   },
   {
-    "id": "weapon164",
+    "id": "weapon165",
     "name": "白影剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2132,7 +2145,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/28/jr9n32gce7t4mp4wngtilxpxesmhyvd.png/150px-%E7%99%BD%E5%BD%B1%E5%89%91.png"
   },
   {
-    "id": "weapon165",
+    "id": "weapon166",
     "name": "宗室大剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2145,7 +2158,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1f/c6ruhw5q4szn19bem7bs12qvpvwu09e.png/150px-%E5%AE%97%E5%AE%A4%E5%A4%A7%E5%89%91.png"
   },
   {
-    "id": "weapon166",
+    "id": "weapon167",
     "name": "西风大剑",
     "type": "双手剑",
     "rarity": "4星",
@@ -2158,7 +2171,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/85/ehb1s9y8ae4voq08ndoyauyn1tp9zqu.png/150px-%E8%A5%BF%E9%A3%8E%E5%A4%A7%E5%89%91.png"
   },
   {
-    "id": "weapon167",
+    "id": "weapon168",
     "name": "试作古华",
     "type": "双手剑",
     "rarity": "4星",
@@ -2171,7 +2184,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1c/gfejb3e6w0vqa659eckz1f7y9t3slyr.png/150px-%E8%AF%95%E4%BD%9C%E5%8F%A4%E5%8D%8E.png"
   },
   {
-    "id": "weapon168",
+    "id": "weapon169",
     "name": "祭礼弓",
     "type": "弓",
     "rarity": "4星",
@@ -2184,7 +2197,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b2/2rec7q8fz258yn1ugmm13cojcx2cjdq.png/150px-%E7%A5%AD%E7%A4%BC%E5%BC%93.png"
   },
   {
-    "id": "weapon169",
+    "id": "weapon170",
     "name": "绝弦",
     "type": "弓",
     "rarity": "4星",
@@ -2195,19 +2208,6 @@
     "max_subproperty": "元素精通165",
     "effect": "无矢之歌：元素战技与元素爆发的伤害提高24％/30%/36%/42%/48%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/6/66/1wlrzu80qe5jwzv9zxa9apuzkkt5m06.png/150px-%E7%BB%9D%E5%BC%A6.png"
-  },
-  {
-    "id": "weapon170",
-    "name": "试作澹月",
-    "type": "弓",
-    "rarity": "4星",
-    "source": "锻造",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "攻击力9.0%",
-    "max_subproperty": "攻击力41.3%",
-    "effect": "离簇不归：瞄准射击时，若命中要害，则提升10%移动速度与36%/45%/54%/63%/72%攻击力，持续10秒。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ae/f7vngju0e5np72x0u4e49k847kme9u8.png/150px-%E8%AF%95%E4%BD%9C%E6%BE%B9%E6%9C%88.png"
   },
   {
     "id": "weapon171",
@@ -2224,16 +2224,16 @@
   },
   {
     "id": "weapon172",
-    "name": "钢轮弓",
+    "name": "试作澹月",
     "type": "弓",
     "rarity": "4星",
     "source": "锻造",
-    "min_attack": "41",
-    "max_attack": "454",
-    "min_subproperty": "物理伤害加成15.0%",
-    "max_subproperty": "物理伤害加成69.0%",
-    "effect": "注能之矢：普通攻击与重击命中时，提升4%/5%/6%/7%/8%攻击力与1.2%/1.5%/1.8%/2.1%/2.4%普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7a/0z9oqbgp7xmufb10i51oopdi285ewfi.png/150px-%E9%92%A2%E8%BD%AE%E5%BC%93.png"
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "攻击力9.0%",
+    "max_subproperty": "攻击力41.3%",
+    "effect": "离簇不归：瞄准射击时，若命中要害，则提升10%移动速度与36%/45%/54%/63%/72%攻击力，持续10秒。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ae/f7vngju0e5np72x0u4e49k847kme9u8.png/150px-%E8%AF%95%E4%BD%9C%E6%BE%B9%E6%9C%88.png"
   },
   {
     "id": "weapon173",
@@ -2250,6 +2250,19 @@
   },
   {
     "id": "weapon174",
+    "name": "钢轮弓",
+    "type": "弓",
+    "rarity": "4星",
+    "source": "锻造",
+    "min_attack": "41",
+    "max_attack": "454",
+    "min_subproperty": "物理伤害加成15.0%",
+    "max_subproperty": "物理伤害加成69.0%",
+    "effect": "注能之矢：普通攻击与重击命中时，提升4%/5%/6%/7%/8%攻击力与1.2%/1.5%/1.8%/2.1%/2.4%普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7a/0z9oqbgp7xmufb10i51oopdi285ewfi.png/150px-%E9%92%A2%E8%BD%AE%E5%BC%93.png"
+  },
+  {
+    "id": "weapon175",
     "name": "苍翠猎弓",
     "type": "弓",
     "rarity": "4星",
@@ -2262,7 +2275,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/77/7c6x3yu5fb0uj76cyuzf9vc0bdgk4h7.png/150px-%E8%8B%8D%E7%BF%A0%E7%8C%8E%E5%BC%93.png"
   },
   {
-    "id": "weapon175",
+    "id": "weapon176",
     "name": "弓藏",
     "type": "弓",
     "rarity": "4星",
@@ -2275,7 +2288,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/88/jqv0wgqqrk8uzrl0bkjlm2z271r3wx6.png/150px-%E5%BC%93%E8%97%8F.png"
   },
   {
-    "id": "weapon176",
+    "id": "weapon177",
     "name": "西风猎弓",
     "type": "弓",
     "rarity": "4星",
@@ -2288,7 +2301,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/55/ptq434ipzu2tdibixc9u0of6h0sj5sm.png/150px-%E8%A5%BF%E9%A3%8E%E7%8C%8E%E5%BC%93.png"
   },
   {
-    "id": "weapon177",
+    "id": "weapon178",
     "name": "流浪乐章",
     "type": "法器",
     "rarity": "4星",
@@ -2301,7 +2314,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/8/8b/1gfpyhq0horhcbho0eqs1c62nklx118.png/150px-%E6%B5%81%E6%B5%AA%E4%B9%90%E7%AB%A0.png"
   },
   {
-    "id": "weapon178",
+    "id": "weapon179",
     "name": "万国诸海图谱",
     "type": "法器",
     "rarity": "4星",
@@ -2314,7 +2327,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b4/snhy06y9px3auxic0wbs7f1pxsme5w7.png/150px-%E4%B8%87%E5%9B%BD%E8%AF%B8%E6%B5%B7%E5%9B%BE%E8%B0%B1.png"
   },
   {
-    "id": "weapon179",
+    "id": "weapon180",
     "name": "匣里日月",
     "type": "法器",
     "rarity": "4星",
@@ -2327,7 +2340,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/ca/m9wcqu2irdto40c5byid1no15zouv2f.png/150px-%E5%8C%A3%E9%87%8C%E6%97%A5%E6%9C%88.png"
   },
   {
-    "id": "weapon180",
+    "id": "weapon181",
     "name": "祭礼残章",
     "type": "法器",
     "rarity": "4星",
@@ -2340,7 +2353,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/bf/eey13bo96c5di0j2wfhd6pq1dhsgk5r.png/150px-%E7%A5%AD%E7%A4%BC%E6%AE%8B%E7%AB%A0.png"
   },
   {
-    "id": "weapon181",
+    "id": "weapon182",
     "name": "黑岩绯玉",
     "type": "法器",
     "rarity": "4星",
@@ -2353,7 +2366,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/0e/mp51gft6okg6t4lcm3ro4um607612zn.png/150px-%E9%BB%91%E5%B2%A9%E7%BB%AF%E7%8E%89.png.jpeg"
   },
   {
-    "id": "weapon182",
+    "id": "weapon183",
     "name": "宗室秘法录",
     "type": "法器",
     "rarity": "4星",
@@ -2366,7 +2379,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4d/0wxzvohfvm6tkkrh2mcr20ltefdtfvy.png/150px-%E5%AE%97%E5%AE%A4%E7%A7%98%E6%B3%95%E5%BD%95.png"
   },
   {
-    "id": "weapon183",
+    "id": "weapon184",
     "name": "试作金珀",
     "type": "法器",
     "rarity": "4星",
@@ -2379,7 +2392,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ac/p578m7ua6jzji5qhigdqmf3komz09zx.png/150px-%E8%AF%95%E4%BD%9C%E9%87%91%E7%8F%80.png"
   },
   {
-    "id": "weapon184",
+    "id": "weapon185",
     "name": "西风秘典",
     "type": "法器",
     "rarity": "4星",
@@ -2392,7 +2405,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/55/myxc1shaba3gaof6hxltjp9iqre47da.png/150px-%E8%A5%BF%E9%A3%8E%E7%A7%98%E5%85%B8.png"
   },
   {
-    "id": "weapon185",
+    "id": "weapon186",
     "name": "昭心",
     "type": "法器",
     "rarity": "4星",
@@ -2405,7 +2418,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e9/bsmftbddqryi4mp9nwql8tvi5gh964k.png/150px-%E6%98%AD%E5%BF%83.png"
   },
   {
-    "id": "weapon186",
+    "id": "weapon187",
     "name": "匣里灭辰",
     "type": "长柄武器",
     "rarity": "4星",
@@ -2416,19 +2429,6 @@
     "max_subproperty": "元素精通221",
     "effect": "踏火止水：对于处于水元素或火元素影响下的敌人，造成的伤害提高20%/24%/28%/32%/36%。",
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/4a/oglqma2aqftd6cxts3i4mgnaddfxmob.png/150px-%E5%8C%A3%E9%87%8C%E7%81%AD%E8%BE%B0.png"
-  },
-  {
-    "id": "weapon187",
-    "name": "黑岩刺枪",
-    "type": "长柄武器",
-    "rarity": "4星",
-    "source": "商城兑换",
-    "min_attack": "42",
-    "max_attack": "510",
-    "min_subproperty": "暴击伤害12.0%",
-    "max_subproperty": "暴击伤害55.1%",
-    "effect": "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加3层，每层持续时间独立。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/eb/essnw00jgeqt0be88db7hd1ttplrsse.png/150px-%E9%BB%91%E5%B2%A9%E5%88%BA%E6%9E%AA.png"
   },
   {
     "id": "weapon188",
@@ -2445,16 +2445,16 @@
   },
   {
     "id": "weapon189",
-    "name": "试作星镰",
+    "name": "黑岩刺枪",
     "type": "长柄武器",
     "rarity": "4星",
-    "source": "锻造",
+    "source": "商城兑换",
     "min_attack": "42",
     "max_attack": "510",
-    "min_subproperty": "元素充能效率10.0%",
-    "max_subproperty": "元素充能效率45.9%",
-    "effect": "嗜魔：施放元素战技后，普通攻击和重击造成的伤害提高8%/10%/12%/14%/16%。该效果持续12秒，最多叠加2层。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7d/c08xuqa5babolxeza3469h0h6qakjsd.png/150px-%E8%AF%95%E4%BD%9C%E6%98%9F%E9%95%B0.png"
+    "min_subproperty": "暴击伤害12.0%",
+    "max_subproperty": "暴击伤害55.1%",
+    "effect": "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加3层，每层持续时间独立。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/eb/essnw00jgeqt0be88db7hd1ttplrsse.png/150px-%E9%BB%91%E5%B2%A9%E5%88%BA%E6%9E%AA.png"
   },
   {
     "id": "weapon190",
@@ -2471,6 +2471,19 @@
   },
   {
     "id": "weapon191",
+    "name": "试作星镰",
+    "type": "长柄武器",
+    "rarity": "4星",
+    "source": "锻造",
+    "min_attack": "42",
+    "max_attack": "510",
+    "min_subproperty": "元素充能效率10.0%",
+    "max_subproperty": "元素充能效率45.9%",
+    "effect": "嗜魔：施放元素战技后，普通攻击和重击造成的伤害提高8%/10%/12%/14%/16%。该效果持续12秒，最多叠加2层。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/7/7d/c08xuqa5babolxeza3469h0h6qakjsd.png/150px-%E8%AF%95%E4%BD%9C%E6%98%9F%E9%95%B0.png"
+  },
+  {
+    "id": "weapon192",
     "name": "西风长枪",
     "type": "长柄武器",
     "rarity": "4星",
@@ -2483,7 +2496,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b9/iks26f9sp5okxrfkqwcad77wujwt9rm.png/150px-%E8%A5%BF%E9%A3%8E%E9%95%BF%E6%9E%AA.png"
   },
   {
-    "id": "weapon192",
+    "id": "weapon193",
     "name": "流月针",
     "type": "长柄武器",
     "rarity": "4星",
@@ -2496,7 +2509,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/92/99k8uxhkckglspqsgvjhyppoc2vmbkv.png/150px-%E6%B5%81%E6%9C%88%E9%92%88.png"
   },
   {
-    "id": "weapon193",
+    "id": "weapon194",
     "name": "冷刃",
     "type": "单手剑",
     "rarity": "3星",
@@ -2509,7 +2522,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/f3/c9f7m9klv0tqgad0t35l0v659dckl11.png/150px-%E5%86%B7%E5%88%83.png"
   },
   {
-    "id": "weapon194",
+    "id": "weapon195",
     "name": "暗铁剑",
     "type": "单手剑",
     "rarity": "3星",
@@ -2522,7 +2535,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/cf/3v77tnyk0f0gspfmk8ddlrj62um1i9z.png/150px-%E6%9A%97%E9%93%81%E5%89%91.png"
   },
   {
-    "id": "weapon195",
+    "id": "weapon196",
     "name": "飞天御剑",
     "type": "单手剑",
     "rarity": "3星",
@@ -2535,7 +2548,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/a4/ivbrml7lrzifbyiaj5h4rf7ra7mkio7.png/150px-%E9%A3%9E%E5%A4%A9%E5%BE%A1%E5%89%91.png"
   },
   {
-    "id": "weapon196",
+    "id": "weapon197",
     "name": "黎明神剑",
     "type": "单手剑",
     "rarity": "3星",
@@ -2548,7 +2561,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/94/p0mzw27obtfktcgzhwu3y4vnq8nn4vn.png/150px-%E9%BB%8E%E6%98%8E%E7%A5%9E%E5%89%91.png"
   },
   {
-    "id": "weapon197",
+    "id": "weapon198",
     "name": "旅行剑",
     "type": "单手剑",
     "rarity": "3星",
@@ -2561,7 +2574,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/44/ajkicxj5plmwi07n53ijymzl9zn70c9.png/150px-%E6%97%85%E8%A1%8C%E5%89%91.png"
   },
   {
-    "id": "weapon198",
+    "id": "weapon199",
     "name": "吃虎鱼刀",
     "type": "单手剑",
     "rarity": "3星",
@@ -2574,7 +2587,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/91/0nj68wmrj4lq5qo83ijiknlxrgjb2s3.png/150px-%E5%90%83%E8%99%8E%E9%B1%BC%E5%88%80.png"
   },
   {
-    "id": "weapon199",
+    "id": "weapon200",
     "name": "沐浴龙血的剑",
     "type": "双手剑",
     "rarity": "3星",
@@ -2587,7 +2600,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/57/lpb3rsmenks3ej8qccdsmizgsf05amz.png/150px-%E6%B2%90%E6%B5%B4%E9%BE%99%E8%A1%80%E7%9A%84%E5%89%91.png"
   },
   {
-    "id": "weapon200",
+    "id": "weapon201",
     "name": "白铁大剑",
     "type": "双手剑",
     "rarity": "3星",
@@ -2600,7 +2613,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/9f/9xw0ywermt7zniyxkkqgaflg4bspalf.png/150px-%E7%99%BD%E9%93%81%E5%A4%A7%E5%89%91.png"
   },
   {
-    "id": "weapon201",
+    "id": "weapon202",
     "name": "飞天大御剑",
     "type": "双手剑",
     "rarity": "3星",
@@ -2613,7 +2626,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/f/f8/77lbd8p046kafk44vvhvfbc9s14qweq.png/150px-%E9%A3%9E%E5%A4%A9%E5%A4%A7%E5%BE%A1%E5%89%91.png"
   },
   {
-    "id": "weapon202",
+    "id": "weapon203",
     "name": "铁影阔剑",
     "type": "双手剑",
     "rarity": "3星",
@@ -2626,7 +2639,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e4/5yi9lz2gqnfen8axz1s70zaebwu2yar.png/150px-%E9%93%81%E5%BD%B1%E9%98%94%E5%89%91.png"
   },
   {
-    "id": "weapon203",
+    "id": "weapon204",
     "name": "以理服人",
     "type": "双手剑",
     "rarity": "3星",
@@ -2639,33 +2652,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3d/2c93huro1qmcsasdxh7fdpm9zhv1obt.png/150px-%E4%BB%A5%E7%90%86%E6%9C%8D%E4%BA%BA.png"
   },
   {
-    "id": "weapon204",
-    "name": "神射手之誓",
-    "type": "弓",
-    "rarity": "3星",
-    "source": "祈愿",
-    "min_attack": "39",
-    "max_attack": "401",
-    "min_subproperty": "暴击伤害10.2%",
-    "max_subproperty": "暴击伤害46.9%",
-    "effect": "精准：针对要害造成的伤害提升24%/30%/36%/42%/48%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3c/5nqr8ib8lef2mjjoccgsuej6y5ggd8y.png/150px-%E7%A5%9E%E5%B0%84%E6%89%8B%E4%B9%8B%E8%AA%93.png"
-  },
-  {
     "id": "weapon205",
-    "name": "弹弓",
-    "type": "弓",
-    "rarity": "3星",
-    "source": "祈愿",
-    "min_attack": "38",
-    "max_attack": "354",
-    "min_subproperty": "暴击率6.8%",
-    "max_subproperty": "暴击率31.2%",
-    "effect": "弹弓：普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加36%/42%/48%/54%/60%；否则，造成的伤害下降10%。",
-    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2a/hz45wjba3c0oe62vs7gq1derhrfut39.png/150px-%E5%BC%B9%E5%BC%93.png"
-  },
-  {
-    "id": "weapon206",
     "name": "鸦羽弓",
     "type": "弓",
     "rarity": "3星",
@@ -2678,7 +2665,33 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/05/53ipmiydm1223mgs1553tfvlusefx3g.png/150px-%E9%B8%A6%E7%BE%BD%E5%BC%93.png"
   },
   {
+    "id": "weapon206",
+    "name": "神射手之誓",
+    "type": "弓",
+    "rarity": "3星",
+    "source": "祈愿",
+    "min_attack": "39",
+    "max_attack": "401",
+    "min_subproperty": "暴击伤害10.2%",
+    "max_subproperty": "暴击伤害46.9%",
+    "effect": "精准：针对要害造成的伤害提升24%/30%/36%/42%/48%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3c/5nqr8ib8lef2mjjoccgsuej6y5ggd8y.png/150px-%E7%A5%9E%E5%B0%84%E6%89%8B%E4%B9%8B%E8%AA%93.png"
+  },
+  {
     "id": "weapon207",
+    "name": "弹弓",
+    "type": "弓",
+    "rarity": "3星",
+    "source": "祈愿",
+    "min_attack": "38",
+    "max_attack": "354",
+    "min_subproperty": "暴击率6.8%",
+    "max_subproperty": "暴击率31.2%",
+    "effect": "弹弓：普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加36%/42%/48%/54%/60%；否则，造成的伤害下降10%。",
+    "img_src": "https://patchwiki.biligame.com/images/ys/thumb/2/2a/hz45wjba3c0oe62vs7gq1derhrfut39.png/150px-%E5%BC%B9%E5%BC%93.png"
+  },
+  {
+    "id": "weapon208",
     "name": "反曲弓",
     "type": "弓",
     "rarity": "3星",
@@ -2691,7 +2704,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/1/1c/037366z9oujt6dbi037os1ivao2lrsg.png/150px-%E5%8F%8D%E6%9B%B2%E5%BC%93.png"
   },
   {
-    "id": "weapon208",
+    "id": "weapon209",
     "name": "信使",
     "type": "弓",
     "rarity": "3星",
@@ -2704,7 +2717,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/b0/eiuwkzr42sxnwsdhx58m9nxg0lmjlpi.png/150px-%E4%BF%A1%E4%BD%BF.png"
   },
   {
-    "id": "weapon209",
+    "id": "weapon210",
     "name": "魔导绪论",
     "type": "法器",
     "rarity": "3星",
@@ -2717,7 +2730,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ae/7l0lp1uvwkjmj8g04eg59xy7nqhrgyd.png/150px-%E9%AD%94%E5%AF%BC%E7%BB%AA%E8%AE%BA.png"
   },
   {
-    "id": "weapon210",
+    "id": "weapon211",
     "name": "翡玉法球",
     "type": "法器",
     "rarity": "3星",
@@ -2730,7 +2743,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/4/46/1klq7fy01lhzlepa64rfu33hs4wwl0f.png/150px-%E7%BF%A1%E7%8E%89%E6%B3%95%E7%90%83.png"
   },
   {
-    "id": "weapon211",
+    "id": "weapon212",
     "name": "讨龙英杰谭",
     "type": "法器",
     "rarity": "3星",
@@ -2743,7 +2756,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/e/e0/r009hx3olkmrtk1ykdlr5lvhc76j4iu.png/150px-%E8%AE%A8%E9%BE%99%E8%8B%B1%E6%9D%B0%E8%B0%AD.png"
   },
   {
-    "id": "weapon212",
+    "id": "weapon213",
     "name": "甲级宝珏",
     "type": "法器",
     "rarity": "3星",
@@ -2756,7 +2769,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d8/brcmqo7o8pw6xr5pq9ujz5kjug3xslp.png/150px-%E7%94%B2%E7%BA%A7%E5%AE%9D%E7%8F%8F.png"
   },
   {
-    "id": "weapon213",
+    "id": "weapon214",
     "name": "异世界行记",
     "type": "法器",
     "rarity": "3星",
@@ -2769,7 +2782,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c3/9j2dbvbocavnm3ztyfmmw1y1cjxwz85.png/150px-%E5%BC%82%E4%B8%96%E7%95%8C%E8%A1%8C%E8%AE%B0.png"
   },
   {
-    "id": "weapon214",
+    "id": "weapon215",
     "name": "黑缨枪",
     "type": "长柄武器",
     "rarity": "3星",
@@ -2782,7 +2795,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/95/kjxqr03u3o59vqhd06q1dkr9udn4bzk.png/150px-%E9%BB%91%E7%BC%A8%E6%9E%AA.png"
   },
   {
-    "id": "weapon215",
+    "id": "weapon216",
     "name": "白缨枪",
     "type": "长柄武器",
     "rarity": "3星",
@@ -2795,7 +2808,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/3/3a/mgdxazk35nyu792h4s1w8qikz11djjt.png/150px-%E7%99%BD%E7%BC%A8%E6%9E%AA.png"
   },
   {
-    "id": "weapon216",
+    "id": "weapon217",
     "name": "钺矛",
     "type": "长柄武器",
     "rarity": "3星",
@@ -2808,7 +2821,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c7/bnxkv79cim47byqz0znf6wpvrxjiawz.png/150px-%E9%92%BA%E7%9F%9B.png"
   },
   {
-    "id": "weapon217",
+    "id": "weapon218",
     "name": "银剑",
     "type": "单手剑",
     "rarity": "2星",
@@ -2821,7 +2834,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/a/ad/npev8zqms0tp09szd3ngkp2la2es15e.png/150px-%E9%93%B6%E5%89%91.png"
   },
   {
-    "id": "weapon218",
+    "id": "weapon219",
     "name": "佣兵重剑",
     "type": "双手剑",
     "rarity": "2星",
@@ -2834,7 +2847,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/07/h54n8whizi54yvb3eqe8qewvcvwanty.png/150px-%E4%BD%A3%E5%85%B5%E9%87%8D%E5%89%91.png"
   },
   {
-    "id": "weapon219",
+    "id": "weapon220",
     "name": "历练的猎弓",
     "type": "弓",
     "rarity": "2星",
@@ -2847,7 +2860,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/9/90/orfj6o4jpkggxpu4j2994a3hc899pva.png/150px-%E5%8E%86%E7%BB%83%E7%9A%84%E7%8C%8E%E5%BC%93.png"
   },
   {
-    "id": "weapon220",
+    "id": "weapon221",
     "name": "口袋魔导书",
     "type": "法器",
     "rarity": "2星",
@@ -2860,7 +2873,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/54/3cez0e67cnkft1idnofhpm59wbsk5md.png/150px-%E5%8F%A3%E8%A2%8B%E9%AD%94%E5%AF%BC%E4%B9%A6.png"
   },
   {
-    "id": "weapon221",
+    "id": "weapon222",
     "name": "铁尖枪",
     "type": "长柄武器",
     "rarity": "2星",
@@ -2873,7 +2886,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/5/53/8rxq05fk93j4o755v88489147205wuk.png/150px-%E9%93%81%E5%B0%96%E6%9E%AA.png"
   },
   {
-    "id": "weapon222",
+    "id": "weapon223",
     "name": "无锋剑",
     "type": "单手剑",
     "rarity": "1星",
@@ -2886,7 +2899,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/0/0d/i5smc85ma234uzd3jzx3u9onhy28i94.png/150px-%E6%97%A0%E9%94%8B%E5%89%91.png"
   },
   {
-    "id": "weapon223",
+    "id": "weapon224",
     "name": "训练大剑",
     "type": "双手剑",
     "rarity": "1星",
@@ -2899,7 +2912,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/d/d5/nd5eugeofambx7ssbxk4ggnpv4af0vg.png/150px-%E8%AE%AD%E7%BB%83%E5%A4%A7%E5%89%91.png"
   },
   {
-    "id": "weapon224",
+    "id": "weapon225",
     "name": "猎弓",
     "type": "弓",
     "rarity": "1星",
@@ -2912,7 +2925,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/b/bf/6kl41yfn2o813n65owm00vjagyrskuq.png/150px-%E7%8C%8E%E5%BC%93.png"
   },
   {
-    "id": "weapon225",
+    "id": "weapon226",
     "name": "学徒笔记",
     "type": "法器",
     "rarity": "1星",
@@ -2925,7 +2938,7 @@
     "img_src": "https://patchwiki.biligame.com/images/ys/thumb/c/c5/igw6rxjhh72k7cha3wq5lrdr7mw636g.png/150px-%E5%AD%A6%E5%BE%92%E7%AC%94%E8%AE%B0.png"
   },
   {
-    "id": "weapon226",
+    "id": "weapon227",
     "name": "新手长枪",
     "type": "长柄武器",
     "rarity": "1星",

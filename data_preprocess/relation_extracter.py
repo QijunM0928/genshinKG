@@ -4,6 +4,7 @@ import os
 import re
 import glob
 import json
+import csv
 from pathlib import Path
 from typing import Dict, Any, Iterable, Optional
 
@@ -72,7 +73,7 @@ with open("data_preprocess/dataExternal/character_strategy.json", "r", encoding=
 
 # 实体名称跟id的字典，方面查找
 name2id = {}
-for d in [characters, materials, weapons, monsters]:
+for d in [characters, materials, weapons, monsters, artifacts, countries, elements, reactions]:
     name2id.update(name_to_id(d))
 all_entity_name_set = name2id.keys()
 
@@ -279,10 +280,129 @@ def get_suits_weapon_relations():
 # 7、元素/反应-触发-反应 关系
 def get_trigger_reaction_relations():
     trigger_reaction_relations = []
-    evidence_filed = ""
+    predicate = "trigger"
+    evidence_filed = "reaction_element"
+    e_r = []
+    e_names=[]
+    for d in elements:
+        e_r.append(d["name"])
+        e_names.append(d["name"])
+    for d in reactions:
+        e_r.append(d["name"])
     for r in reactions:
-        r_base
+        for _ in e_r:
+            if _ in r["reaction_element"]:
+                relation = {
+                    "subject_id": name2id.get(_),
+                    "predicate": predicate,
+                    "object_id": r["id"],
+                    "evidence_side": "object",
+                    "evidence_field": evidence_filed,
+                    "evidence_value": r[evidence_filed],
+                    "evidence_confidence": 1.0,
+                    "evidence_rule": f"{evidence_filed}=>{predicate}",
+                    "reasoning_hint": f"{'元素' if _ in e_names else '反应'} {_} 触发 {r['name']} 反应"
+                }
+                trigger_reaction_relations.append(relation)
+    with open("data_preprocess/dataKG/relations/trigger_reaction_relation.json", "w", encoding="utf-8") as f:
+        json.dump(trigger_reaction_relations, f, ensure_ascii=False, indent=2)
 
+# 8、角色-关系-角色
+def get_character2character_relations():
+    character2character_relations=[]
+    evidence_field="角色-语音文本推理"
+    with open('data_preprocess/dataKG/LLM_extracted/character2character_LLM.json', 'r', encoding='utf-8') as f:
+        c2c_data = json.load(f)
+    for c2c in c2c_data:
+        if not isinstance(c2c.get("llm_result", {}),dict):
+            continue
+        res = c2c.get("llm_result")
+        if not res.get("relations", []):
+            continue
+        subject_name = res.get("subject", "")
+        object_name = res.get("object", "")
+        subject_id = name2id.get(subject_name, "")
+        object_id = name2id.get(object_name, "")
+        for r in res.get("relations", []):
+            predicate = r.get("predicate", "")
+            relation = {
+                "subject_id": subject_id,
+                "predicate": predicate,
+                "object_id": object_id,
+                "evidence_side": "subject" if r.get("direction", "")=="subject_to_object" else "object",
+                "evidence_field": evidence_field,
+                "evidence_value": r.get("evidence", ""),
+                "evidence_confidence": r.get("confidence", 0.0),
+                "evidence_rule": f"{evidence_field}=>{predicate}",
+                "reasoning_hint": r.get("reasoning_hint", "")
+            }
+            character2character_relations.append(relation)
+    with open("data_preprocess/dataKG/relations/character2character_relation.json", "w", encoding="utf-8") as f:
+        json.dump(character2character_relations, f, ensure_ascii=False, indent=2)
+
+
+# 9、角色-属于-角色定位 关系
+def get_character_belongs_role_tag_relations():
+    character_belongs_role_tag_relations=[]
+    predicate="belongs_role_tag"
+    evidence_field = "角色-定位文本推理"
+    with open('data_preprocess/dataKG/LLM_extracted/role_tag_LLM.json', 'r', encoding='utf-8') as f:
+        role_tag_data = json.load(f)
+    for rt in role_tag_data:
+        character_name = rt.get("id", "")
+        character_id = name2id.get(character_name, "")
+        res=rt.get("llm_result", {}).get("items", [])
+        if not res:
+            continue
+        res=res[0]
+        for tag in res.get("role_tags", []):
+            role_id = tag.get("role_id", "")
+            relation = {
+                "subject_id": character_id,
+                "predicate": predicate,
+                "object_id": role_id,
+                "evidence_side": "subject",
+                "evidence_field": evidence_field,
+                "evidence_value": tag.get("evidence", ""),
+                "evidence_confidence": tag.get("confidence", 0.0),
+                "evidence_rule": f"{evidence_field}=>{predicate}",
+                "reasoning_hint": character_name+": "+tag.get("reasoning_hint", "")
+            }
+            character_belongs_role_tag_relations.append(relation)
+    with open("data_preprocess/dataKG/relations/character_belongs_role_tag_relation.json", "w", encoding="utf-8") as f:
+        json.dump(character_belongs_role_tag_relations, f, ensure_ascii=False, indent=2)
+
+# 10、角色-克制-怪物 关系（仅BOSS怪）
+def get_character_restrains_monster_relations():
+    character_restrains_monster_relations = []
+    predicate = "restrains"
+    evidence_field="怪物攻略文本推理"
+    with open('data_preprocess/dataKG/LLM_extracted/character_monster_LLM.json', 'r', encoding='utf-8') as f:
+        c_m_data = json.load(f)
+    for cm in c_m_data:
+        if not isinstance(cm.get("llm_result", {}),dict):
+            continue
+        res = cm.get("llm_result")
+        if not res.get("subjects", []):
+            continue
+        object_name = cm.get("id", "")
+        object_id = name2id.get(object_name, "")
+        for subject_name in res.get("subjects", []):
+            subject_id = name2id.get(subject_name, "")
+            relation = {
+                "subject_id": subject_id,
+                "predicate": predicate,
+                "object_id": object_id,
+                "evidence_side": "object",
+                "evidence_field": evidence_field,
+                "evidence_value": res.get("evidence", ""),
+                "evidence_confidence": res.get("confidence", 0.0),
+                "evidence_rule": f"{evidence_field}=>{predicate}",
+                "reasoning_hint": f"{subject_name} 克制 {object_name}: {res.get('reasoning_hint', '')}"
+            }
+            character_restrains_monster_relations.append(relation)
+    with open("data_preprocess/dataKG/relations/character_restrains_monster_relation.json", "w", encoding="utf-8") as f:
+        json.dump(character_restrains_monster_relations, f, ensure_ascii=False, indent=2)
 
 if __name__=="__main__":
     get_needs_material_relations()
@@ -291,3 +411,7 @@ if __name__=="__main__":
     get_has_element_relations()
     get_suits_artifact_relations()
     get_suits_weapon_relations()
+    get_trigger_reaction_relations()
+    get_character2character_relations()
+    get_character_belongs_role_tag_relations()
+    get_character_restrains_monster_relations()

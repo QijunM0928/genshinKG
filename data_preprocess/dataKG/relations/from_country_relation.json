@@ -24,17 +24,6 @@
   {
     "subject_id": "character3",
     "predicate": "from_country",
-    "object_id": "country8",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "挪德卡莱",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 奈芙尔 来自于 挪德卡莱 地区"
-  },
-  {
-    "subject_id": "character4",
-    "predicate": "from_country",
     "object_id": "country9",
     "evidence_side": "subject",
     "evidence_field": "country",
@@ -42,6 +31,17 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "country=>from_country",
     "reasoning_hint": "角色 奇偶 来自于 其他 地区"
+  },
+  {
+    "subject_id": "character4",
+    "predicate": "from_country",
+    "object_id": "country8",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "挪德卡莱",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 奈芙尔 来自于 挪德卡莱 地区"
   },
   {
     "subject_id": "character5",
@@ -176,7 +176,7 @@
     "reasoning_hint": "角色 蓝砚 来自于 璃月 地区"
   },
   {
-    "subject_id": "character18",
+    "subject_id": "character17",
     "predicate": "from_country",
     "object_id": "country6",
     "evidence_side": "subject",
@@ -187,7 +187,7 @@
     "reasoning_hint": "角色 玛薇卡 来自于 纳塔 地区"
   },
   {
-    "subject_id": "character19",
+    "subject_id": "character18",
     "predicate": "from_country",
     "object_id": "country6",
     "evidence_side": "subject",
@@ -429,7 +429,7 @@
     "reasoning_hint": "角色 菲米尼 来自于 枫丹 地区"
   },
   {
-    "subject_id": "character42",
+    "subject_id": "character41",
     "predicate": "from_country",
     "object_id": "country5",
     "evidence_side": "subject",
@@ -616,7 +616,7 @@
     "reasoning_hint": "角色 多莉 来自于 须弥 地区"
   },
   {
-    "subject_id": "character59",
+    "subject_id": "character60",
     "predicate": "from_country",
     "object_id": "country4",
     "evidence_side": "subject",
@@ -814,7 +814,7 @@
     "reasoning_hint": "角色 早柚 来自于 稻妻 地区"
   },
   {
-    "subject_id": "character79",
+    "subject_id": "character78",
     "predicate": "from_country",
     "object_id": "country3",
     "evidence_side": "subject",
@@ -979,29 +979,7 @@
     "reasoning_hint": "角色 温迪 来自于 蒙德 地区"
   },
   {
-    "subject_id": "character95",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 莫娜 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character97",
-    "predicate": "from_country",
-    "object_id": "country2",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "璃月",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 刻晴 来自于 璃月 地区"
-  },
-  {
-    "subject_id": "character99",
+    "subject_id": "character94",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1012,7 +990,7 @@
     "reasoning_hint": "角色 迪卢克 来自于 蒙德 地区"
   },
   {
-    "subject_id": "character100",
+    "subject_id": "character95",
     "predicate": "from_country",
     "object_id": "country2",
     "evidence_side": "subject",
@@ -1023,7 +1001,7 @@
     "reasoning_hint": "角色 七七 来自于 璃月 地区"
   },
   {
-    "subject_id": "character101",
+    "subject_id": "character96",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1034,73 +1012,29 @@
     "reasoning_hint": "角色 琴 来自于 蒙德 地区"
   },
   {
+    "subject_id": "character98",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 莫娜 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character100",
+    "predicate": "from_country",
+    "object_id": "country2",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "璃月",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 刻晴 来自于 璃月 地区"
+  },
+  {
     "subject_id": "character102",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 诺艾尔 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character103",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 凯亚 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character104",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 班尼特 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character105",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 芭芭拉 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character106",
-    "predicate": "from_country",
-    "object_id": "country2",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "璃月",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 北斗 来自于 璃月 地区"
-  },
-  {
-    "subject_id": "character107",
-    "predicate": "from_country",
-    "object_id": "country2",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "璃月",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 重云 来自于 璃月 地区"
-  },
-  {
-    "subject_id": "character108",
     "predicate": "from_country",
     "object_id": "country2",
     "evidence_side": "subject",
@@ -1111,7 +1045,7 @@
     "reasoning_hint": "角色 香菱 来自于 璃月 地区"
   },
   {
-    "subject_id": "character109",
+    "subject_id": "character103",
     "predicate": "from_country",
     "object_id": "country2",
     "evidence_side": "subject",
@@ -1122,7 +1056,7 @@
     "reasoning_hint": "角色 行秋 来自于 璃月 地区"
   },
   {
-    "subject_id": "character110",
+    "subject_id": "character104",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1133,18 +1067,7 @@
     "reasoning_hint": "角色 雷泽 来自于 蒙德 地区"
   },
   {
-    "subject_id": "character111",
-    "predicate": "from_country",
-    "object_id": "country1",
-    "evidence_side": "subject",
-    "evidence_field": "country",
-    "evidence_value": "蒙德",
-    "evidence_confidence": 1.0,
-    "evidence_rule": "country=>from_country",
-    "reasoning_hint": "角色 安柏 来自于 蒙德 地区"
-  },
-  {
-    "subject_id": "character112",
+    "subject_id": "character105",
     "predicate": "from_country",
     "object_id": "country2",
     "evidence_side": "subject",
@@ -1155,7 +1078,18 @@
     "reasoning_hint": "角色 凝光 来自于 璃月 地区"
   },
   {
-    "subject_id": "character113",
+    "subject_id": "character106",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 安柏 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character107",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1166,7 +1100,7 @@
     "reasoning_hint": "角色 菲谢尔 来自于 蒙德 地区"
   },
   {
-    "subject_id": "character114",
+    "subject_id": "character108",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1177,7 +1111,7 @@
     "reasoning_hint": "角色 丽莎 来自于 蒙德 地区"
   },
   {
-    "subject_id": "character115",
+    "subject_id": "character109",
     "predicate": "from_country",
     "object_id": "country1",
     "evidence_side": "subject",
@@ -1186,5 +1120,71 @@
     "evidence_confidence": 1.0,
     "evidence_rule": "country=>from_country",
     "reasoning_hint": "角色 砂糖 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character110",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 诺艾尔 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character111",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 凯亚 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character112",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 班尼特 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character113",
+    "predicate": "from_country",
+    "object_id": "country1",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "蒙德",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 芭芭拉 来自于 蒙德 地区"
+  },
+  {
+    "subject_id": "character114",
+    "predicate": "from_country",
+    "object_id": "country2",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "璃月",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 重云 来自于 璃月 地区"
+  },
+  {
+    "subject_id": "character115",
+    "predicate": "from_country",
+    "object_id": "country2",
+    "evidence_side": "subject",
+    "evidence_field": "country",
+    "evidence_value": "璃月",
+    "evidence_confidence": 1.0,
+    "evidence_rule": "country=>from_country",
+    "reasoning_hint": "角色 北斗 来自于 璃月 地区"
   }
 ]

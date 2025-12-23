@@ -1,0 +1,104 @@
+[
+  {
+    "id": "role_main_dps",
+    "name": "主C",
+    "aliases": ["站场主C", "主输出"],
+    "description": "队伍中主要的站场输出角色"
+  },
+  {
+    "id": "role_burst_dps",
+    "name": "爆发C",
+    "aliases": ["速切主C", "爆发输出"],
+    "description": "依靠元素爆发或短时间技能造成高额伤害"
+  },
+  {
+    "id": "role_sub_dps",
+    "name": "副C",
+    "aliases": ["后台副C", "脱手C", "副输出", "协同攻击"],
+    "description": "主要在后台提供持续或补充伤害"
+  },
+  {
+    "id": "role_buffer",
+    "name": "增伤辅助",
+    "aliases": ["拐", "辅助"],
+    "description": "为队友提供伤害、攻击、暴击等增益"
+  },
+  {
+    "id": "role_debuffer",
+    "name": "减抗辅助",
+    "aliases": ["减防", "减抗"],
+    "description": "降低敌人抗性或防御"
+  },
+  {
+    "id": "role_healer",
+    "name": "治疗",
+    "aliases": ["奶", "回复"],
+    "description": "为队伍提供生命值回复"
+  },
+  {
+    "id": "role_shielder",
+    "name": "护盾",
+    "aliases": ["盾辅"],
+    "description": "为队伍提供护盾以提高生存能力"
+  },
+  {
+    "id": "role_survivability",
+    "name": "生存位",
+    "aliases": ["生存辅助"],
+    "description": "泛指治疗或护盾角色"
+  },
+  {
+    "id": "role_enabler_pyro",
+    "name": "挂火",
+    "aliases": ["火底", "挂火位"],
+    "description": "稳定为敌人施加火元素"
+  },
+  {
+    "id": "role_enabler_hydro",
+    "name": "挂水",
+    "aliases": ["水底", "挂水位"],
+    "description": "稳定为敌人施加水元素"
+  },
+  {
+    "id": "role_enabler_electro",
+    "name": "挂雷",
+    "aliases": ["雷底", "挂雷位"],
+    "description": "稳定为敌人施加雷元素"
+  },
+  {
+    "id": "role_enabler_cryo",
+    "name": "挂冰",
+    "aliases": ["冰底", "挂冰位"],
+    "description": "稳定为敌人施加冰元素"
+  },
+  {
+    "id": "role_enabler_dendro",
+    "name": "挂草",
+    "aliases": ["草底", "挂草位"],
+    "description": "稳定为敌人施加草元素"
+  },
+  {
+    "id": "role_driver",
+    "name": "驾驶员",
+    "aliases": ["站场驾驶员"],
+    "description": "通过站场普攻/技能触发后台角色效果"
+  },
+  {
+    "id": "role_reaction_trigger",
+    "name": "反应触发",
+    "aliases": ["反应C"],
+    "description": "主要依靠元素反应造成伤害"
+  },
+  {
+    "id": "role_cc",
+    "name": "聚怪",
+    "aliases": ["控场"],
+    "description": "聚拢或控制敌人"
+  },
+  {
+    "id": "role_energy_support",
+    "name": "充能辅助",
+    "aliases": ["充电宝", "充能拐"],
+    "description": "为队友提供元素能量或降低充能压力"
+  }
+]

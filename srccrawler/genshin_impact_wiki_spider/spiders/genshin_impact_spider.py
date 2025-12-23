@@ -291,13 +291,6 @@ class GenshinImpactSpider(Spider):
         soup = BeautifulSoup(response.text, 'lxml')
         char_name = character
 
-        # 辅助函数：模糊查找列索引
-        def get_index(headers, keywords):
-            for idx, h in enumerate(headers):
-                if any(k in h for k in keywords):
-                    return idx
-            return None
-
         content = soup.find('div', id='mw-content-text')
         if content:
             content = content.find('div', class_='mw-parser-output') or content
@@ -367,15 +360,29 @@ class GenshinImpactSpider(Spider):
 
         # --- 3. 阵容搭配 ---
 
-        root = soup.select_one("#CharGuide2")
+        headline = soup.find("span", class_="mw-headline", id="阵容搭配")
+        if not headline:
+            headline = soup.find(
+                "span",
+                class_="mw-headline",
+                string=lambda s: s and "阵容搭配" in s
+            )
+        hx = headline.find_parent(re.compile(r"^h[2-6]$"))
+        root = hx.find_next(
+            lambda t: isinstance(t, Tag) and t.get("id") in ("CharGuide", "CharGuide2")
+        )
         if not root:
-            return ""
+            yield {
+                "type": "character_strategy",
+                "data": {
+                    "character": char_name,
+                    "role_paragraphs": role_paragraphs,
+                    "weapons": weapons,
+                    "team_strategy": "",
+                }
+            }
 
         stop = root.select_one("table.wikitable.TeamGuide")
-        if not stop:
-            # 如果页面没有这个表，就退化为整个 CharGuide2 的文本
-            return root.get_text("\n", strip=True)
-
         lines = []
         for node in root.descendants:
             # 到达 table 就停止（不包含 table）
