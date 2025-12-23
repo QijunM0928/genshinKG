@@ -255,16 +255,19 @@ def get_suits_artifact_relations():
 def get_suits_weapon_relations():
     suits_weapon_relations = []
     predicate = "suits_weapon"
-    evidence_field = "角色-武器攻略文本推理"
+    evidence_field = "角色-武器列表抽取"
     for s in strategies:
         c_name = s.get("character", "")
         c_id = name2id.get(c_name)
         for w in s.get("weapons", []):
             w_name = w.get("weapon", "")
+            w_id =name2id.get(w_name)
+            if not c_id or not w_id:
+                continue
             relation = {
                 "subject_id": c_id,
                 "predicate": predicate,
-                "object_id": name2id.get(w_name),
+                "object_id": w_id,
                 "priority": w.get("priority", ""),
                 "evidence_side": "subject",
                 "evidence_field": evidence_field,
