@@ -7,6 +7,7 @@ import json
 import csv
 from pathlib import Path
 from typing import Dict, Any, Iterable, Optional
+from data_preprocess.prompts import NOISE_RELATIONS, RELATION_REWRITE_MAP
 
 # 按材料类型配置 predicate 和解释模板
 MATERIAL_REL_CONFIG = {
@@ -313,6 +314,7 @@ def get_trigger_reaction_relations():
 # 8、角色-关系-角色
 def get_character2character_relations():
     character2character_relations=[]
+    st=set()
     evidence_field="角色-语音文本推理"
     with open('data_preprocess/dataKG/LLM_extracted/character2character_LLM.json', 'r', encoding='utf-8') as f:
         c2c_data = json.load(f)
@@ -328,6 +330,10 @@ def get_character2character_relations():
         object_id = name2id.get(object_name, "")
         for r in res.get("relations", []):
             predicate = r.get("predicate", "")
+            if predicate in NOISE_RELATIONS:
+                continue
+            if predicate in RELATION_REWRITE_MAP:
+                predicate = RELATION_REWRITE_MAP[predicate]
             relation = {
                 "subject_id": subject_id,
                 "predicate": predicate,
@@ -340,8 +346,12 @@ def get_character2character_relations():
                 "reasoning_hint": r.get("reasoning_hint", "")
             }
             character2character_relations.append(relation)
+            st.add(predicate)
     with open("data_preprocess/dataKG/relations/character2character_relation.json", "w", encoding="utf-8") as f:
         json.dump(character2character_relations, f, ensure_ascii=False, indent=2)
+    print(st)
+    print(len(character2character_relations))
+    print(len(st))
 
 
 # 9、角色-属于-角色定位 关系
@@ -408,13 +418,14 @@ def get_character_restrains_monster_relations():
         json.dump(character_restrains_monster_relations, f, ensure_ascii=False, indent=2)
 
 if __name__=="__main__":
-    get_needs_material_relations()
-    get_drops_material_relations()
-    get_from_country_relations()
-    get_has_element_relations()
-    get_suits_artifact_relations()
-    get_suits_weapon_relations()
-    get_trigger_reaction_relations()
+    pass
+    # get_needs_material_relations()
+    # get_drops_material_relations()
+    # get_from_country_relations()
+    # get_has_element_relations()
+    # get_suits_artifact_relations()
+    # get_suits_weapon_relations()
+    # get_trigger_reaction_relations()
     get_character2character_relations()
-    get_character_belongs_role_tag_relations()
-    get_character_restrains_monster_relations()
+    # get_character_belongs_role_tag_relations()
+    # get_character_restrains_monster_relations()

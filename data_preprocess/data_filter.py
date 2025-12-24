@@ -283,9 +283,10 @@ def get_artifact_full():
 
 
 if __name__ == "__main__":
-    get_character_full()
-    get_weapon_full()
-    get_material_full()
-    get_monster_full()
-    get_voice_full()
-    get_artifact_full()
+    pass
+    # get_character_full()
+    # get_weapon_full()
+    # get_material_full()
+    # get_monster_full()
+    # get_voice_full()
+    # get_artifact_full()

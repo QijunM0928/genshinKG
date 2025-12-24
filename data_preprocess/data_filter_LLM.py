@@ -23,7 +23,7 @@ def extract_with_llm(system_prompt, text: str):
     使用大模型从攻略文本中抽取角色 RoleTag
     """
     try:
-        time.sleep(6)
+        time.sleep(20)
         response = client.chat.completions.create(
             model="Qwen/Qwen3-8B",
             messages=[
@@ -154,7 +154,7 @@ def extract_c2c():
         prompt=C2C_PROMPT,
         build_text_fn=lambda v: f"subject:{v.get('subject','')}, object:{v.get('object','')},{v.get('subject','')}的语音文本:"+v.get("cn_text", ""),
         extract_fn=extract_with_llm,
-        output_file="data_preprocess/dataKG/LLM_extracted/character2character_LLM.json",
+        output_file="data_preprocess/dataKG/LLM_extracted/character2character_LLM2.json",
         id_key="id"
     )
 
