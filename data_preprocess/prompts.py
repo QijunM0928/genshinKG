@@ -129,7 +129,7 @@ role_dict（JSON 数组，subject 必须完全等于其中某一项）：['凝�
 }
 """
 
-C2C_PROMPT = r"""你是“原神角色-角色关系抽取器（中文严格版）”。我将输入两个角色（subject/object）以及【subject 角色】的中文语音文本 cn_text。你的任务是：只根据 cn_text 中的明确字面信息，抽取 subject 与 object 的关系，并输出严格合法 JSON。
+C2C_PROMPT = r"""你是“原神角色-角色关系抽取器”。我将输入两个角色（subject/object）以及【subject 角色】的中文语音文本 cn_text。你的任务是：只根据 cn_text 中的明确字面信息，抽取 subject 与 object 的关系，并输出严格合法 JSON。
 
 输入字段：
 subject: <主语角色>
@@ -145,7 +145,7 @@ C) predicate 必须是【中文】且必须从【关系白名单】中选择；�
 D) 禁止输出无意义关系：不得输出仅为“是/称呼/叫作/喊/昵称/外号/称号/名字/身份是……”这类没有关系语义贡献的 predicate。
    - 尤其禁止 predicate 为“是”“称呼”“叫”“叫作”“喊”“名字”“外号”“昵称”“称号”“身份”“认识(若无对称明确)”“提到”等。
 E) 主客体必须明确指向：evidence 中必须能明确表明关系是发生在 subject 与 object 之间（或 object 对 subject），不允许“可能/也许/听说/传闻/好像/据说”这类不确定表达。
-F) 指代与省略：若证据中只出现“他/她/那家伙/这孩子/那位”等指代，而无法无歧义地确定就是 subject 或 object，则该关系不得输出。
+F) 指代与省略：若证据中只出现“他/她/那家伙/这孩子/那位”等指代，而无法无歧义地确定就是 subject 或 object，则该关系不得输出。若证据中出现“琴”“砂糖”这类多义词，但能无歧义确定指向 subject 或 object，则允许输出该关系。
 G) 方向（direction）必须准确：
    - "subject_to_object"：文本明确表达 subject -> object 的关系
    - "object_to_subject"：文本明确表达 object -> subject 的关系

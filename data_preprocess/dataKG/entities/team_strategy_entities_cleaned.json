@@ -1,0 +1,5810 @@
+{
+  "TeamTemplate": [
+    {
+      "id": "TT:雷泽:月感电队",
+      "label": "TeamTemplate",
+      "core_character": "雷泽",
+      "archetype_name": "月感电队",
+      "focus": true,
+      "core_role": "副C",
+      "core_evidence": "雷泽的突破属性与技能模组偏向物理",
+      "example_team_members": [
+        "雷泽",
+        "芙宁娜",
+        "伊涅芙",
+        "钟离"
+      ],
+      "example_team_evidence": "搭配至少一名后台水元素攻击的角色以触发月感电反应"
+    },
+    {
+      "id": "TT:凝光:岩伤主C",
+      "label": "TeamTemplate",
+      "core_character": "凝光",
+      "archetype_name": "岩伤主C",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "凝光主C主要分为多核体系与单核体系",
+      "example_team_members": [
+        "凝光",
+        "希诺宁",
+        "芙宁娜",
+        "钟离"
+      ],
+      "example_team_evidence": "岩元素角色可组成双岩共鸣，提升护盾强效"
+    },
+    {
+      "id": "TT:砂糖:激绽队",
+      "label": "TeamTemplate",
+      "core_character": "砂糖",
+      "archetype_name": "激绽队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "砂糖天赋可为全队提供元素精通",
+      "example_team_members": [
+        "砂糖",
+        "行秋",
+        "菲谢尔",
+        "白术"
+      ],
+      "example_team_evidence": "综合上述分析，下面将围绕砂糖、行秋、菲谢尔、白术组成的激绽队进行具体分析"
+    },
+    {
+      "id": "TT:诺艾尔:岩队",
+      "label": "TeamTemplate",
+      "core_character": "诺艾尔",
+      "archetype_name": "岩队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "诺艾尔为岩队核心角色",
+      "example_team_members": [
+        "诺艾尔",
+        "五郎",
+        "千织",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "参考技能顺序：诺五千芙"
+    },
+    {
+      "id": "TT:重云:重罗香班",
+      "label": "TeamTemplate",
+      "core_character": "重云",
+      "archetype_name": "重罗香班",
+      "focus": true,
+      "core_role": "速切爆发",
+      "core_evidence": "重云作为冰元素速切输出角色",
+      "example_team_members": [
+        "重云",
+        "罗莎莉亚",
+        "香菱",
+        "班尼特"
+      ],
+      "example_team_evidence": "综合上述分析，下面将围绕重罗香班配队进行具体分析"
+    },
+    {
+      "id": "TT:甘雨:永冻队",
+      "label": "TeamTemplate",
+      "core_character": "甘雨",
+      "archetype_name": "永冻队",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "甘雨可通过冻结触发冰套四件套效果主打冰元素直伤输出",
+      "example_team_members": [
+        "甘雨",
+        "芙宁娜",
+        "申鹤",
+        "爱可菲"
+      ],
+      "example_team_evidence": "初代永冻队为甘雨（主C），芙宁娜（挂水＋增伤＋控制），申鹤（挂冰＋增伤），爱可菲（挂冰＋减抗)"
+    },
+    {
+      "id": "TT:甘雨:融化队",
+      "label": "TeamTemplate",
+      "core_character": "甘雨",
+      "archetype_name": "融化队",
+      "focus": false,
+      "core_role": "主C",
+      "core_evidence": "甘雨可通过融化触发增幅反应提高队伍上限",
+      "example_team_members": [
+        "甘雨",
+        "班尼特",
+        "香菱",
+        "迪希雅"
+      ],
+      "example_team_evidence": "燃烧融化队通常选择班尼特、香菱、迪希雅"
+    },
+    {
+      "id": "TT:魈:风伤队",
+      "label": "TeamTemplate",
+      "core_character": "魈",
+      "archetype_name": "风伤队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "魈作为风元素角色可以组成双风共鸣",
+      "example_team_members": [
+        "魈",
+        "珐露珊",
+        "闲云",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "魈、珐露珊、闲云、芙宁娜组成的队伍是上限最高的配队之一"
+    },
+    {
+      "id": "TT:达达利亚:双火蒸发",
+      "label": "TeamTemplate",
+      "core_character": "达达利亚",
+      "archetype_name": "双火蒸发",
+      "focus": true,
+      "core_role": "水属性主C",
+      "core_evidence": "达达利亚定位为一个水属性主C",
+      "example_team_members": [
+        "枫原万叶",
+        "达达利亚",
+        "班尼特",
+        "香菱"
+      ],
+      "example_team_evidence": "由枫原万叶、达达利亚、班尼特、香菱组成的队伍"
+    },
+    {
+      "id": "TT:温迪:风伤输出",
+      "label": "TeamTemplate",
+      "core_character": "温迪",
+      "archetype_name": "风伤输出",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "风伤主C温迪需要至少绑定一名魔导角色",
+      "example_team_members": [
+        "温迪",
+        "杜林",
+        "班尼特",
+        "莫娜"
+      ],
+      "example_team_evidence": "温迪的首选队友包括杜林、班尼特、莫娜"
+    },
+    {
+      "id": "TT:辛焱:物伤重击队",
+      "label": "TeamTemplate",
+      "core_character": "辛焱",
+      "archetype_name": "物伤重击队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "辛焱作为火元素角色主打重击物理伤害",
+      "example_team_members": [
+        "辛焱",
+        "罗莎莉亚",
+        "菲谢尔",
+        "班尼特"
+      ],
+      "example_team_evidence": "下面将围绕辛焱、罗莎莉亚、菲谢尔、班尼特组成的配队进行具体分析"
+    },
+    {
+      "id": "TT:可莉:可芙双核",
+      "label": "TeamTemplate",
+      "core_character": "可莉",
+      "archetype_name": "可芙双核",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "可莉作为前台能提供优秀的反应基底",
+      "example_team_members": [
+        "可莉",
+        "芙宁娜",
+        "枫原万叶",
+        "班尼特"
+      ],
+      "example_team_evidence": "可莉站场纯火输出，搭配芙宁娜蒸发输出"
+    },
+    {
+      "id": "TT:迪卢克:下落增幅",
+      "label": "TeamTemplate",
+      "core_character": "迪卢克",
+      "archetype_name": "下落增幅",
+      "focus": false,
+      "core_role": "驾驶员",
+      "core_evidence": "迪卢克的下落攻击倍率高于大多数双手剑角色",
+      "example_team_members": [
+        "迪卢克",
+        "闲云",
+        "茜特菈莉",
+        "班尼特"
+      ],
+      "example_team_evidence": "迪卢克通常优先搭配闲云采用下落攻击玩法"
+    },
+    {
+      "id": "TT:七七:双冰共鸣队",
+      "label": "TeamTemplate",
+      "core_character": "七七",
+      "archetype_name": "双冰共鸣队",
+      "focus": true,
+      "core_role": "冰元素输出",
+      "core_evidence": "七七普攻本身元素附着频率不高",
+      "example_team_members": [
+        "七七",
+        "班尼特",
+        "闲云",
+        "茜特菈莉"
+      ],
+      "example_team_evidence": "七七与茜特菈莉可组成双冰共鸣"
+    },
+    {
+      "id": "TT:莫娜:驾驶员队",
+      "label": "TeamTemplate",
+      "core_character": "莫娜",
+      "archetype_name": "驾驶员队",
+      "focus": false,
+      "core_role": "站场",
+      "core_evidence": "莫娜作为杜林 蒸发 队的站场驾驶员",
+      "example_team_members": [
+        "杜林",
+        "莫娜",
+        "希诺宁",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "剩余两名队友可选择提供减抗与增伤"
+    },
+    {
+      "id": "TT:刻晴:激化队",
+      "label": "TeamTemplate",
+      "core_character": "刻晴",
+      "archetype_name": "激化队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "刻晴的元素附着频率相对较高",
+      "example_team_members": [
+        "刻晴",
+        "菲谢尔",
+        "纳西妲",
+        "希诺宁"
+      ],
+      "example_team_evidence": "纳西妲可提供群体挂草，希诺宁可降低敌人雷元素抗性"
+    },
+    {
+      "id": "TT:刻晴:超载队",
+      "label": "TeamTemplate",
+      "core_character": "刻晴",
+      "archetype_name": "超载队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "超载队刻晴以夏沃蕾为核心多核构筑",
+      "example_team_members": [
+        "刻晴",
+        "夏沃蕾",
+        "菲谢尔",
+        "玛薇卡"
+      ],
+      "example_team_evidence": "夏沃蕾可提供40%减抗，菲谢尔可触发断罪雷影"
+    },
+    {
+      "id": "TT:早柚:泥头车",
+      "label": "TeamTemplate",
+      "core_character": "早柚",
+      "archetype_name": "泥头车",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "由早柚、迪希雅、纳西妲、芙宁娜组成的队伍",
+      "example_team_members": [
+        "早柚",
+        "迪希雅",
+        "纳西妲",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "由早柚、迪希雅、纳西妲、芙宁娜组成的队伍"
+    },
+    {
+      "id": "TT:神里绫华:冻结队",
+      "label": "TeamTemplate",
+      "core_character": "神里绫华",
+      "archetype_name": "冻结队",
+      "focus": true,
+      "core_role": "直伤输出",
+      "core_evidence": "稳定触发冻结反应从而获得冰风迷途的勇士四件套的高额暴击率加成",
+      "example_team_members": [
+        "神里绫华",
+        "申鹤",
+        "芙宁娜",
+        "枫原万叶"
+      ],
+      "example_team_evidence": "神里绫华的常用配队包括神鹤芙希"
+    },
+    {
+      "id": "TT:优菈:冰雷超导队",
+      "label": "TeamTemplate",
+      "core_character": "优菈",
+      "archetype_name": "冰雷超导队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "冰雷超导队是由优菈、一名雷系角色如雷电将军组成的队伍。",
+      "example_team_members": [
+        "优菈",
+        "雷电将军",
+        "米卡",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "优菈的常见配队分为两种：芙宁娜体系与班尼特体系。"
+    },
+    {
+      "id": "TT:烟绯:蒸发输出",
+      "label": "TeamTemplate",
+      "core_character": "烟绯",
+      "archetype_name": "蒸发输出",
+      "focus": true,
+      "core_role": "站场输出",
+      "core_evidence": "烟绯 与 胡桃 类似，是一名 火元素附着频率高 、以重击 蒸发 为主要输出手段的四星站场输出角色",
+      "example_team_members": [
+        "烟绯",
+        "班尼特",
+        "行秋",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "当前版本烟绯采用 芙宁娜 夜兰 双水组成 双水共鸣 提升全队生命值并互充"
+    },
+    {
+      "id": "TT:胡桃:双水蒸发",
+      "label": "TeamTemplate",
+      "core_character": "胡桃",
+      "archetype_name": "双水蒸发",
+      "focus": true,
+      "core_role": "站场",
+      "core_evidence": "胡桃的天赋「血之灶火」使胡桃在生命值小于等于50%时获得33%火元素伤害加成",
+      "example_team_members": [
+        "胡桃",
+        "夜兰",
+        "行秋",
+        "钟离"
+      ],
+      "example_team_evidence": "夜兰+芙宁娜的组合上限最高"
+    },
+    {
+      "id": "TT:宵宫:蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "宵宫",
+      "archetype_name": "蒸发队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "蒸发队由宵宫与一到两名水元素后台输出角色组成",
+      "example_team_members": [
+        "宵宫",
+        "夜兰",
+        "云堇",
+        "钟离"
+      ],
+      "example_team_evidence": "下面将围绕宵宫、夜兰、云堇，搭配钟离组成的配队进行具体分析"
+    },
+    {
+      "id": "TT:宵宫:感电队",
+      "label": "TeamTemplate",
+      "core_character": "宵宫",
+      "archetype_name": "感电队",
+      "focus": false,
+      "core_role": "驾驶员",
+      "core_evidence": "由于感电反应中，水雷共存、火元素优先与雷元素附着造成超载反应",
+      "example_team_members": [
+        "宵宫",
+        "夜兰",
+        "北斗",
+        "云堇"
+      ],
+      "example_team_evidence": "下面将围绕宵宫、夜兰、云堇，搭配钟离组成的配队进行具体分析"
+    },
+    {
+      "id": "TT:荒泷一斗:岩队",
+      "label": "TeamTemplate",
+      "core_character": "荒泷一斗",
+      "archetype_name": "岩队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "荒泷一斗施放元素爆发后施展「荒泷逆袈裟」",
+      "example_team_members": [
+        "荒泷一斗",
+        "五郎",
+        "千织",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "满命五郎是荒泷一斗传统岩队体系构建的第一选择"
+    },
+    {
+      "id": "TT:八重神子:激绽队",
+      "label": "TeamTemplate",
+      "core_character": "八重神子",
+      "archetype_name": "激绽队",
+      "focus": true,
+      "core_role": "站场",
+      "core_evidence": "本队伍由八重神子站场主打 超激化 超绽放 伤害",
+      "example_team_members": [
+        "八重神子",
+        "纳西妲",
+        "芙宁娜",
+        "白术"
+      ],
+      "example_team_evidence": "草系角色首选 纳西妲 ，第四人可选择 白术 组成 双草共鸣"
+    },
+    {
+      "id": "TT:神里绫人:多核直伤",
+      "label": "TeamTemplate",
+      "core_character": "神里绫人",
+      "archetype_name": "多核直伤",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "多核直伤队，通常围绕神里绫人12秒冷却的元素战技构建25秒两轮的技能循环轴",
+      "example_team_members": [
+        "神里绫人",
+        "芙宁娜",
+        "夜兰",
+        "希诺宁"
+      ],
+      "example_team_evidence": "下面将围绕神里绫人、芙宁娜、夜兰、希诺宁组成的多核直伤队分析"
+    },
+    {
+      "id": "TT:夜兰:纯水输出",
+      "label": "TeamTemplate",
+      "core_character": "夜兰",
+      "archetype_name": "纯水输出",
+      "focus": true,
+      "core_role": "输出",
+      "core_evidence": "夜兰施放元素爆发提供后台水元素协同攻击",
+      "example_team_members": [
+        "夜兰",
+        "芙宁娜",
+        "枫原万叶",
+        "希诺宁"
+      ],
+      "example_team_evidence": "夜兰施放元素爆发提供后台水元素协同攻击"
+    },
+    {
+      "id": "TT:珊瑚宫心海:纯水队",
+      "label": "TeamTemplate",
+      "core_character": "珊瑚宫心海",
+      "archetype_name": "纯水队",
+      "focus": true,
+      "core_role": "站场输出/治疗辅助",
+      "core_evidence": "珊瑚宫心海提供高额治疗，元素爆发提升抗打断能力",
+      "example_team_members": [
+        "珊瑚宫心海",
+        "芙宁娜",
+        "夜兰",
+        "蓝砚"
+      ],
+      "example_team_evidence": "纯水队优势：三位水元素角色互相充能，降低充能压力"
+    },
+    {
+      "id": "TT:雷电将军:雷神国家队_蒸发多核",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "雷神国家队（蒸发多核）",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "零命雷电将军入队更多的是承担行香班（又称“点秋香”）驾驶员的职能",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "行秋",
+        "香菱"
+      ],
+      "example_team_evidence": "由班尼特、行秋、香菱组成的传统老牌强队"
+    },
+    {
+      "id": "TT:雷电将军:纯雷单核",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "纯雷单核",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "雷电将军为队伍核心",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "行秋",
+        "香菱"
+      ],
+      "example_team_evidence": "由班尼特、行秋、香菱组成的传统老牌强队"
+    },
+    {
+      "id": "TT:雷电将军:雷火多核",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "雷火多核",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "队伍本质上是雷电将军直伤+香菱蒸发伤害的多核队",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "香菱",
+        "行秋"
+      ],
+      "example_team_evidence": "队伍本质上是雷电将军直伤+香菱蒸发伤害的多核队"
+    },
+    {
+      "id": "TT:雷电将军:激化",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "激化",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "雷电将军与行秋配合实现感电护水",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "行秋",
+        "香菱"
+      ],
+      "example_team_evidence": "雷电将军与行秋配合实现感电护水"
+    },
+    {
+      "id": "TT:雷电将军:雷水多核",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "雷水多核",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "雷电将军与行秋配合实现感电护水",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "行秋",
+        "香菱"
+      ],
+      "example_team_evidence": "雷电将军与行秋配合实现感电护水"
+    },
+    {
+      "id": "TT:雷电将军:前台激绽",
+      "label": "TeamTemplate",
+      "core_character": "雷电将军",
+      "archetype_name": "前台激绽",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "队伍本质上是雷电将军直伤+香菱蒸发伤害的多核队",
+      "example_team_members": [
+        "雷电将军",
+        "班尼特",
+        "行秋",
+        "香菱"
+      ],
+      "example_team_evidence": "由班尼特、行秋、香菱组成的传统老牌强队"
+    },
+    {
+      "id": "TT:艾尔海森:站场激绽",
+      "label": "TeamTemplate",
+      "core_character": "艾尔海森",
+      "archetype_name": "站场激绽",
+      "focus": true,
+      "core_role": "站场",
+      "core_evidence": "艾尔海森的站场激绽体系由草、水、雷元素角色组成",
+      "example_team_members": [
+        "艾尔海森",
+        "纳西妲",
+        "芙宁娜",
+        "久岐忍"
+      ],
+      "example_team_evidence": "双草共鸣、水元素附着、雷元素附着"
+    },
+    {
+      "id": "TT:卡维:激绽队",
+      "label": "TeamTemplate",
+      "core_character": "卡维",
+      "archetype_name": "激绽队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "卡维受限于极高的充能压力",
+      "example_team_members": [
+        "卡维",
+        "纳西妲",
+        "雷电将军",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "卡维受限于极高的充能压力，多数情况下绑定双草"
+    },
+    {
+      "id": "TT:空_荧:水伤输出",
+      "label": "TeamTemplate",
+      "core_character": "空/荧",
+      "archetype_name": "水伤输出",
+      "focus": false,
+      "core_role": "输出",
+      "core_evidence": "旅行者（水）自身缺乏辅助能力",
+      "example_team_members": [
+        "空/荧",
+        "纳西妲",
+        "行秋",
+        "芭芭拉"
+      ],
+      "example_team_evidence": "旅行者（水）自身缺乏辅助能力"
+    },
+    {
+      "id": "TT:林尼:纯火队",
+      "label": "TeamTemplate",
+      "core_character": "林尼",
+      "archetype_name": "纯火队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "作为继甘雨、提纳里之后的第三位蓄力弓角色",
+      "example_team_members": [
+        "林尼",
+        "班尼特",
+        "钟离",
+        "枫原万叶"
+      ],
+      "example_team_evidence": "纯火队的主要配置为林尼本身，生存位，增伤位和副C"
+    },
+    {
+      "id": "TT:林尼:蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "林尼",
+      "archetype_name": "蒸发队",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "林尼的输出手段可与蒸发反应配合",
+      "example_team_members": [
+        "林尼",
+        "芙宁娜",
+        "茜特菈莉",
+        "班尼特"
+      ],
+      "example_team_evidence": "即使搭配0命芙宁娜，蒸发队林尼的增伤区依旧难以赶上纯火队"
+    },
+    {
+      "id": "TT:白术:超绽放队",
+      "label": "TeamTemplate",
+      "core_character": "白术",
+      "archetype_name": "超绽放队",
+      "focus": false,
+      "core_role": "站场",
+      "core_evidence": "白术 站场，搭配后台挂水角色",
+      "example_team_members": [
+        "白术",
+        "行秋",
+        "雷电将军",
+        "夜兰"
+      ],
+      "example_team_evidence": "白术 站场，搭配后台挂水角色如 行秋 夜兰 芙宁娜 与后台挂雷角色如 雷电将军"
+    },
+    {
+      "id": "TT:白术:烈绽放队",
+      "label": "TeamTemplate",
+      "core_character": "白术",
+      "archetype_name": "烈绽放队",
+      "focus": false,
+      "core_role": "站场",
+      "core_evidence": "白术 站场，搭配后台挂水角色如 行秋 夜兰 芙宁娜 与后台挂雷角色如 雷电将军",
+      "example_team_members": [
+        "白术",
+        "行秋",
+        "雷电将军",
+        "夜兰"
+      ],
+      "example_team_evidence": "白术 站场，搭配后台挂水角色如 行秋 夜兰 芙宁娜 与后台挂雷角色如 雷电将军"
+    },
+    {
+      "id": "TT:琳妮特:琳妮特主C队",
+      "label": "TeamTemplate",
+      "core_character": "琳妮特",
+      "archetype_name": "琳妮特主C队",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "满命主C琳妮特以珐露珊为首选队友",
+      "example_team_members": [
+        "琳妮特",
+        "珐露珊",
+        "班尼特",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "珐露珊为首选队友，基础伤害乘区由班尼特或闲云补足"
+    },
+    {
+      "id": "TT:迪希雅:前台蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "迪希雅",
+      "archetype_name": "前台蒸发队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "迪希雅的元素爆发可以基于全队生命值变动为全队增伤",
+      "example_team_members": [
+        "迪希雅",
+        "芙宁娜",
+        "希诺宁",
+        "班尼特"
+      ],
+      "example_team_evidence": "队伍的其余两人可搭配增伤+治疗辅助的希诺宁与班尼特"
+    },
+    {
+      "id": "TT:流浪者:散珐钟班体系",
+      "label": "TeamTemplate",
+      "core_character": "流浪者",
+      "archetype_name": "散珐钟班体系",
+      "focus": false,
+      "core_role": "驾驶员",
+      "core_evidence": "流浪者作为队伍的驾驶员",
+      "example_team_members": [
+        "流浪者",
+        "散兵",
+        "珐露珊",
+        "班尼特"
+      ],
+      "example_team_evidence": "散珐钟班配队参考属性、圣遗物、武器如下"
+    },
+    {
+      "id": "TT:纳西妲:站场激绽",
+      "label": "TeamTemplate",
+      "core_character": "纳西妲",
+      "archetype_name": "站场激绽",
+      "focus": true,
+      "core_role": "驻场",
+      "core_evidence": "纳西妲作为法器角色，普攻和重击都可以施加草元素附着",
+      "example_team_members": [
+        "纳西妲",
+        "菈乌玛",
+        "行秋",
+        "久岐忍"
+      ],
+      "example_team_evidence": "综合上述分析，下面将围绕纳西妲+菈乌玛+行秋+久岐忍配队进行具体分析"
+    },
+    {
+      "id": "TT:妮露:绽放队",
+      "label": "TeamTemplate",
+      "core_character": "妮露",
+      "archetype_name": "绽放队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "以妮露的天赋「折旋落英之庭」产生的「丰穰之核」为核心",
+      "example_team_members": [
+        "妮露",
+        "纳西妲",
+        "柯莱",
+        "白术"
+      ],
+      "example_team_evidence": "双水双草队，纳西妲站场挂草，柯莱后台挂草，白术治疗与挂草"
+    },
+    {
+      "id": "TT:赛诺:激绽队",
+      "label": "TeamTemplate",
+      "core_character": "赛诺",
+      "archetype_name": "激绽队",
+      "focus": true,
+      "core_role": "后台输出",
+      "core_evidence": "赛诺为后台输出角色",
+      "example_team_members": [
+        "纳西妲",
+        "芙宁娜",
+        "菲谢尔",
+        "赛诺"
+      ],
+      "example_team_evidence": "纳西妲、6命菲谢尔、芙宁娜双雷激绽队"
+    },
+    {
+      "id": "TT:赛诺:激化队",
+      "label": "TeamTemplate",
+      "core_character": "赛诺",
+      "archetype_name": "激化队",
+      "focus": false,
+      "core_role": "站场输出",
+      "core_evidence": "激化队伍需站场输出",
+      "example_team_members": [
+        "赛诺",
+        "纳西妲",
+        "克洛琳德",
+        "班尼特"
+      ],
+      "example_team_evidence": "传统激化队中赛诺的配队"
+    },
+    {
+      "id": "TT:鹿野院平藏:剧变驾驶员",
+      "label": "TeamTemplate",
+      "core_character": "鹿野院平藏",
+      "archetype_name": "剧变驾驶员",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "鹿野院平藏可在感电、超绽放队中作为驾驶员角色驻场",
+      "example_team_members": [
+        "鹿野院平藏",
+        "芙宁娜",
+        "八重神子",
+        "纳西妲"
+      ],
+      "example_team_evidence": "水系队友通常选择芙宁娜 夜兰，雷系队友通常选择八重神子 菲谢尔，草系队友通常选择纳西妲"
+    },
+    {
+      "id": "TT:坎蒂丝:下落蒸发",
+      "label": "TeamTemplate",
+      "core_character": "坎蒂丝",
+      "archetype_name": "下落蒸发",
+      "focus": false,
+      "core_role": "水元素附着",
+      "core_evidence": "坎蒂丝 施放元素爆发赋予水元素附魔",
+      "example_team_members": [
+        "坎蒂丝",
+        "闲云",
+        "香菱",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "闲云+坎蒂丝+香菱为本体系固定框架"
+    },
+    {
+      "id": "TT:提纳里:多核激化",
+      "label": "TeamTemplate",
+      "core_character": "提纳里",
+      "archetype_name": "多核激化",
+      "focus": true,
+      "core_role": "站场",
+      "core_evidence": "提纳里偏向站场的纯激化队",
+      "example_team_members": [
+        "提纳里",
+        "八重神子",
+        "纳西妲",
+        "钟离"
+      ],
+      "example_team_evidence": "提纳里 + 八重神子 + 纳西妲 + 钟离"
+    },
+    {
+      "id": "TT:莱欧斯利:融化体系",
+      "label": "TeamTemplate",
+      "core_character": "莱欧斯利",
+      "archetype_name": "融化体系",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "莱欧斯利作为攻击力体系角色，队伍大多数情况下绑定班尼特",
+      "example_team_members": [
+        "莱欧斯利",
+        "班尼特",
+        "香菱",
+        "纳西妲"
+      ],
+      "example_team_evidence": "香菱可覆盖莱欧斯利输出期，纳西妲提供燃烧反应"
+    },
+    {
+      "id": "TT:那维莱特:双水三色队",
+      "label": "TeamTemplate",
+      "core_character": "那维莱特",
+      "archetype_name": "双水三色队",
+      "focus": true,
+      "core_role": "水元素输出",
+      "core_evidence": "主流配队以水元素直伤输出为主",
+      "example_team_members": [
+        "那维莱特",
+        "芙宁娜",
+        "希诺宁",
+        "玛薇卡"
+      ],
+      "example_team_evidence": "玛薇卡+希诺宁可略高于枫原万叶+希诺宁的组合"
+    },
+    {
+      "id": "TT:那维莱特:四冰水体系",
+      "label": "TeamTemplate",
+      "core_character": "那维莱特",
+      "archetype_name": "四冰水体系",
+      "focus": false,
+      "core_role": "水元素输出",
+      "core_evidence": "队内存在4名水元素或冰元素角色",
+      "example_team_members": [
+        "那维莱特",
+        "芙宁娜",
+        "爱可菲",
+        "神里绫华"
+      ],
+      "example_team_evidence": "当与攻略 × 爱可菲组成四冰水体系时"
+    },
+    {
+      "id": "TT:菲米尼:冰伤队",
+      "label": "TeamTemplate",
+      "core_character": "菲米尼",
+      "archetype_name": "冰伤队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "冰伤队与冰元素站场输出角色的直伤输出队类似",
+      "example_team_members": [
+        "菲米尼",
+        "爱可菲",
+        "申鹤",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "冰伤队与冰元素站场输出角色的直伤输出队类似"
+    },
+    {
+      "id": "TT:芙宁娜:满命芙宁娜站场队",
+      "label": "TeamTemplate",
+      "core_character": "芙宁娜",
+      "archetype_name": "满命芙宁娜站场队",
+      "focus": true,
+      "core_role": "站场主C",
+      "core_evidence": "满命芙宁娜可以作为站场主C",
+      "example_team_members": [
+        "芙宁娜",
+        "闲云",
+        "香菱",
+        "希诺宁"
+      ],
+      "example_team_evidence": "队伍的核心成员为芙宁娜、闲云和香菱"
+    },
+    {
+      "id": "TT:玛拉妮:蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "玛拉妮",
+      "archetype_name": "蒸发队",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "玛拉妮主打蒸发反应时需要选择一名提供后台挂火的角色",
+      "example_team_members": [
+        "玛拉妮",
+        "玛薇卡",
+        "希诺宁",
+        "砂糖"
+      ],
+      "example_team_evidence": "玛薇卡是玛拉妮的首选火元素队友，希诺宁与砂糖可提供减抗与增伤"
+    },
+    {
+      "id": "TT:基尼奇:燃烧队",
+      "label": "TeamTemplate",
+      "core_character": "基尼奇",
+      "archetype_name": "燃烧队",
+      "focus": true,
+      "core_role": "副输出",
+      "core_evidence": "基尼奇作为攻击力倍率输出角色",
+      "example_team_members": [
+        "基尼奇",
+        "玛薇卡",
+        "托马",
+        "迪希雅"
+      ],
+      "example_team_evidence": "燃烧队中若基尼奇一轮只施放四次元素战技"
+    },
+    {
+      "id": "TT:基尼奇:烈绽放队",
+      "label": "TeamTemplate",
+      "core_character": "基尼奇",
+      "archetype_name": "烈绽放队",
+      "focus": false,
+      "core_role": "副输出",
+      "core_evidence": "烈绽放队",
+      "example_team_members": [
+        "基尼奇",
+        "玛薇卡",
+        "托马",
+        "迪希雅"
+      ],
+      "example_team_evidence": "烈绽放队"
+    },
+    {
+      "id": "TT:基尼奇:燃激载队",
+      "label": "TeamTemplate",
+      "core_character": "基尼奇",
+      "archetype_name": "燃激载队",
+      "focus": false,
+      "core_role": "副输出",
+      "core_evidence": "燃激载队",
+      "example_team_members": [
+        "基尼奇",
+        "玛薇卡",
+        "托马",
+        "迪希雅"
+      ],
+      "example_team_evidence": "燃激载队"
+    },
+    {
+      "id": "TT:艾梅莉埃:燃烧队",
+      "label": "TeamTemplate",
+      "core_character": "艾梅莉埃",
+      "archetype_name": "燃烧队",
+      "focus": false,
+      "core_role": "驻场主C",
+      "core_evidence": "艾梅莉埃驻场主C配队",
+      "example_team_members": [
+        "艾梅莉埃",
+        "班尼特",
+        "香菱",
+        "钟离"
+      ],
+      "example_team_evidence": "综合上述分析，下面将围绕艾芙香班配队进行具体分析"
+    },
+    {
+      "id": "TT:娜维娅:双岩共鸣",
+      "label": "TeamTemplate",
+      "core_character": "娜维娅",
+      "archetype_name": "双岩共鸣",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "双岩共鸣提供护盾强效、增伤、减岩抗的全面属性",
+      "example_team_members": [
+        "娜维娅",
+        "希诺宁",
+        "玛薇卡",
+        "芙宁娜"
+      ],
+      "example_team_evidence": "下面将围绕娜维娅、希诺宁、玛薇卡、芙宁娜组成的娜希玛芙配队进行具体分析"
+    },
+    {
+      "id": "TT:克洛琳德:超载队",
+      "label": "TeamTemplate",
+      "core_character": "克洛琳德",
+      "archetype_name": "超载队",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "克洛琳德可从雷元素角色和火元素角色中选择",
+      "example_team_members": [
+        "克洛琳德",
+        "北斗",
+        "夏沃蕾",
+        "玛薇卡"
+      ],
+      "example_team_evidence": "下面将围绕克洛琳德、北斗、夏沃蕾、玛薇卡组成的克北夏火配队进行具体分析"
+    },
+    {
+      "id": "TT:千织:千希芙夜",
+      "label": "TeamTemplate",
+      "core_character": "千织",
+      "archetype_name": "千希芙夜",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "千织 具有第六命座「万理一空」后可根据自身防御力提高普通攻击伤害",
+      "example_team_members": [
+        "千织",
+        "希诺宁",
+        "芙宁娜",
+        "夜兰"
+      ],
+      "example_team_evidence": "下面将围绕 千织 、 希诺宁 、 芙宁娜 、 夜兰 组成的 千希芙夜 配队进行具体分析"
+    },
+    {
+      "id": "TT:赛索斯:激绽队",
+      "label": "TeamTemplate",
+      "core_character": "赛索斯",
+      "archetype_name": "激绽队",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "赛索斯作为拥有高元素精通倍率的雷系主C",
+      "example_team_members": [
+        "赛索斯",
+        "菲谢尔",
+        "白术",
+        "钟离"
+      ],
+      "example_team_evidence": "配队围绕绑定草系角色主打超激化、超绽放"
+    },
+    {
+      "id": "TT:嘉明:融化队",
+      "label": "TeamTemplate",
+      "core_character": "嘉明",
+      "archetype_name": "融化队",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "嘉明的火元素附着间隔较长",
+      "example_team_members": [
+        "嘉明",
+        "茜特菈莉",
+        "班尼特",
+        "闲云"
+      ],
+      "example_team_evidence": "嘉明融化队的首选角色之一"
+    },
+    {
+      "id": "TT:嘉明:蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "嘉明",
+      "archetype_name": "蒸发队",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "嘉明的火元素附着间隔较长",
+      "example_team_members": [
+        "嘉明",
+        "茜特菈莉",
+        "班尼特",
+        "迪奥娜"
+      ],
+      "example_team_evidence": "嘉明融化队的首选角色之一"
+    },
+    {
+      "id": "TT:阿蕾奇诺:蒸发队",
+      "label": "TeamTemplate",
+      "core_character": "阿蕾奇诺",
+      "archetype_name": "蒸发队",
+      "focus": true,
+      "core_role": "主C",
+      "core_evidence": "阿蕾奇诺是一名以普通攻击为主要输出手段的火系主C",
+      "example_team_members": [
+        "阿蕾奇诺",
+        "夜兰",
+        "班尼特",
+        "钟离"
+      ],
+      "example_team_evidence": "综合上述分析，下面将围绕阿蕾奇诺、夜兰、班尼特，搭配钟离或蓝砚或茜特菈莉组成的仆夜钟班、仆夜蓝班、仆夜茜班配队进行具体分析"
+    },
+    {
+      "id": "TT:奈芙尔:月绽放队",
+      "label": "TeamTemplate",
+      "core_character": "奈芙尔",
+      "archetype_name": "月绽放队",
+      "focus": true,
+      "core_role": "挂草",
+      "core_evidence": "月绽放队奈芙尔通常搭配一名后台挂草角色",
+      "example_team_members": [
+        "奈芙尔",
+        "菈乌玛",
+        "妮露",
+        "钟离"
+      ],
+      "example_team_evidence": "月绽放队奈芙尔通常搭配一名后台挂草角色与至少一名后台挂水角色"
+    },
+    {
+      "id": "TT:菲林斯:月感电队",
+      "label": "TeamTemplate",
+      "core_character": "菲林斯",
+      "archetype_name": "月感电队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "菲林斯月感电队通常以双雷构建",
+      "example_team_members": [
+        "菲林斯",
+        "伊涅芙",
+        "爱诺",
+        "希诺宁"
+      ],
+      "example_team_evidence": "第四名角色通常承担减抗等辅助职能"
+    },
+    {
+      "id": "TT:瓦雷莎:瓦伊夏玛",
+      "label": "TeamTemplate",
+      "core_character": "瓦雷莎",
+      "archetype_name": "瓦伊夏玛",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "瓦雷莎超载体系是瓦雷莎无论低成本还是高成本都强烈建议考虑的组队方向",
+      "example_team_members": [
+        "瓦雷莎",
+        "伊安珊",
+        "夏沃蕾",
+        "玛薇卡"
+      ],
+      "example_team_evidence": "下面将围绕瓦雷莎、伊安珊、夏沃蕾、玛薇卡组成的瓦伊夏玛配队进行具体分析"
+    },
+    {
+      "id": "TT:菈乌玛:超绽放队",
+      "label": "TeamTemplate",
+      "core_character": "菈乌玛",
+      "archetype_name": "超绽放队",
+      "focus": false,
+      "core_role": "站场",
+      "core_evidence": "菈乌玛站场的超绽放队",
+      "example_team_members": [
+        "菈乌玛",
+        "芙宁娜",
+        "夜兰",
+        "久岐忍"
+      ],
+      "example_team_evidence": "搭配两名后台水元素输出角色与一名后台挂雷角色"
+    },
+    {
+      "id": "TT:丝柯克:冰水直伤队",
+      "label": "TeamTemplate",
+      "core_character": "丝柯克",
+      "archetype_name": "冰水直伤队",
+      "focus": true,
+      "core_role": "速切输出",
+      "core_evidence": "冰元素速切输出角色",
+      "example_team_members": [
+        "丝柯克",
+        "爱可菲",
+        "芙宁娜",
+        "申鹤"
+      ],
+      "example_team_evidence": "以芙宁娜+爱可菲为基础，第四人最佳选择包括申鹤"
+    },
+    {
+      "id": "TT:伊法:感电队",
+      "label": "TeamTemplate",
+      "core_character": "伊法",
+      "archetype_name": "感电队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "伊法的核心天赋提供扩散、感电、月感电反应增伤",
+      "example_team_members": [
+        "伊法",
+        "欧洛伦",
+        "夜兰",
+        "行秋"
+      ],
+      "example_team_evidence": "伊法施放元素战技后触发夜兰、行秋的协同攻击"
+    },
+    {
+      "id": "TT:梦见月瑞希:月感电队",
+      "label": "TeamTemplate",
+      "core_character": "梦见月瑞希",
+      "archetype_name": "月感电队",
+      "focus": true,
+      "core_role": "核心",
+      "core_evidence": "月感电队以伊涅芙为核心",
+      "example_team_members": [
+        "梦见月瑞希",
+        "砂糖",
+        "芙宁娜",
+        "伊涅芙"
+      ],
+      "example_team_evidence": "围绕梦见月瑞希、砂糖、芙宁娜、伊涅芙组成的配队"
+    },
+    {
+      "id": "TT:梦见月瑞希:感电队",
+      "label": "TeamTemplate",
+      "core_character": "梦见月瑞希",
+      "archetype_name": "感电队",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "常规感电队中水元素角色和雷元素角色提供直伤能力",
+      "example_team_members": [
+        "梦见月瑞希",
+        "砂糖",
+        "芙宁娜",
+        "菲谢尔"
+      ],
+      "example_team_evidence": "围绕梦见月瑞希、砂糖、芙宁娜、菲谢尔组成的配队"
+    },
+    {
+      "id": "TT:玛薇卡:增幅体系",
+      "label": "TeamTemplate",
+      "core_character": "玛薇卡",
+      "archetype_name": "增幅体系",
+      "focus": true,
+      "core_role": "驾驶员",
+      "core_evidence": "玛薇卡的攻击、双暴两乘区非常优秀",
+      "example_team_members": [
+        "玛薇卡",
+        "茜特菈莉",
+        "希诺宁",
+        "班尼特"
+      ],
+      "example_team_evidence": "下面将围绕玛薇卡、茜特菈莉、希诺宁、班尼特组成的玛茜希班配队进行具体分析"
+    },
+    {
+      "id": "TT:恰斯卡:混伤队",
+      "label": "TeamTemplate",
+      "core_character": "恰斯卡",
+      "archetype_name": "混伤队",
+      "focus": false,
+      "core_role": "核心",
+      "core_evidence": "恰斯卡为多元素混伤C",
+      "example_team_members": [
+        "恰斯卡",
+        "希诺宁",
+        "迪卢克",
+        "纳西妲"
+      ],
+      "example_team_evidence": "三异三色元素构型"
+    }
+  ],
+  "SlotGroup": [
+    {
+      "id": "SG:TT:雷泽:月感电队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷泽:月感电队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:雷泽:月感电队:雷位",
+        "ST:TT:雷泽:月感电队:水位",
+        "ST:TT:雷泽:月感电队:冰位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:雷泽:月感电队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷泽:月感电队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷泽:月感电队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:凝光:岩伤主C:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:凝光:岩伤主C:岩位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:凝光:岩伤主C:opt_副C",
+      "label": "SlotGroup",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "name": "opt_副C",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:凝光:岩伤主C:副C"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:凝光:岩伤主C:opt_生存辅助",
+      "label": "SlotGroup",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "name": "opt_生存辅助",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:凝光:岩伤主C:生存辅助"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:砂糖:激绽队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:砂糖:激绽队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:砂糖:激绽队:雷位",
+        "ST:TT:砂糖:激绽队:水位",
+        "ST:TT:砂糖:激绽队:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:诺艾尔:岩队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:诺艾尔:岩队:岩位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:诺艾尔:岩队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:诺艾尔:岩队:水位",
+        "ST:TT:诺艾尔:岩队:火位",
+        "ST:TT:诺艾尔:岩队:冰位",
+        "ST:TT:诺艾尔:岩队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:重云:重罗香班:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:重云:重罗香班",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:重云:重罗香班:冰位",
+        "ST:TT:重云:重罗香班:火位",
+        "ST:TT:重云:重罗香班:辅助位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:甘雨:永冻队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:甘雨:永冻队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:甘雨:永冻队:挂水",
+        "ST:TT:甘雨:永冻队:挂冰"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:甘雨:永冻队:opt_聚怪",
+      "label": "SlotGroup",
+      "team_template_id": "TT:甘雨:永冻队",
+      "name": "opt_聚怪",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:甘雨:永冻队:聚怪"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:甘雨:融化队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:甘雨:融化队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:甘雨:融化队:挂火"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:甘雨:融化队:opt_抗打断",
+      "label": "SlotGroup",
+      "team_template_id": "TT:甘雨:融化队",
+      "name": "opt_抗打断",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:甘雨:融化队:抗打断"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:魈:风伤队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:魈:风伤队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:魈:风伤队:风位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:魈:风伤队:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:魈:风伤队",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:魈:风伤队:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:魈:风伤队:opt_后台输出位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:魈:风伤队",
+      "name": "opt_后台输出位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:魈:风伤队:后台输出位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:魈:风伤队:opt_生存辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:魈:风伤队",
+      "name": "opt_生存辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:魈:风伤队:生存辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:达达利亚:双火蒸发:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:达达利亚:双火蒸发:火位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:达达利亚:双火蒸发:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:达达利亚:双火蒸发:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:达达利亚:双火蒸发:opt_扩散位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "name": "opt_扩散位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:达达利亚:双火蒸发:扩散位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:达达利亚:双火蒸发:opt_聚怪位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "name": "opt_聚怪位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:达达利亚:双火蒸发:聚怪位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:温迪:风伤输出:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:温迪:风伤输出",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:温迪:风伤输出:雷位",
+        "ST:TT:温迪:风伤输出:水位",
+        "ST:TT:温迪:风伤输出:火位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:温迪:风伤输出:opt_治疗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:温迪:风伤输出",
+      "name": "opt_治疗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:温迪:风伤输出:治疗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:辛焱:物伤重击队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:辛焱:物伤重击队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:辛焱:物伤重击队:冰位",
+        "ST:TT:辛焱:物伤重击队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:辛焱:物伤重击队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:辛焱:物伤重击队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:辛焱:物伤重击队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:可莉:可芙双核:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:可莉:可芙双核",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:可莉:可芙双核:火位",
+        "ST:TT:可莉:可芙双核:后台输出位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:可莉:可芙双核:opt_增伤辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:可莉:可芙双核",
+      "name": "opt_增伤辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:可莉:可芙双核:增伤辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:可莉:可芙双核:opt_生存辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:可莉:可芙双核",
+      "name": "opt_生存辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:可莉:可芙双核:生存辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:迪卢克:下落增幅:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:迪卢克:下落增幅",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:迪卢克:下落增幅:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:迪卢克:下落增幅:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:迪卢克:下落增幅",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:迪卢克:下落增幅:水位",
+        "ST:TT:迪卢克:下落增幅:冰位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:七七:双冰共鸣队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:七七:双冰共鸣队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:七七:双冰共鸣队:雷位",
+        "ST:TT:七七:双冰共鸣队:水位",
+        "ST:TT:七七:双冰共鸣队:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:莫娜:驾驶员队:opt_减抗",
+      "label": "SlotGroup",
+      "team_template_id": "TT:莫娜:驾驶员队",
+      "name": "opt_减抗",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:莫娜:驾驶员队:减抗"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:莫娜:驾驶员队:opt_增伤",
+      "label": "SlotGroup",
+      "team_template_id": "TT:莫娜:驾驶员队",
+      "name": "opt_增伤",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:莫娜:驾驶员队:增伤"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:刻晴:激化队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:刻晴:激化队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:刻晴:激化队:雷位",
+        "ST:TT:刻晴:激化队:草位",
+        "ST:TT:刻晴:激化队:减抗位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:刻晴:超载队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:刻晴:超载队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:刻晴:超载队:火位",
+        "ST:TT:刻晴:超载队:雷位",
+        "ST:TT:刻晴:超载队:减抗位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:早柚:泥头车:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:早柚:泥头车",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:早柚:泥头车:雷位",
+        "ST:TT:早柚:泥头车:火位",
+        "ST:TT:早柚:泥头车:水位",
+        "ST:TT:早柚:泥头车:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:神里绫华:冻结队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:神里绫华:冻结队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:神里绫华:冻结队:冰位",
+        "ST:TT:神里绫华:冻结队:水位",
+        "ST:TT:神里绫华:冻结队:减抗位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:优菈:冰雷超导队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:优菈:冰雷超导队:雷位",
+        "ST:TT:优菈:冰雷超导队:冰位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:优菈:冰雷超导队:opt_治疗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "name": "opt_治疗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:优菈:冰雷超导队:治疗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:优菈:冰雷超导队:opt_充能位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "name": "opt_充能位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:优菈:冰雷超导队:充能位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:烟绯:蒸发输出:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:烟绯:蒸发输出",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:烟绯:蒸发输出:水位",
+        "ST:TT:烟绯:蒸发输出:辅助位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:烟绯:蒸发输出:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:烟绯:蒸发输出",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:烟绯:蒸发输出:风位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:胡桃:双水蒸发:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:胡桃:双水蒸发",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:胡桃:双水蒸发:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:胡桃:双水蒸发:opt_生存辅助",
+      "label": "SlotGroup",
+      "team_template_id": "TT:胡桃:双水蒸发",
+      "name": "opt_生存辅助",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:胡桃:双水蒸发:生存辅助"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:宵宫:蒸发队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:宵宫:蒸发队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:宵宫:蒸发队:水位",
+        "ST:TT:宵宫:蒸发队:增伤位",
+        "ST:TT:宵宫:蒸发队:生存位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:宵宫:感电队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:宵宫:感电队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 4,
+      "max_select": 4,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:宵宫:感电队:雷位",
+        "ST:TT:宵宫:感电队:水位",
+        "ST:TT:宵宫:感电队:增伤位",
+        "ST:TT:宵宫:感电队:生存位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:荒泷一斗:岩队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:荒泷一斗:岩队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:荒泷一斗:岩队:岩位",
+        "ST:TT:荒泷一斗:岩队:岩位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:荒泷一斗:岩队:opt_第四位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:荒泷一斗:岩队",
+      "name": "opt_第四位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:荒泷一斗:岩队:第四位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:八重神子:激绽队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:八重神子:激绽队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:八重神子:激绽队:水位",
+        "ST:TT:八重神子:激绽队:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:八重神子:激绽队:opt_激绽",
+      "label": "SlotGroup",
+      "team_template_id": "TT:八重神子:激绽队",
+      "name": "opt_激绽",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:八重神子:激绽队:激绽"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:神里绫人:多核直伤:opt_挂雷",
+      "label": "SlotGroup",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "name": "opt_挂雷",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:神里绫人:多核直伤:挂雷"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:神里绫人:多核直伤:opt_挂水",
+      "label": "SlotGroup",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "name": "opt_挂水",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:神里绫人:多核直伤:挂水"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:神里绫人:多核直伤:opt_增伤",
+      "label": "SlotGroup",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "name": "opt_增伤",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:神里绫人:多核直伤:增伤"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:神里绫人:多核直伤:opt_生存辅助",
+      "label": "SlotGroup",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "name": "opt_生存辅助",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:神里绫人:多核直伤:生存辅助"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:夜兰:纯水输出:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:夜兰:纯水输出:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:夜兰:纯水输出:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:夜兰:纯水输出:风位",
+        "ST:TT:夜兰:纯水输出:冰位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:夜兰:纯水输出:opt_岩位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "name": "opt_岩位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:夜兰:纯水输出:岩位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:珊瑚宫心海:纯水队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:珊瑚宫心海:纯水队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:珊瑚宫心海:纯水队:水位",
+        "ST:TT:珊瑚宫心海:纯水队:减抗位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:雷神国家队_蒸发多核:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:雷神国家队_蒸发多核",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:雷神国家队_蒸发多核:雷位",
+        "ST:TT:雷电将军:雷神国家队_蒸发多核:水位",
+        "ST:TT:雷电将军:雷神国家队_蒸发多核:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:纯雷单核:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:纯雷单核",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:纯雷单核:雷位",
+        "ST:TT:雷电将军:纯雷单核:水位",
+        "ST:TT:雷电将军:纯雷单核:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:雷火多核:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:雷火多核",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:雷火多核:雷位",
+        "ST:TT:雷电将军:雷火多核:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:激化:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:激化",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:激化:雷位",
+        "ST:TT:雷电将军:激化:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:雷水多核:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:雷水多核",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:雷水多核:雷位",
+        "ST:TT:雷电将军:雷水多核:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:雷电将军:前台激绽:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:雷电将军:前台激绽",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:雷电将军:前台激绽:雷位",
+        "ST:TT:雷电将军:前台激绽:水位",
+        "ST:TT:雷电将军:前台激绽:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:艾尔海森:站场激绽:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:艾尔海森:站场激绽",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:艾尔海森:站场激绽:草位",
+        "ST:TT:艾尔海森:站场激绽:水位",
+        "ST:TT:艾尔海森:站场激绽:雷位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:卡维:激绽队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:卡维:激绽队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:卡维:激绽队:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:卡维:激绽队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:卡维:激绽队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:卡维:激绽队:水位",
+        "ST:TT:卡维:激绽队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:空_荧:水伤输出:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:空_荧:水伤输出",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:空_荧:水伤输出:水位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:林尼:纯火队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:林尼:纯火队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:林尼:纯火队:生存位",
+        "ST:TT:林尼:纯火队:增伤位",
+        "ST:TT:林尼:纯火队:减抗位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:林尼:纯火队:opt_副C",
+      "label": "SlotGroup",
+      "team_template_id": "TT:林尼:纯火队",
+      "name": "opt_副C",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:林尼:纯火队:副C"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:林尼:蒸发队:opt_反应位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:林尼:蒸发队",
+      "name": "opt_反应位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:林尼:蒸发队:反应位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:林尼:蒸发队:opt_减抗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:林尼:蒸发队",
+      "name": "opt_减抗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:林尼:蒸发队:减抗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:林尼:蒸发队:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:林尼:蒸发队",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:林尼:蒸发队:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:白术:超绽放队:opt_挂水",
+      "label": "SlotGroup",
+      "team_template_id": "TT:白术:超绽放队",
+      "name": "opt_挂水",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:白术:超绽放队:挂水"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:白术:超绽放队:opt_挂雷",
+      "label": "SlotGroup",
+      "team_template_id": "TT:白术:超绽放队",
+      "name": "opt_挂雷",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:白术:超绽放队:挂雷"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:白术:烈绽放队:opt_挂水",
+      "label": "SlotGroup",
+      "team_template_id": "TT:白术:烈绽放队",
+      "name": "opt_挂水",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:白术:烈绽放队:挂水"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:白术:烈绽放队:opt_挂雷",
+      "label": "SlotGroup",
+      "team_template_id": "TT:白术:烈绽放队",
+      "name": "opt_挂雷",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:白术:烈绽放队:挂雷"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:琳妮特:琳妮特主C队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:琳妮特:琳妮特主C队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:琳妮特:琳妮特主C队:opt_治疗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "name": "opt_治疗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:琳妮特:琳妮特主C队:治疗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:琳妮特:琳妮特主C队:opt_辅C位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "name": "opt_辅C位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:琳妮特:琳妮特主C队:辅C位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:迪希雅:前台蒸发队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:迪希雅:前台蒸发队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:迪希雅:前台蒸发队:水位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:流浪者:散珐钟班体系:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:流浪者:散珐钟班体系",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:流浪者:散珐钟班体系:雷位",
+        "ST:TT:流浪者:散珐钟班体系:水位",
+        "ST:TT:流浪者:散珐钟班体系:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:纳西妲:站场激绽:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:纳西妲:站场激绽",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:纳西妲:站场激绽:水位",
+        "ST:TT:纳西妲:站场激绽:雷位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:纳西妲:站场激绽:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:纳西妲:站场激绽",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:纳西妲:站场激绽:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:妮露:绽放队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:妮露:绽放队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:妮露:绽放队:水位",
+        "ST:TT:妮露:绽放队:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:赛诺:激绽队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:赛诺:激绽队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:赛诺:激绽队:雷位",
+        "ST:TT:赛诺:激绽队:水位",
+        "ST:TT:赛诺:激绽队:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:赛诺:激化队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:赛诺:激化队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:赛诺:激化队:雷位",
+        "ST:TT:赛诺:激化队:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:赛诺:激化队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:赛诺:激化队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:赛诺:激化队:水位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:鹿野院平藏:剧变驾驶员:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:鹿野院平藏:剧变驾驶员",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:鹿野院平藏:剧变驾驶员:水位",
+        "ST:TT:鹿野院平藏:剧变驾驶员:雷位",
+        "ST:TT:鹿野院平藏:剧变驾驶员:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:坎蒂丝:下落蒸发:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:坎蒂丝:下落蒸发:增伤辅助"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:坎蒂丝:下落蒸发:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:坎蒂丝:下落蒸发:雷位",
+        "ST:TT:坎蒂丝:下落蒸发:水位",
+        "ST:TT:坎蒂丝:下落蒸发:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:提纳里:多核激化:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:提纳里:多核激化",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:提纳里:多核激化:护盾",
+        "ST:TT:提纳里:多核激化:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:提纳里:多核激化:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:提纳里:多核激化",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:提纳里:多核激化:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:提纳里:多核激化:opt_增伤辅助",
+      "label": "SlotGroup",
+      "team_template_id": "TT:提纳里:多核激化",
+      "name": "opt_增伤辅助",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:提纳里:多核激化:增伤辅助"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:莱欧斯利:融化体系:opt_挂火",
+      "label": "SlotGroup",
+      "team_template_id": "TT:莱欧斯利:融化体系",
+      "name": "opt_挂火",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:莱欧斯利:融化体系:挂火"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:莱欧斯利:融化体系:opt_挂草",
+      "label": "SlotGroup",
+      "team_template_id": "TT:莱欧斯利:融化体系",
+      "name": "opt_挂草",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:莱欧斯利:融化体系:挂草"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:双水三色队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:双水三色队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:那维莱特:双水三色队:opt_减抗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "name": "opt_减抗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:双水三色队:减抗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:双水三色队:opt_治疗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "name": "opt_治疗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:双水三色队:治疗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:双水三色队:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:双水三色队:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:四冰水体系:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:四冰水体系:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:那维莱特:四冰水体系:opt_减抗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "name": "opt_减抗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:四冰水体系:减抗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:四冰水体系:opt_治疗位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "name": "opt_治疗位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:四冰水体系:治疗位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:那维莱特:四冰水体系:opt_副C位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "name": "opt_副C位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:那维莱特:四冰水体系:副C位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:菲米尼:冰伤队:opt_挂雷",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "name": "opt_挂雷",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲米尼:冰伤队:挂雷"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:菲米尼:冰伤队:opt_挂水",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "name": "opt_挂水",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲米尼:冰伤队:挂水"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:菲米尼:冰伤队:opt_挂草",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "name": "opt_挂草",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲米尼:冰伤队:挂草"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:菲米尼:冰伤队:opt_增伤",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "name": "opt_增伤",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲米尼:冰伤队:增伤"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:芙宁娜:满命芙宁娜站场队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:芙宁娜:满命芙宁娜站场队:雷位",
+        "ST:TT:芙宁娜:满命芙宁娜站场队:水位",
+        "ST:TT:芙宁娜:满命芙宁娜站场队:草位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:芙宁娜:满命芙宁娜站场队:opt_增伤",
+      "label": "SlotGroup",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "name": "opt_增伤",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:芙宁娜:满命芙宁娜站场队:增伤"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:玛拉妮:蒸发队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:玛拉妮:蒸发队:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:玛拉妮:蒸发队:opt_生存位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "name": "opt_生存位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:玛拉妮:蒸发队:生存位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:玛拉妮:蒸发队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:玛拉妮:蒸发队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:玛拉妮:蒸发队:opt_第四位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "name": "opt_第四位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:玛拉妮:蒸发队:第四位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃烧队:opt_后台挂火",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "name": "opt_后台挂火",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃烧队:后台挂火"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃烧队:opt_生存位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "name": "opt_生存位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃烧队:生存位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃烧队:opt_副输出位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "name": "opt_副输出位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃烧队:副输出位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃烧队:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃烧队:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:烈绽放队:opt_后台挂火",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "name": "opt_后台挂火",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:烈绽放队:后台挂火"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:烈绽放队:opt_生存位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "name": "opt_生存位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:烈绽放队:生存位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:烈绽放队:opt_副输出位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "name": "opt_副输出位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:烈绽放队:副输出位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃激载队:opt_后台挂火",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "name": "opt_后台挂火",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃激载队:后台挂火"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃激载队:opt_生存位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "name": "opt_生存位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃激载队:生存位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:基尼奇:燃激载队:opt_副输出位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "name": "opt_副输出位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:基尼奇:燃激载队:副输出位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:艾梅莉埃:燃烧队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:艾梅莉埃:燃烧队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:艾梅莉埃:燃烧队:火位",
+        "ST:TT:艾梅莉埃:燃烧队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:艾梅莉埃:燃烧队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:艾梅莉埃:燃烧队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:艾梅莉埃:燃烧队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:娜维娅:双岩共鸣:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:娜维娅:双岩共鸣",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:娜维娅:双岩共鸣:岩位",
+        "ST:TT:娜维娅:双岩共鸣:异元素位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:克洛琳德:超载队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:克洛琳德:超载队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:克洛琳德:超载队:雷位",
+        "ST:TT:克洛琳德:超载队:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:千织:千希芙夜:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:千织:千希芙夜",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 3,
+      "max_select": 3,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:千织:千希芙夜:岩位",
+        "ST:TT:千织:千希芙夜:水位",
+        "ST:TT:千织:千希芙夜:辅助位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:赛索斯:激绽队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:赛索斯:激绽队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:赛索斯:激绽队:草位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:赛索斯:激绽队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:赛索斯:激绽队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:赛索斯:激绽队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:嘉明:融化队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:嘉明:融化队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:嘉明:融化队:冰位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:嘉明:蒸发队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:嘉明:蒸发队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:嘉明:蒸发队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:阿蕾奇诺:蒸发队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 1,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:阿蕾奇诺:蒸发队:护盾辅助"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:阿蕾奇诺:蒸发队:opt_挂水位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "name": "opt_挂水位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:阿蕾奇诺:蒸发队:挂水位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:阿蕾奇诺:蒸发队:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:阿蕾奇诺:蒸发队:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:奈芙尔:月绽放队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:奈芙尔:月绽放队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:奈芙尔:月绽放队:挂草",
+        "ST:TT:奈芙尔:月绽放队:挂水"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:菲林斯:月感电队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲林斯:月感电队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲林斯:月感电队:雷位",
+        "ST:TT:菲林斯:月感电队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:菲林斯:月感电队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菲林斯:月感电队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:菲林斯:月感电队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:瓦雷莎:瓦伊夏玛:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:瓦雷莎:瓦伊夏玛:雷位",
+        "ST:TT:瓦雷莎:瓦伊夏玛:火位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:瓦雷莎:瓦伊夏玛:opt_增伤位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "name": "opt_增伤位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:瓦雷莎:瓦伊夏玛:增伤位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:瓦雷莎:瓦伊夏玛:opt_生存辅助",
+      "label": "SlotGroup",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "name": "opt_生存辅助",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:瓦雷莎:瓦伊夏玛:生存辅助"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:菈乌玛:超绽放队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:菈乌玛:超绽放队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:菈乌玛:超绽放队:水位",
+        "ST:TT:菈乌玛:超绽放队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:丝柯克:冰水直伤队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:丝柯克:冰水直伤队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:丝柯克:冰水直伤队:冰位",
+        "ST:TT:丝柯克:冰水直伤队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:伊法:感电队:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:伊法:感电队",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:伊法:感电队:雷位",
+        "ST:TT:伊法:感电队:水位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:梦见月瑞希:月感电队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:梦见月瑞希:月感电队:风位",
+        "ST:TT:梦见月瑞希:月感电队:水位",
+        "ST:TT:梦见月瑞希:月感电队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:梦见月瑞希:月感电队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:梦见月瑞希:月感电队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:梦见月瑞希:感电队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:梦见月瑞希:感电队:风位",
+        "ST:TT:梦见月瑞希:感电队:水位",
+        "ST:TT:梦见月瑞希:感电队:雷位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    },
+    {
+      "id": "SG:TT:梦见月瑞希:感电队:opt_辅助位",
+      "label": "SlotGroup",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "name": "opt_辅助位",
+      "group_type": "optional_independent",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:梦见月瑞希:感电队:辅助位"
+      ],
+      "description": "独立可选位：该槽可选填 0 或 1 个。"
+    },
+    {
+      "id": "SG:TT:玛薇卡:增幅体系:fixed_required",
+      "label": "SlotGroup",
+      "team_template_id": "TT:玛薇卡:增幅体系",
+      "name": "fixed_required",
+      "group_type": "fixed_required",
+      "min_select": 2,
+      "max_select": 2,
+      "mutual_exclusive": false,
+      "slot_template_ids": [
+        "ST:TT:玛薇卡:增幅体系:增伤位",
+        "ST:TT:玛薇卡:增幅体系:反应位"
+      ],
+      "description": "该组内所有 Slot 必须全部满足（固定必选）。"
+    },
+    {
+      "id": "SG:TT:恰斯卡:混伤队:flex_element",
+      "label": "SlotGroup",
+      "team_template_id": "TT:恰斯卡:混伤队",
+      "name": "flex_element",
+      "group_type": "flex",
+      "min_select": 0,
+      "max_select": 1,
+      "mutual_exclusive": true,
+      "slot_template_ids": [
+        "ST:TT:恰斯卡:混伤队:雷位",
+        "ST:TT:恰斯卡:混伤队:火位",
+        "ST:TT:恰斯卡:混伤队:水位",
+        "ST:TT:恰斯卡:混伤队:冰位"
+      ],
+      "description": "元素灵活位：水/火/冰/雷/草/风 等位通常互斥，最多选择一个。"
+    }
+  ],
+  "SlotTemplate": [
+    {
+      "id": "ST:TT:雷泽:月感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷泽:月感电队",
+      "slot": "雷位",
+      "need": "后台输出/增伤辅助",
+      "must": false,
+      "evidence": "雷泽的元素战技与元素爆发技能也有占总倍率超过40%的雷伤倍率",
+      "slot_group_id": "SG:TT:雷泽:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:雷泽:月感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷泽:月感电队",
+      "slot": "水位",
+      "need": "后台输出/增伤",
+      "must": false,
+      "evidence": "搭配至少一名后台水元素攻击的角色以触发月感电反应",
+      "slot_group_id": "SG:TT:雷泽:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:雷泽:月感电队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷泽:月感电队",
+      "slot": "冰位",
+      "need": "后台输出/增伤",
+      "must": false,
+      "evidence": "超导减抗覆盖率不足，且灵风的持续时间无法完全覆盖雷泽的长轴",
+      "slot_group_id": "SG:TT:雷泽:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:雷泽:月感电队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷泽:月感电队",
+      "slot": "辅助位",
+      "need": "增伤/治疗/护盾",
+      "must": false,
+      "evidence": "第四名角色可选择增伤辅助",
+      "slot_group_id": "SG:TT:雷泽:月感电队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:凝光:岩伤主C:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "slot": "岩位",
+      "need": "岩元素减抗/增伤",
+      "must": true,
+      "evidence": "希诺宁配合天赋提供较长时间的岩元素减抗",
+      "slot_group_id": "SG:TT:凝光:岩伤主C:fixed_required"
+    },
+    {
+      "id": "ST:TT:凝光:岩伤主C:副C",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "slot": "副C",
+      "need": "后台输出/增伤辅助",
+      "must": false,
+      "evidence": "副C队友选择如下",
+      "slot_group_id": "SG:TT:凝光:岩伤主C:opt_副C"
+    },
+    {
+      "id": "ST:TT:凝光:岩伤主C:生存辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:凝光:岩伤主C",
+      "slot": "生存辅助",
+      "need": "护盾/增伤/治疗",
+      "must": false,
+      "evidence": "生存辅助队友选择如下",
+      "slot_group_id": "SG:TT:凝光:岩伤主C:opt_生存辅助"
+    },
+    {
+      "id": "ST:TT:砂糖:激绽队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:砂糖:激绽队",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "菲谢尔是后台输出角色",
+      "slot_group_id": "SG:TT:砂糖:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:砂糖:激绽队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:砂糖:激绽队",
+      "slot": "水位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "行秋为后台输出兼生存辅助角色",
+      "slot_group_id": "SG:TT:砂糖:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:砂糖:激绽队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:砂糖:激绽队",
+      "slot": "草位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "白术为增伤兼生存辅助角色",
+      "slot_group_id": "SG:TT:砂糖:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:诺艾尔:岩队:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "slot": "岩位",
+      "need": "后台输出/增伤辅助/生存辅助",
+      "must": true,
+      "evidence": "需至少两名岩元素角色组成双岩共鸣",
+      "slot_group_id": "SG:TT:诺艾尔:岩队:fixed_required"
+    },
+    {
+      "id": "ST:TT:诺艾尔:岩队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "slot": "水位",
+      "need": "高频挂水/增伤辅助",
+      "must": false,
+      "evidence": "需水元素角色触发结晶反应",
+      "slot_group_id": "SG:TT:诺艾尔:岩队:flex_element"
+    },
+    {
+      "id": "ST:TT:诺艾尔:岩队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "slot": "火位",
+      "need": "高频挂火/增伤辅助",
+      "must": false,
+      "evidence": "需火元素角色触发结晶反应",
+      "slot_group_id": "SG:TT:诺艾尔:岩队:flex_element"
+    },
+    {
+      "id": "ST:TT:诺艾尔:岩队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "slot": "冰位",
+      "need": "高频挂冰/增伤辅助",
+      "must": false,
+      "evidence": "需冰元素角色触发结晶反应",
+      "slot_group_id": "SG:TT:诺艾尔:岩队:flex_element"
+    },
+    {
+      "id": "ST:TT:诺艾尔:岩队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:诺艾尔:岩队",
+      "slot": "雷位",
+      "need": "高频挂雷/增伤辅助",
+      "must": false,
+      "evidence": "需雷元素角色触发结晶反应",
+      "slot_group_id": "SG:TT:诺艾尔:岩队:flex_element"
+    },
+    {
+      "id": "ST:TT:重云:重罗香班:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:重云:重罗香班",
+      "slot": "冰位",
+      "need": "独立附着/持续时间长",
+      "must": true,
+      "evidence": "重云本身不提供火元素附着",
+      "slot_group_id": "SG:TT:重云:重罗香班:fixed_required"
+    },
+    {
+      "id": "ST:TT:重云:重罗香班:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:重云:重罗香班",
+      "slot": "火位",
+      "need": "高频挂火/后台输出",
+      "must": true,
+      "evidence": "香菱作为火元素后台输出角色",
+      "slot_group_id": "SG:TT:重云:重罗香班:fixed_required"
+    },
+    {
+      "id": "ST:TT:重云:重罗香班:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:重云:重罗香班",
+      "slot": "辅助位",
+      "need": "攻击力体系泛用辅助",
+      "must": true,
+      "evidence": "班尼特作为攻击力体系泛用强力辅助",
+      "slot_group_id": "SG:TT:重云:重罗香班:fixed_required"
+    },
+    {
+      "id": "ST:TT:甘雨:永冻队:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:甘雨:永冻队",
+      "slot": "挂水",
+      "need": "维持怪物冻结",
+      "must": true,
+      "evidence": "队伍中需绑定一名挂水角色以尽可能维持怪物冻结",
+      "slot_group_id": "SG:TT:甘雨:永冻队:fixed_required"
+    },
+    {
+      "id": "ST:TT:甘雨:永冻队:挂冰",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:甘雨:永冻队",
+      "slot": "挂冰",
+      "need": "帮助甘雨充能、维持双冰共鸣",
+      "must": true,
+      "evidence": "队伍中需绑定一名挂冰角色以帮助甘雨充能",
+      "slot_group_id": "SG:TT:甘雨:永冻队:fixed_required"
+    },
+    {
+      "id": "ST:TT:甘雨:永冻队:聚怪",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:甘雨:永冻队",
+      "slot": "聚怪",
+      "need": "对群时稳定冻结",
+      "must": false,
+      "evidence": "第四人通常选择风元素聚怪角色",
+      "slot_group_id": "SG:TT:甘雨:永冻队:opt_聚怪"
+    },
+    {
+      "id": "ST:TT:甘雨:融化队:挂火",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:甘雨:融化队",
+      "slot": "挂火",
+      "need": "维持火元素附着",
+      "must": true,
+      "evidence": "甘雨融化队需要后台挂火角色",
+      "slot_group_id": "SG:TT:甘雨:融化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:甘雨:融化队:抗打断",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:甘雨:融化队",
+      "slot": "抗打断",
+      "need": "提高队伍生存",
+      "must": false,
+      "evidence": "融化队需抗打断位",
+      "slot_group_id": "SG:TT:甘雨:融化队:opt_抗打断"
+    },
+    {
+      "id": "ST:TT:魈:风伤队:风位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:魈:风伤队",
+      "slot": "风位",
+      "need": "高频挂风/后台输出",
+      "must": true,
+      "evidence": "珐露珊可与魈互充，组成双风共鸣",
+      "slot_group_id": "SG:TT:魈:风伤队:fixed_required"
+    },
+    {
+      "id": "ST:TT:魈:风伤队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:魈:风伤队",
+      "slot": "增伤位",
+      "need": "提供增伤/生存辅助",
+      "must": false,
+      "evidence": "珐露珊提供风元素伤害加成",
+      "slot_group_id": "SG:TT:魈:风伤队:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:魈:风伤队:后台输出位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:魈:风伤队",
+      "slot": "后台输出位",
+      "need": "后台输出/增伤辅助",
+      "must": false,
+      "evidence": "芙宁娜可为全队增伤",
+      "slot_group_id": "SG:TT:魈:风伤队:opt_后台输出位"
+    },
+    {
+      "id": "ST:TT:魈:风伤队:生存辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:魈:风伤队",
+      "slot": "生存辅助位",
+      "need": "生存辅助/增伤",
+      "must": false,
+      "evidence": "班尼特提供攻击力加成",
+      "slot_group_id": "SG:TT:魈:风伤队:opt_生存辅助位"
+    },
+    {
+      "id": "ST:TT:达达利亚:双火蒸发:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "slot": "火位",
+      "need": "高频挂火",
+      "must": false,
+      "evidence": "香菱的元素爆发可独立施加火元素附着",
+      "slot_group_id": "SG:TT:达达利亚:双火蒸发:flex_element"
+    },
+    {
+      "id": "ST:TT:达达利亚:双火蒸发:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "slot": "辅助位",
+      "need": "增伤与生存辅助",
+      "must": false,
+      "evidence": "班尼特提供攻击力加成和治疗",
+      "slot_group_id": "SG:TT:达达利亚:双火蒸发:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:达达利亚:双火蒸发:扩散位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "slot": "扩散位",
+      "need": "双扩散减抗",
+      "must": false,
+      "evidence": "枫原万叶通过风套双扩散减抗",
+      "slot_group_id": "SG:TT:达达利亚:双火蒸发:opt_扩散位"
+    },
+    {
+      "id": "ST:TT:达达利亚:双火蒸发:聚怪位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:达达利亚:双火蒸发",
+      "slot": "聚怪位",
+      "need": "聚怪能力",
+      "must": false,
+      "evidence": "枫原万叶的元素战技拥有非常优秀的聚怪能力",
+      "slot_group_id": "SG:TT:达达利亚:双火蒸发:opt_聚怪位"
+    },
+    {
+      "id": "ST:TT:温迪:风伤输出:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:温迪:风伤输出",
+      "slot": "雷位",
+      "need": "后台雷元素伤害",
+      "must": false,
+      "evidence": "菲谢尔提供后台雷元素伤害",
+      "slot_group_id": "SG:TT:温迪:风伤输出:flex_element"
+    },
+    {
+      "id": "ST:TT:温迪:风伤输出:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:温迪:风伤输出",
+      "slot": "水位",
+      "need": "后台水元素伤害",
+      "must": false,
+      "evidence": "芙宁娜可提供后台水元素伤害",
+      "slot_group_id": "SG:TT:温迪:风伤输出:flex_element"
+    },
+    {
+      "id": "ST:TT:温迪:风伤输出:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:温迪:风伤输出",
+      "slot": "火位",
+      "need": "高频挂火元素",
+      "must": false,
+      "evidence": "搭配班尼特等火元素队友触发超载",
+      "slot_group_id": "SG:TT:温迪:风伤输出:flex_element"
+    },
+    {
+      "id": "ST:TT:温迪:风伤输出:治疗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:温迪:风伤输出",
+      "slot": "治疗位",
+      "need": "治疗/生存辅助",
+      "must": false,
+      "evidence": "琴可作为治疗辅助入队",
+      "slot_group_id": "SG:TT:温迪:风伤输出:opt_治疗位"
+    },
+    {
+      "id": "ST:TT:辛焱:物伤重击队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:辛焱:物伤重击队",
+      "slot": "冰位",
+      "need": "挂冰副C位",
+      "must": false,
+      "evidence": "挂冰副C位可选择罗莎莉亚",
+      "slot_group_id": "SG:TT:辛焱:物伤重击队:flex_element"
+    },
+    {
+      "id": "ST:TT:辛焱:物伤重击队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:辛焱:物伤重击队",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "挂雷位可选择菲谢尔",
+      "slot_group_id": "SG:TT:辛焱:物伤重击队:flex_element"
+    },
+    {
+      "id": "ST:TT:辛焱:物伤重击队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:辛焱:物伤重击队",
+      "slot": "辅助位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "辅助位上通常考虑芙宁娜、班尼特、满命米卡",
+      "slot_group_id": "SG:TT:辛焱:物伤重击队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:可莉:可芙双核:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:可莉:可芙双核",
+      "slot": "火位",
+      "need": "高频挂火",
+      "must": true,
+      "evidence": "可莉自身高频火元素附着",
+      "slot_group_id": "SG:TT:可莉:可芙双核:fixed_required"
+    },
+    {
+      "id": "ST:TT:可莉:可芙双核:后台输出位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:可莉:可芙双核",
+      "slot": "后台输出位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "芙宁娜后台在荒性形态下利用元素战技进行蒸发输出",
+      "slot_group_id": "SG:TT:可莉:可芙双核:fixed_required"
+    },
+    {
+      "id": "ST:TT:可莉:可芙双核:增伤辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:可莉:可芙双核",
+      "slot": "增伤辅助位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "芙宁娜的元素爆发可根据全队生命值波动为全队提供增伤",
+      "slot_group_id": "SG:TT:可莉:可芙双核:opt_增伤辅助位"
+    },
+    {
+      "id": "ST:TT:可莉:可芙双核:生存辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:可莉:可芙双核",
+      "slot": "生存辅助位",
+      "need": "生存辅助",
+      "must": false,
+      "evidence": "可莉需要增伤兼治疗位班尼特或闲云",
+      "slot_group_id": "SG:TT:可莉:可芙双核:opt_生存辅助位"
+    },
+    {
+      "id": "ST:TT:迪卢克:下落增幅:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:迪卢克:下落增幅",
+      "slot": "火位",
+      "need": "后台输出/火伤加成",
+      "must": true,
+      "evidence": "迪卢克施放元素爆发后配合天赋「熔毁之翼」即可获得长达12秒的火元素附魔",
+      "slot_group_id": "SG:TT:迪卢克:下落增幅:fixed_required"
+    },
+    {
+      "id": "ST:TT:迪卢克:下落增幅:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:迪卢克:下落增幅",
+      "slot": "水位",
+      "need": "高频挂水/反应辅助",
+      "must": false,
+      "evidence": "迪卢克通常搭配一名后台水元素队友主打蒸发",
+      "slot_group_id": "SG:TT:迪卢克:下落增幅:flex_element"
+    },
+    {
+      "id": "ST:TT:迪卢克:下落增幅:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:迪卢克:下落增幅",
+      "slot": "冰位",
+      "need": "后台输出/减抗/增伤",
+      "must": false,
+      "evidence": "迪卢克通常搭配一名冰元素队友主打融化",
+      "slot_group_id": "SG:TT:迪卢克:下落增幅:flex_element"
+    },
+    {
+      "id": "ST:TT:七七:双冰共鸣队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:七七:双冰共鸣队",
+      "slot": "雷位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:七七:双冰共鸣队:flex_element"
+    },
+    {
+      "id": "ST:TT:七七:双冰共鸣队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:七七:双冰共鸣队",
+      "slot": "水位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:七七:双冰共鸣队:flex_element"
+    },
+    {
+      "id": "ST:TT:七七:双冰共鸣队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:七七:双冰共鸣队",
+      "slot": "草位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:七七:双冰共鸣队:flex_element"
+    },
+    {
+      "id": "ST:TT:莫娜:驾驶员队:减抗",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:莫娜:驾驶员队",
+      "slot": "减抗",
+      "need": "减抗与增伤",
+      "must": false,
+      "evidence": "剩余两名队友可选择提供减抗与增伤",
+      "slot_group_id": "SG:TT:莫娜:驾驶员队:opt_减抗"
+    },
+    {
+      "id": "ST:TT:莫娜:驾驶员队:增伤",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:莫娜:驾驶员队",
+      "slot": "增伤",
+      "need": "减抗与增伤",
+      "must": false,
+      "evidence": "剩余两名队友可选择提供减抗与增伤",
+      "slot_group_id": "SG:TT:莫娜:驾驶员队:opt_增伤"
+    },
+    {
+      "id": "ST:TT:刻晴:激化队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:激化队",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": true,
+      "evidence": "刻晴在激化队通常绑定菲谢尔",
+      "slot_group_id": "SG:TT:刻晴:激化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:刻晴:激化队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:激化队",
+      "slot": "草位",
+      "need": "挂草",
+      "must": true,
+      "evidence": "草元素角色选择如下",
+      "slot_group_id": "SG:TT:刻晴:激化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:刻晴:激化队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:激化队",
+      "slot": "减抗位",
+      "need": "减抗辅助",
+      "must": true,
+      "evidence": "减抗辅助角色主要在希诺宁与装备风套的风元素角色中选择",
+      "slot_group_id": "SG:TT:刻晴:激化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:刻晴:超载队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:超载队",
+      "slot": "火位",
+      "need": "挂火",
+      "must": true,
+      "evidence": "超载队刻晴以夏沃蕾为核心多核构筑",
+      "slot_group_id": "SG:TT:刻晴:超载队:fixed_required"
+    },
+    {
+      "id": "ST:TT:刻晴:超载队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:超载队",
+      "slot": "雷位",
+      "need": "挂雷",
+      "must": true,
+      "evidence": "夏沃蕾作为生存兼增伤辅助向角色",
+      "slot_group_id": "SG:TT:刻晴:超载队:fixed_required"
+    },
+    {
+      "id": "ST:TT:刻晴:超载队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:刻晴:超载队",
+      "slot": "减抗位",
+      "need": "减抗辅助",
+      "must": true,
+      "evidence": "夏沃蕾可提供40%减抗",
+      "slot_group_id": "SG:TT:刻晴:超载队:fixed_required"
+    },
+    {
+      "id": "ST:TT:早柚:泥头车:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:早柚:泥头车",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "迪希雅作为雷元素队友",
+      "slot_group_id": "SG:TT:早柚:泥头车:flex_element"
+    },
+    {
+      "id": "ST:TT:早柚:泥头车:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:早柚:泥头车",
+      "slot": "火位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "芙宁娜作为火元素队友",
+      "slot_group_id": "SG:TT:早柚:泥头车:flex_element"
+    },
+    {
+      "id": "ST:TT:早柚:泥头车:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:早柚:泥头车",
+      "slot": "水位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "纳西妲作为水元素队友",
+      "slot_group_id": "SG:TT:早柚:泥头车:flex_element"
+    },
+    {
+      "id": "ST:TT:早柚:泥头车:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:早柚:泥头车",
+      "slot": "草位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "纳西妲作为水元素队友",
+      "slot_group_id": "SG:TT:早柚:泥头车:flex_element"
+    },
+    {
+      "id": "ST:TT:神里绫华:冻结队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫华:冻结队",
+      "slot": "冰位",
+      "need": "双冰共鸣",
+      "must": true,
+      "evidence": "至少2名冰元素角色组成双冰共鸣",
+      "slot_group_id": "SG:TT:神里绫华:冻结队:fixed_required"
+    },
+    {
+      "id": "ST:TT:神里绫华:冻结队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫华:冻结队",
+      "slot": "水位",
+      "need": "水元素附着",
+      "must": true,
+      "evidence": "一名水元素角色为怪物施加水元素附着",
+      "slot_group_id": "SG:TT:神里绫华:冻结队:fixed_required"
+    },
+    {
+      "id": "ST:TT:神里绫华:冻结队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫华:冻结队",
+      "slot": "减抗位",
+      "need": "减抗能力",
+      "must": true,
+      "evidence": "最后一位角色提供重要的减抗能力",
+      "slot_group_id": "SG:TT:神里绫华:冻结队:fixed_required"
+    },
+    {
+      "id": "ST:TT:优菈:冰雷超导队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "slot": "雷位",
+      "need": "后台输出/高频挂雷",
+      "must": true,
+      "evidence": "雷系队友的选择如下",
+      "slot_group_id": "SG:TT:优菈:冰雷超导队:fixed_required"
+    },
+    {
+      "id": "ST:TT:优菈:冰雷超导队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "slot": "冰位",
+      "need": "后台挂冰",
+      "must": true,
+      "evidence": "冰系队友的选择如下",
+      "slot_group_id": "SG:TT:优菈:冰雷超导队:fixed_required"
+    },
+    {
+      "id": "ST:TT:优菈:冰雷超导队:治疗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "slot": "治疗位",
+      "need": "生存辅助/治疗",
+      "must": false,
+      "evidence": "米卡的元素爆发可以为全队治疗",
+      "slot_group_id": "SG:TT:优菈:冰雷超导队:opt_治疗位"
+    },
+    {
+      "id": "ST:TT:优菈:冰雷超导队:充能位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:优菈:冰雷超导队",
+      "slot": "充能位",
+      "need": "充能辅助",
+      "must": false,
+      "evidence": "雷主可以满足优菈的充能和挂雷缺口",
+      "slot_group_id": "SG:TT:优菈:冰雷超导队:opt_充能位"
+    },
+    {
+      "id": "ST:TT:烟绯:蒸发输出:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:烟绯:蒸发输出",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "单水不足以使烟绯蒸发，可以配合另一名水系角色或 菲谢尔 让烟绯打 蒸发",
+      "slot_group_id": "SG:TT:烟绯:蒸发输出:fixed_required"
+    },
+    {
+      "id": "ST:TT:烟绯:蒸发输出:风位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:烟绯:蒸发输出",
+      "slot": "风位",
+      "need": "扩散/染水",
+      "must": false,
+      "evidence": "风系角色装备 翠绿之影 四件套通过 扩散 降低敌人40%火元素抗性",
+      "slot_group_id": "SG:TT:烟绯:蒸发输出:flex_element"
+    },
+    {
+      "id": "ST:TT:烟绯:蒸发输出:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:烟绯:蒸发输出",
+      "slot": "辅助位",
+      "need": "增伤/抗打断",
+      "must": true,
+      "evidence": "班尼特作为生存兼增伤辅助角色，本身作为 火元素角色 能和烟绯组成 双火共鸣",
+      "slot_group_id": "SG:TT:烟绯:蒸发输出:fixed_required"
+    },
+    {
+      "id": "ST:TT:胡桃:双水蒸发:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:胡桃:双水蒸发",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "夜兰、行秋在队伍中的伤害占比总和并不算低",
+      "slot_group_id": "SG:TT:胡桃:双水蒸发:fixed_required"
+    },
+    {
+      "id": "ST:TT:胡桃:双水蒸发:生存辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:胡桃:双水蒸发",
+      "slot": "生存辅助",
+      "need": "护盾/减伤/治疗",
+      "must": false,
+      "evidence": "胡桃缺乏先手挂火能力",
+      "slot_group_id": "SG:TT:胡桃:双水蒸发:opt_生存辅助"
+    },
+    {
+      "id": "ST:TT:宵宫:蒸发队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:蒸发队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "仅有夜兰、行秋的挂水频率足以单水使宵宫稳定蒸发",
+      "slot_group_id": "SG:TT:宵宫:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:蒸发队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:蒸发队",
+      "slot": "增伤位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "增伤辅助位选择如下",
+      "slot_group_id": "SG:TT:宵宫:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:蒸发队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:蒸发队",
+      "slot": "生存位",
+      "need": "抗打断",
+      "must": true,
+      "evidence": "生存位需要首选提供抗打断的茜特菈莉、钟离、蓝砚等角色",
+      "slot_group_id": "SG:TT:宵宫:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:感电队",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "也可选择雷元素后台输出角色入队",
+      "slot_group_id": "SG:TT:宵宫:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:感电队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "仅有夜兰、行秋的挂水频率足以单水使宵宫稳定蒸发",
+      "slot_group_id": "SG:TT:宵宫:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:感电队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:感电队",
+      "slot": "增伤位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "增伤辅助位选择如下",
+      "slot_group_id": "SG:TT:宵宫:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:宵宫:感电队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:宵宫:感电队",
+      "slot": "生存位",
+      "need": "抗打断",
+      "must": true,
+      "evidence": "生存位需要首选提供抗打断的茜特菈莉、钟离、蓝砚等角色",
+      "slot_group_id": "SG:TT:宵宫:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:荒泷一斗:岩队:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:荒泷一斗:岩队",
+      "slot": "岩位",
+      "need": "充能",
+      "must": true,
+      "evidence": "岩系队友帮助能量需求很高的荒泷一斗充能",
+      "slot_group_id": "SG:TT:荒泷一斗:岩队:fixed_required"
+    },
+    {
+      "id": "ST:TT:荒泷一斗:岩队:第四位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:荒泷一斗:岩队",
+      "slot": "第四位",
+      "need": "破盾位",
+      "must": false,
+      "evidence": "第四名角色可以替换成破盾位",
+      "slot_group_id": "SG:TT:荒泷一斗:岩队:opt_第四位"
+    },
+    {
+      "id": "ST:TT:八重神子:激绽队:激绽",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:八重神子:激绽队",
+      "slot": "激绽",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "后台激绽请参考上述角色页面",
+      "slot_group_id": "SG:TT:八重神子:激绽队:opt_激绽"
+    },
+    {
+      "id": "ST:TT:八重神子:激绽队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:八重神子:激绽队",
+      "slot": "水位",
+      "need": "单水或二命以下",
+      "must": false,
+      "evidence": "水系角色为 芙宁娜 单水或二命以下 夜兰 单水",
+      "slot_group_id": "SG:TT:八重神子:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:八重神子:激绽队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:八重神子:激绽队",
+      "slot": "草位",
+      "need": "双草共鸣",
+      "must": false,
+      "evidence": "草系角色首选 纳西妲 ，第四人可选择 白术 组成 双草共鸣",
+      "slot_group_id": "SG:TT:八重神子:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:神里绫人:多核直伤:挂雷",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "slot": "挂雷",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "配合雷系或火系队友打超绽放、烈绽放",
+      "slot_group_id": "SG:TT:神里绫人:多核直伤:opt_挂雷"
+    },
+    {
+      "id": "ST:TT:神里绫人:多核直伤:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "slot": "挂水",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "神里绫人元素战技后长按普攻打出高频率对群水元素伤害",
+      "slot_group_id": "SG:TT:神里绫人:多核直伤:opt_挂水"
+    },
+    {
+      "id": "ST:TT:神里绫人:多核直伤:增伤",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "slot": "增伤",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "剩下的一到两个位置选择增伤位",
+      "slot_group_id": "SG:TT:神里绫人:多核直伤:opt_增伤"
+    },
+    {
+      "id": "ST:TT:神里绫人:多核直伤:生存辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:神里绫人:多核直伤",
+      "slot": "生存辅助",
+      "need": "生存辅助",
+      "must": false,
+      "evidence": "可选枫原万叶提供聚怪、减抗、增伤",
+      "slot_group_id": "SG:TT:神里绫人:多核直伤:opt_生存辅助"
+    },
+    {
+      "id": "ST:TT:夜兰:纯水输出:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "slot": "水位",
+      "need": "后台输出/增伤辅助",
+      "must": true,
+      "evidence": "芙宁娜元素爆发提供18秒增伤覆盖夜兰输出轴",
+      "slot_group_id": "SG:TT:夜兰:纯水输出:fixed_required"
+    },
+    {
+      "id": "ST:TT:夜兰:纯水输出:风位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "slot": "风位",
+      "need": "增伤辅助/减抗",
+      "must": false,
+      "evidence": "枫原万叶触发翠绿之影四件套减水元素抗性",
+      "slot_group_id": "SG:TT:夜兰:纯水输出:flex_element"
+    },
+    {
+      "id": "ST:TT:夜兰:纯水输出:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "slot": "岩位",
+      "need": "增伤辅助/减抗/治疗",
+      "must": false,
+      "evidence": "希诺宁提供40%岩、水元素伤害加成",
+      "slot_group_id": "SG:TT:夜兰:纯水输出:opt_岩位"
+    },
+    {
+      "id": "ST:TT:夜兰:纯水输出:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:夜兰:纯水输出",
+      "slot": "冰位",
+      "need": "减抗/治疗",
+      "must": false,
+      "evidence": "爱可菲降低水元素抗性",
+      "slot_group_id": "SG:TT:夜兰:纯水输出:flex_element"
+    },
+    {
+      "id": "ST:TT:珊瑚宫心海:纯水队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:珊瑚宫心海:纯水队",
+      "slot": "水位",
+      "need": "后台输出/高频挂水",
+      "must": true,
+      "evidence": "搭配两名水元素后台输出角色，获得双水共鸣生命值加成",
+      "slot_group_id": "SG:TT:珊瑚宫心海:纯水队:fixed_required"
+    },
+    {
+      "id": "ST:TT:珊瑚宫心海:纯水队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:珊瑚宫心海:纯水队",
+      "slot": "减抗位",
+      "need": "提供减抗",
+      "must": true,
+      "evidence": "最后一位角色提供重要的减抗能力",
+      "slot_group_id": "SG:TT:珊瑚宫心海:纯水队:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷神国家队_蒸发多核:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷神国家队_蒸发多核",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:雷神国家队_蒸发多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷神国家队_蒸发多核:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷神国家队_蒸发多核",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "行秋作为后台输出角色，其元素爆发展开水元素协同攻击",
+      "slot_group_id": "SG:TT:雷电将军:雷神国家队_蒸发多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷神国家队_蒸发多核:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷神国家队_蒸发多核",
+      "slot": "火位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "香菱作为后台输出角色，其元素爆发可快照，具有独立火元素附着",
+      "slot_group_id": "SG:TT:雷电将军:雷神国家队_蒸发多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:纯雷单核:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:纯雷单核",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:纯雷单核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:纯雷单核:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:纯雷单核",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "行秋作为后台输出角色，其元素爆发展开水元素协同攻击",
+      "slot_group_id": "SG:TT:雷电将军:纯雷单核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:纯雷单核:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:纯雷单核",
+      "slot": "火位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "香菱作为后台输出角色，其元素爆发可快照，具有独立火元素附着",
+      "slot_group_id": "SG:TT:雷电将军:纯雷单核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷火多核:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷火多核",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:雷火多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷火多核:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷火多核",
+      "slot": "火位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "香菱作为后台输出角色，其元素爆发可快照，具有独立火元素附着",
+      "slot_group_id": "SG:TT:雷电将军:雷火多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:激化:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:激化",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:激化:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:激化:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:激化",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "行秋作为后台输出角色，其元素爆发展开水元素协同攻击",
+      "slot_group_id": "SG:TT:雷电将军:激化:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷水多核:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷水多核",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:雷水多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:雷水多核:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:雷水多核",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "行秋作为后台输出角色，其元素爆发展开水元素协同攻击",
+      "slot_group_id": "SG:TT:雷电将军:雷水多核:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:前台激绽:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:前台激绽",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "雷电将军为队伍所有角色恢复元素能量",
+      "slot_group_id": "SG:TT:雷电将军:前台激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:前台激绽:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:前台激绽",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "行秋作为后台输出角色，其元素爆发展开水元素协同攻击",
+      "slot_group_id": "SG:TT:雷电将军:前台激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:雷电将军:前台激绽:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:雷电将军:前台激绽",
+      "slot": "火位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "香菱作为后台输出角色，其元素爆发可快照，具有独立火元素附着",
+      "slot_group_id": "SG:TT:雷电将军:前台激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:艾尔海森:站场激绽:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾尔海森:站场激绽",
+      "slot": "草位",
+      "need": "双草共鸣",
+      "must": true,
+      "evidence": "双草共鸣来稳定草底，保证对水元素附着的充分利用",
+      "slot_group_id": "SG:TT:艾尔海森:站场激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:艾尔海森:站场激绽:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾尔海森:站场激绽",
+      "slot": "水位",
+      "need": "挂水",
+      "must": true,
+      "evidence": "水元素附着可提供不错的激化频率",
+      "slot_group_id": "SG:TT:艾尔海森:站场激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:艾尔海森:站场激绽:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾尔海森:站场激绽",
+      "slot": "雷位",
+      "need": "挂雷",
+      "must": true,
+      "evidence": "雷元素附着可以提供不错的激化频率",
+      "slot_group_id": "SG:TT:艾尔海森:站场激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:卡维:激绽队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:卡维:激绽队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "水元素队友可选 行秋 夜兰 芙宁娜",
+      "slot_group_id": "SG:TT:卡维:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:卡维:激绽队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:卡维:激绽队",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "雷元素队友可选 雷电将军 久岐忍 菲谢尔 八重神子",
+      "slot_group_id": "SG:TT:卡维:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:卡维:激绽队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:卡维:激绽队",
+      "slot": "草位",
+      "need": "双草配合",
+      "must": true,
+      "evidence": "卡维受限于极高的充能压力，多数情况下绑定双草",
+      "slot_group_id": "SG:TT:卡维:激绽队:fixed_required"
+    },
+    {
+      "id": "ST:TT:空_荧:水伤输出:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:空_荧:水伤输出",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "旅行者（水）自身缺乏辅助能力",
+      "slot_group_id": "SG:TT:空_荧:水伤输出:flex_element"
+    },
+    {
+      "id": "ST:TT:林尼:纯火队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:纯火队",
+      "slot": "生存位",
+      "need": "抗打断",
+      "must": true,
+      "evidence": "林尼没有抗打断能力却依赖较长时间的二段蓄力",
+      "slot_group_id": "SG:TT:林尼:纯火队:fixed_required"
+    },
+    {
+      "id": "ST:TT:林尼:纯火队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:纯火队",
+      "slot": "增伤位",
+      "need": "火元素伤害加成",
+      "must": true,
+      "evidence": "林尼天赋「完场喝彩」鼓励搭配2~3名火元素队友",
+      "slot_group_id": "SG:TT:林尼:纯火队:fixed_required"
+    },
+    {
+      "id": "ST:TT:林尼:纯火队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:纯火队",
+      "slot": "减抗位",
+      "need": "火元素抗性减益",
+      "must": true,
+      "evidence": "林尼缺少减抗区，需换成拥有减抗能力的角色",
+      "slot_group_id": "SG:TT:林尼:纯火队:fixed_required"
+    },
+    {
+      "id": "ST:TT:林尼:纯火队:副C",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:纯火队",
+      "slot": "副C",
+      "need": "输出辅助",
+      "must": false,
+      "evidence": "纯火队的主要配置为林尼本身，生存位，增伤位和副C",
+      "slot_group_id": "SG:TT:林尼:纯火队:opt_副C"
+    },
+    {
+      "id": "ST:TT:林尼:蒸发队:反应位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:蒸发队",
+      "slot": "反应位",
+      "need": "挂水",
+      "must": false,
+      "evidence": "蒸发队林尼有独立的反应区",
+      "slot_group_id": "SG:TT:林尼:蒸发队:opt_反应位"
+    },
+    {
+      "id": "ST:TT:林尼:蒸发队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:蒸发队",
+      "slot": "减抗位",
+      "need": "火元素抗性减益",
+      "must": false,
+      "evidence": "林尼缺少减抗区，需换成拥有减抗能力的角色",
+      "slot_group_id": "SG:TT:林尼:蒸发队:opt_减抗位"
+    },
+    {
+      "id": "ST:TT:林尼:蒸发队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:林尼:蒸发队",
+      "slot": "增伤位",
+      "need": "火元素伤害加成",
+      "must": false,
+      "evidence": "林尼天赋「完场喝彩」鼓励搭配2~3名火元素队友",
+      "slot_group_id": "SG:TT:林尼:蒸发队:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:白术:超绽放队:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:白术:超绽放队",
+      "slot": "挂水",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "搭配后台挂水角色如 行秋 夜兰 芙宁娜",
+      "slot_group_id": "SG:TT:白术:超绽放队:opt_挂水"
+    },
+    {
+      "id": "ST:TT:白术:超绽放队:挂雷",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:白术:超绽放队",
+      "slot": "挂雷",
+      "need": "后台挂雷",
+      "must": false,
+      "evidence": "搭配后台挂雷角色如 雷电将军",
+      "slot_group_id": "SG:TT:白术:超绽放队:opt_挂雷"
+    },
+    {
+      "id": "ST:TT:白术:烈绽放队:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:白术:烈绽放队",
+      "slot": "挂水",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "搭配后台挂水角色如 行秋 夜兰 芙宁娜",
+      "slot_group_id": "SG:TT:白术:烈绽放队:opt_挂水"
+    },
+    {
+      "id": "ST:TT:白术:烈绽放队:挂雷",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:白术:烈绽放队",
+      "slot": "挂雷",
+      "need": "后台挂雷",
+      "must": false,
+      "evidence": "搭配后台挂雷角色如 雷电将军",
+      "slot_group_id": "SG:TT:白术:烈绽放队:opt_挂雷"
+    },
+    {
+      "id": "ST:TT:琳妮特:琳妮特主C队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "slot": "辅助位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "珐露珊为首选队友",
+      "slot_group_id": "SG:TT:琳妮特:琳妮特主C队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:琳妮特:琳妮特主C队:治疗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "slot": "治疗位",
+      "need": "基础伤害乘区",
+      "must": false,
+      "evidence": "基础伤害乘区由班尼特或闲云补足",
+      "slot_group_id": "SG:TT:琳妮特:琳妮特主C队:opt_治疗位"
+    },
+    {
+      "id": "ST:TT:琳妮特:琳妮特主C队:辅C位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:琳妮特:琳妮特主C队",
+      "slot": "辅C位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "芙宁娜可作为最佳辅C位",
+      "slot_group_id": "SG:TT:琳妮特:琳妮特主C队:opt_辅C位"
+    },
+    {
+      "id": "ST:TT:迪希雅:前台蒸发队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:迪希雅:前台蒸发队",
+      "slot": "水位",
+      "need": "持续挂水",
+      "must": false,
+      "evidence": "芙宁娜挂水能力足以保证迪希雅稳定蒸发",
+      "slot_group_id": "SG:TT:迪希雅:前台蒸发队:flex_element"
+    },
+    {
+      "id": "ST:TT:流浪者:散珐钟班体系:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:流浪者:散珐钟班体系",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "推荐选择雷元素角色作为雷位",
+      "slot_group_id": "SG:TT:流浪者:散珐钟班体系:flex_element"
+    },
+    {
+      "id": "ST:TT:流浪者:散珐钟班体系:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:流浪者:散珐钟班体系",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "推荐选择水元素角色作为水位",
+      "slot_group_id": "SG:TT:流浪者:散珐钟班体系:flex_element"
+    },
+    {
+      "id": "ST:TT:流浪者:散珐钟班体系:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:流浪者:散珐钟班体系",
+      "slot": "草位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "推荐选择草元素角色作为草位",
+      "slot_group_id": "SG:TT:流浪者:散珐钟班体系:flex_element"
+    },
+    {
+      "id": "ST:TT:纳西妲:站场激绽:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:纳西妲:站场激绽",
+      "slot": "水位",
+      "need": "后台输出兼生存辅助",
+      "must": true,
+      "evidence": "行秋作为水元素后台输出兼生存辅助角色",
+      "slot_group_id": "SG:TT:纳西妲:站场激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:纳西妲:站场激绽:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:纳西妲:站场激绽",
+      "slot": "雷位",
+      "need": "超绽放触发器",
+      "must": true,
+      "evidence": "后台雷元素超绽放触发器角色需要堆叠大量元素精通",
+      "slot_group_id": "SG:TT:纳西妲:站场激绽:fixed_required"
+    },
+    {
+      "id": "ST:TT:纳西妲:站场激绽:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:纳西妲:站场激绽",
+      "slot": "草位",
+      "need": "挂草",
+      "must": false,
+      "evidence": "第四名角色可选择草（构成双草）",
+      "slot_group_id": "SG:TT:纳西妲:站场激绽:flex_element"
+    },
+    {
+      "id": "ST:TT:妮露:绽放队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:妮露:绽放队",
+      "slot": "水位",
+      "need": "后台输出/高频挂水",
+      "must": true,
+      "evidence": "队伍中必须至少有一名水元素与一名草元素角色",
+      "slot_group_id": "SG:TT:妮露:绽放队:fixed_required"
+    },
+    {
+      "id": "ST:TT:妮露:绽放队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:妮露:绽放队",
+      "slot": "草位",
+      "need": "后台输出/高频挂草",
+      "must": true,
+      "evidence": "队伍中必须至少有一名水元素与一名草元素角色",
+      "slot_group_id": "SG:TT:妮露:绽放队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激绽队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激绽队",
+      "slot": "雷位",
+      "need": "高频挂雷/后台输出",
+      "must": true,
+      "evidence": "赛诺关键产球来源为雷元素",
+      "slot_group_id": "SG:TT:赛诺:激绽队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激绽队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激绽队",
+      "slot": "水位",
+      "need": "后台输出/增伤辅助",
+      "must": true,
+      "evidence": "激绽队引入水元素",
+      "slot_group_id": "SG:TT:赛诺:激绽队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激绽队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激绽队",
+      "slot": "草位",
+      "need": "对群挂草/超绽放输出",
+      "must": true,
+      "evidence": "激绽队在激化基础上引入水元素",
+      "slot_group_id": "SG:TT:赛诺:激绽队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激化队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激化队",
+      "slot": "雷位",
+      "need": "站场输出/产球",
+      "must": true,
+      "evidence": "赛诺为站场输出角色",
+      "slot_group_id": "SG:TT:赛诺:激化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激化队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激化队",
+      "slot": "草位",
+      "need": "挂草/治疗",
+      "must": true,
+      "evidence": "激化队伍需草元素角色",
+      "slot_group_id": "SG:TT:赛诺:激化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛诺:激化队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛诺:激化队",
+      "slot": "水位",
+      "need": "减抗/治疗",
+      "must": false,
+      "evidence": "激化队伍可引入水元素",
+      "slot_group_id": "SG:TT:赛诺:激化队:flex_element"
+    },
+    {
+      "id": "ST:TT:鹿野院平藏:剧变驾驶员:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:鹿野院平藏:剧变驾驶员",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "水系队友通常选择芙宁娜 夜兰",
+      "slot_group_id": "SG:TT:鹿野院平藏:剧变驾驶员:flex_element"
+    },
+    {
+      "id": "ST:TT:鹿野院平藏:剧变驾驶员:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:鹿野院平藏:剧变驾驶员",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "雷系队友通常选择八重神子 菲谢尔",
+      "slot_group_id": "SG:TT:鹿野院平藏:剧变驾驶员:flex_element"
+    },
+    {
+      "id": "ST:TT:鹿野院平藏:剧变驾驶员:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:鹿野院平藏:剧变驾驶员",
+      "slot": "草位",
+      "need": "挂草",
+      "must": false,
+      "evidence": "草系队友通常选择纳西妲",
+      "slot_group_id": "SG:TT:鹿野院平藏:剧变驾驶员:flex_element"
+    },
+    {
+      "id": "ST:TT:坎蒂丝:下落蒸发:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "slot": "雷位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:坎蒂丝:下落蒸发:flex_element"
+    },
+    {
+      "id": "ST:TT:坎蒂丝:下落蒸发:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "slot": "水位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:坎蒂丝:下落蒸发:flex_element"
+    },
+    {
+      "id": "ST:TT:坎蒂丝:下落蒸发:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "slot": "草位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:坎蒂丝:下落蒸发:flex_element"
+    },
+    {
+      "id": "ST:TT:坎蒂丝:下落蒸发:增伤辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:坎蒂丝:下落蒸发",
+      "slot": "增伤辅助",
+      "need": "后台输出/增伤辅助",
+      "must": true,
+      "evidence": "第四人应尽可能选择增伤辅助",
+      "slot_group_id": "SG:TT:坎蒂丝:下落蒸发:fixed_required"
+    },
+    {
+      "id": "ST:TT:提纳里:多核激化:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:提纳里:多核激化",
+      "slot": "雷位",
+      "need": "后台雷元素角色",
+      "must": false,
+      "evidence": "提纳里 + 后台雷元素角色",
+      "slot_group_id": "SG:TT:提纳里:多核激化:flex_element"
+    },
+    {
+      "id": "ST:TT:提纳里:多核激化:增伤辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:提纳里:多核激化",
+      "slot": "增伤辅助",
+      "need": "增伤辅助/后台副C角色",
+      "must": false,
+      "evidence": "增伤辅助/后台副C角色",
+      "slot_group_id": "SG:TT:提纳里:多核激化:opt_增伤辅助"
+    },
+    {
+      "id": "ST:TT:提纳里:多核激化:护盾",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:提纳里:多核激化",
+      "slot": "护盾",
+      "need": "护盾角色",
+      "must": true,
+      "evidence": "生存位最好选择护盾辅助",
+      "slot_group_id": "SG:TT:提纳里:多核激化:fixed_required"
+    },
+    {
+      "id": "ST:TT:提纳里:多核激化:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:提纳里:多核激化",
+      "slot": "草位",
+      "need": "草属性角色",
+      "must": true,
+      "evidence": "三、四号位的角色以草属性角色为最优选择",
+      "slot_group_id": "SG:TT:提纳里:多核激化:fixed_required"
+    },
+    {
+      "id": "ST:TT:莱欧斯利:融化体系:挂火",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:莱欧斯利:融化体系",
+      "slot": "挂火",
+      "need": "后台火元素附着",
+      "must": false,
+      "evidence": "需要搭配可提供后台火元素附着的角色",
+      "slot_group_id": "SG:TT:莱欧斯利:融化体系:opt_挂火"
+    },
+    {
+      "id": "ST:TT:莱欧斯利:融化体系:挂草",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:莱欧斯利:融化体系",
+      "slot": "挂草",
+      "need": "燃烧反应",
+      "must": false,
+      "evidence": "可携带草元素后台输出角色，造成燃烧反应",
+      "slot_group_id": "SG:TT:莱欧斯利:融化体系:opt_挂草"
+    },
+    {
+      "id": "ST:TT:那维莱特:双水三色队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "slot": "水位",
+      "need": "后台输出/高频挂水",
+      "must": true,
+      "evidence": "主流配队以水元素直伤输出为主",
+      "slot_group_id": "SG:TT:那维莱特:双水三色队:fixed_required"
+    },
+    {
+      "id": "ST:TT:那维莱特:双水三色队:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "slot": "减抗位",
+      "need": "减抗/增伤",
+      "must": false,
+      "evidence": "最通用的一个队友格子是减抗位",
+      "slot_group_id": "SG:TT:那维莱特:双水三色队:opt_减抗位"
+    },
+    {
+      "id": "ST:TT:那维莱特:双水三色队:治疗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "slot": "治疗位",
+      "need": "治疗/抗打断",
+      "must": false,
+      "evidence": "零命那维莱特缺乏抗打断",
+      "slot_group_id": "SG:TT:那维莱特:双水三色队:opt_治疗位"
+    },
+    {
+      "id": "ST:TT:那维莱特:双水三色队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:双水三色队",
+      "slot": "增伤位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "其他增伤位队友可选择任意可以进入夜魂加持状态下的辅助角色",
+      "slot_group_id": "SG:TT:那维莱特:双水三色队:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:那维莱特:四冰水体系:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "slot": "水位",
+      "need": "后台输出/高频挂水",
+      "must": true,
+      "evidence": "队内存在4名水元素或冰元素角色",
+      "slot_group_id": "SG:TT:那维莱特:四冰水体系:fixed_required"
+    },
+    {
+      "id": "ST:TT:那维莱特:四冰水体系:减抗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "slot": "减抗位",
+      "need": "减抗/增伤",
+      "must": false,
+      "evidence": "多数情况下绑定芙宁娜",
+      "slot_group_id": "SG:TT:那维莱特:四冰水体系:opt_减抗位"
+    },
+    {
+      "id": "ST:TT:那维莱特:四冰水体系:治疗位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "slot": "治疗位",
+      "need": "治疗/抗打断",
+      "must": false,
+      "evidence": "零命那维莱特缺乏抗打断",
+      "slot_group_id": "SG:TT:那维莱特:四冰水体系:opt_治疗位"
+    },
+    {
+      "id": "ST:TT:那维莱特:四冰水体系:副C位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:那维莱特:四冰水体系",
+      "slot": "副C位",
+      "need": "输出/增伤",
+      "must": false,
+      "evidence": "纯副C队友选择也较为广泛",
+      "slot_group_id": "SG:TT:那维莱特:四冰水体系:opt_副C位"
+    },
+    {
+      "id": "ST:TT:菲米尼:冰伤队:挂雷",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "slot": "挂雷",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "鼓励编入水元素角色让菲米尼打出冻结、碎冰",
+      "slot_group_id": "SG:TT:菲米尼:冰伤队:opt_挂雷"
+    },
+    {
+      "id": "ST:TT:菲米尼:冰伤队:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "slot": "挂水",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "鼓励编入水元素角色让菲米尼打出冻结、碎冰",
+      "slot_group_id": "SG:TT:菲米尼:冰伤队:opt_挂水"
+    },
+    {
+      "id": "ST:TT:菲米尼:冰伤队:挂草",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "slot": "挂草",
+      "need": "物草多核",
+      "must": false,
+      "evidence": "物草多核",
+      "slot_group_id": "SG:TT:菲米尼:冰伤队:opt_挂草"
+    },
+    {
+      "id": "ST:TT:菲米尼:冰伤队:增伤",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲米尼:冰伤队",
+      "slot": "增伤",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "附魔下落",
+      "slot_group_id": "SG:TT:菲米尼:冰伤队:opt_增伤"
+    },
+    {
+      "id": "ST:TT:芙宁娜:满命芙宁娜站场队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "slot": "雷位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:芙宁娜:满命芙宁娜站场队:flex_element"
+    },
+    {
+      "id": "ST:TT:芙宁娜:满命芙宁娜站场队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "slot": "水位",
+      "need": "双水共鸣",
+      "must": false,
+      "evidence": "莫娜的优势在于双水共鸣",
+      "slot_group_id": "SG:TT:芙宁娜:满命芙宁娜站场队:flex_element"
+    },
+    {
+      "id": "ST:TT:芙宁娜:满命芙宁娜站场队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "slot": "草位",
+      "need": "",
+      "must": false,
+      "evidence": "",
+      "slot_group_id": "SG:TT:芙宁娜:满命芙宁娜站场队:flex_element"
+    },
+    {
+      "id": "ST:TT:芙宁娜:满命芙宁娜站场队:增伤",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:芙宁娜:满命芙宁娜站场队",
+      "slot": "增伤",
+      "need": "元素精通收益较高",
+      "must": false,
+      "evidence": "元素精通在一定范围内的收益较高",
+      "slot_group_id": "SG:TT:芙宁娜:满命芙宁娜站场队:opt_增伤"
+    },
+    {
+      "id": "ST:TT:玛拉妮:蒸发队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "slot": "火位",
+      "need": "后台挂火",
+      "must": true,
+      "evidence": "玛拉妮主打蒸发反应时需要选择一名提供后台挂火的角色",
+      "slot_group_id": "SG:TT:玛拉妮:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:玛拉妮:蒸发队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "slot": "生存位",
+      "need": "抗打断",
+      "must": false,
+      "evidence": "玛拉妮进入夜魂加持状态下拥有0.15的抗打断系数",
+      "slot_group_id": "SG:TT:玛拉妮:蒸发队:opt_生存位"
+    },
+    {
+      "id": "ST:TT:玛拉妮:蒸发队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "slot": "辅助位",
+      "need": "增伤/减抗",
+      "must": false,
+      "evidence": "第四名角色可以选择草元素角色将队伍构成转为燃蒸",
+      "slot_group_id": "SG:TT:玛拉妮:蒸发队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:玛拉妮:蒸发队:第四位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛拉妮:蒸发队",
+      "slot": "第四位",
+      "need": "草元素/水元素",
+      "must": false,
+      "evidence": "第四名角色可以选择草元素角色将队伍构成转为燃蒸",
+      "slot_group_id": "SG:TT:玛拉妮:蒸发队:opt_第四位"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃烧队:后台挂火",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "slot": "后台挂火",
+      "need": "增伤辅助/高频率挂火",
+      "must": false,
+      "evidence": "燃烧状态的可持续性",
+      "slot_group_id": "SG:TT:基尼奇:燃烧队:opt_后台挂火"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃烧队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "slot": "生存位",
+      "need": "抗打断/减伤",
+      "must": false,
+      "evidence": "夜魂加持状态下的基尼奇自带0.3的抗打断系数",
+      "slot_group_id": "SG:TT:基尼奇:燃烧队:opt_生存位"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃烧队:副输出位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "slot": "副输出位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "强力加攻辅助",
+      "slot_group_id": "SG:TT:基尼奇:燃烧队:opt_副输出位"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃烧队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃烧队",
+      "slot": "增伤位",
+      "need": "高频挂元素/增伤",
+      "must": false,
+      "evidence": "强力加攻辅助",
+      "slot_group_id": "SG:TT:基尼奇:燃烧队:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:基尼奇:烈绽放队:后台挂火",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "slot": "后台挂火",
+      "need": "高频挂火/增伤",
+      "must": false,
+      "evidence": "烈绽放队",
+      "slot_group_id": "SG:TT:基尼奇:烈绽放队:opt_后台挂火"
+    },
+    {
+      "id": "ST:TT:基尼奇:烈绽放队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "slot": "生存位",
+      "need": "抗打断/减伤",
+      "must": false,
+      "evidence": "烈绽放队",
+      "slot_group_id": "SG:TT:基尼奇:烈绽放队:opt_生存位"
+    },
+    {
+      "id": "ST:TT:基尼奇:烈绽放队:副输出位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:烈绽放队",
+      "slot": "副输出位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "烈绽放队",
+      "slot_group_id": "SG:TT:基尼奇:烈绽放队:opt_副输出位"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃激载队:后台挂火",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "slot": "后台挂火",
+      "need": "高频挂火/增伤",
+      "must": false,
+      "evidence": "燃激载队",
+      "slot_group_id": "SG:TT:基尼奇:燃激载队:opt_后台挂火"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃激载队:生存位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "slot": "生存位",
+      "need": "抗打断/减伤",
+      "must": false,
+      "evidence": "燃激载队",
+      "slot_group_id": "SG:TT:基尼奇:燃激载队:opt_生存位"
+    },
+    {
+      "id": "ST:TT:基尼奇:燃激载队:副输出位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:基尼奇:燃激载队",
+      "slot": "副输出位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "燃激载队",
+      "slot_group_id": "SG:TT:基尼奇:燃激载队:opt_副输出位"
+    },
+    {
+      "id": "ST:TT:艾梅莉埃:燃烧队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾梅莉埃:燃烧队",
+      "slot": "火位",
+      "need": "火元素后台伤害",
+      "must": true,
+      "evidence": "香菱提供火元素后台伤害",
+      "slot_group_id": "SG:TT:艾梅莉埃:燃烧队:fixed_required"
+    },
+    {
+      "id": "ST:TT:艾梅莉埃:燃烧队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾梅莉埃:燃烧队",
+      "slot": "水位",
+      "need": "水元素附着",
+      "must": true,
+      "evidence": "芙宁娜提供水元素附着",
+      "slot_group_id": "SG:TT:艾梅莉埃:燃烧队:fixed_required"
+    },
+    {
+      "id": "ST:TT:艾梅莉埃:燃烧队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:艾梅莉埃:燃烧队",
+      "slot": "辅助位",
+      "need": "全元素减抗能力",
+      "must": false,
+      "evidence": "钟离提供全元素减抗能力",
+      "slot_group_id": "SG:TT:艾梅莉埃:燃烧队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:娜维娅:双岩共鸣:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:娜维娅:双岩共鸣",
+      "slot": "岩位",
+      "need": "生存辅助/减抗/护盾",
+      "must": true,
+      "evidence": "娜维娅自身单靠结晶盾很难拥有足够的生存能力",
+      "slot_group_id": "SG:TT:娜维娅:双岩共鸣:fixed_required"
+    },
+    {
+      "id": "ST:TT:娜维娅:双岩共鸣:异元素位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:娜维娅:双岩共鸣",
+      "slot": "异元素位",
+      "need": "后台持续附着能力",
+      "must": true,
+      "evidence": "需要异元素队友拥有后台持续附着能力",
+      "slot_group_id": "SG:TT:娜维娅:双岩共鸣:fixed_required"
+    },
+    {
+      "id": "ST:TT:克洛琳德:超载队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:克洛琳德:超载队",
+      "slot": "雷位",
+      "need": "后台输出兼减抗",
+      "must": true,
+      "evidence": "队伍中需要一名雷元素角色",
+      "slot_group_id": "SG:TT:克洛琳德:超载队:fixed_required"
+    },
+    {
+      "id": "ST:TT:克洛琳德:超载队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:克洛琳德:超载队",
+      "slot": "火位",
+      "need": "可持续后台挂火",
+      "must": true,
+      "evidence": "队伍需要一名可持续后台挂火角色",
+      "slot_group_id": "SG:TT:克洛琳德:超载队:fixed_required"
+    },
+    {
+      "id": "ST:TT:千织:千希芙夜:岩位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:千织:千希芙夜",
+      "slot": "岩位",
+      "need": "岩元素增伤辅助兼生存辅助",
+      "must": true,
+      "evidence": "五郎 作为 岩元素增伤辅助角色",
+      "slot_group_id": "SG:TT:千织:千希芙夜:fixed_required"
+    },
+    {
+      "id": "ST:TT:千织:千希芙夜:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:千织:千希芙夜",
+      "slot": "水位",
+      "need": "水元素后台输出兼增伤辅助",
+      "must": true,
+      "evidence": "芙宁娜 为 水元素后台输出兼增伤辅助角色",
+      "slot_group_id": "SG:TT:千织:千希芙夜:fixed_required"
+    },
+    {
+      "id": "ST:TT:千织:千希芙夜:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:千织:千希芙夜",
+      "slot": "辅助位",
+      "need": "水元素后台输出兼增伤辅助",
+      "must": true,
+      "evidence": "夜兰 为 水元素后台输出兼增伤辅助角色",
+      "slot_group_id": "SG:TT:千织:千希芙夜:fixed_required"
+    },
+    {
+      "id": "ST:TT:赛索斯:激绽队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛索斯:激绽队",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "赛索斯贯影箭为2单位雷元素附着",
+      "slot_group_id": "SG:TT:赛索斯:激绽队:flex_element"
+    },
+    {
+      "id": "ST:TT:赛索斯:激绽队:草位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:赛索斯:激绽队",
+      "slot": "草位",
+      "need": "绑定草系角色",
+      "must": true,
+      "evidence": "配队围绕绑定草系角色主打超激化、超绽放",
+      "slot_group_id": "SG:TT:赛索斯:激绽队:fixed_required"
+    },
+    {
+      "id": "ST:TT:嘉明:融化队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:嘉明:融化队",
+      "slot": "冰位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "选择冰元素后台输出角色",
+      "slot_group_id": "SG:TT:嘉明:融化队:fixed_required"
+    },
+    {
+      "id": "ST:TT:嘉明:蒸发队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:嘉明:蒸发队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "融化队限制水元素角色的进队",
+      "slot_group_id": "SG:TT:嘉明:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:阿蕾奇诺:蒸发队:挂水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "slot": "挂水位",
+      "need": "后台输出/高频挂水",
+      "must": false,
+      "evidence": "夜兰施放元素爆发提供后台水元素协同攻击",
+      "slot_group_id": "SG:TT:阿蕾奇诺:蒸发队:opt_挂水位"
+    },
+    {
+      "id": "ST:TT:阿蕾奇诺:蒸发队:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "slot": "增伤位",
+      "need": "增伤辅助",
+      "must": false,
+      "evidence": "班尼特是阿蕾奇诺队伍中无法替代的增伤位角色",
+      "slot_group_id": "SG:TT:阿蕾奇诺:蒸发队:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:阿蕾奇诺:蒸发队:护盾辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:阿蕾奇诺:蒸发队",
+      "slot": "护盾辅助",
+      "need": "护盾辅助",
+      "must": true,
+      "evidence": "阿蕾奇诺无法受到队友治疗，因此对护盾辅助的需求相对较高",
+      "slot_group_id": "SG:TT:阿蕾奇诺:蒸发队:fixed_required"
+    },
+    {
+      "id": "ST:TT:奈芙尔:月绽放队:挂草",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:奈芙尔:月绽放队",
+      "slot": "挂草",
+      "need": "后台输出/高频挂草/草元素减抗",
+      "must": true,
+      "evidence": "月绽放队奈芙尔通常搭配一名后台挂草角色",
+      "slot_group_id": "SG:TT:奈芙尔:月绽放队:fixed_required"
+    },
+    {
+      "id": "ST:TT:奈芙尔:月绽放队:挂水",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:奈芙尔:月绽放队",
+      "slot": "挂水",
+      "need": "后台输出/高频挂水/水元素减抗",
+      "must": true,
+      "evidence": "月绽放队需要至少一名后台挂水角色",
+      "slot_group_id": "SG:TT:奈芙尔:月绽放队:fixed_required"
+    },
+    {
+      "id": "ST:TT:菲林斯:月感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲林斯:月感电队",
+      "slot": "雷位",
+      "need": "后台挂雷/增伤/护盾/元素精通加成",
+      "must": true,
+      "evidence": "菲林斯队的第二名雷元素队友的首选是伊涅芙",
+      "slot_group_id": "SG:TT:菲林斯:月感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:菲林斯:月感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲林斯:月感电队",
+      "slot": "水位",
+      "need": "后台挂水/增伤",
+      "must": true,
+      "evidence": "搭配至少一名后台挂水的水元素角色",
+      "slot_group_id": "SG:TT:菲林斯:月感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:菲林斯:月感电队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菲林斯:月感电队",
+      "slot": "辅助位",
+      "need": "减抗/抗打断/治疗/回能",
+      "must": false,
+      "evidence": "第四名角色通常承担减抗等辅助职能",
+      "slot_group_id": "SG:TT:菲林斯:月感电队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:瓦雷莎:瓦伊夏玛:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "slot": "雷位",
+      "need": "双雷共鸣",
+      "must": true,
+      "evidence": "另一名雷元素角色进入队伍构建双雷共鸣非常重要",
+      "slot_group_id": "SG:TT:瓦雷莎:瓦伊夏玛:fixed_required"
+    },
+    {
+      "id": "ST:TT:瓦雷莎:瓦伊夏玛:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "slot": "火位",
+      "need": "火元素附着",
+      "must": true,
+      "evidence": "夏沃蕾超载体系队伍构建应注意火元素附着能力以持续触发超载",
+      "slot_group_id": "SG:TT:瓦雷莎:瓦伊夏玛:fixed_required"
+    },
+    {
+      "id": "ST:TT:瓦雷莎:瓦伊夏玛:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "slot": "增伤位",
+      "need": "攻击力加成",
+      "must": false,
+      "evidence": "夏沃蕾可同时提供攻击力加成、少量治疗效果、双色减抗效果",
+      "slot_group_id": "SG:TT:瓦雷莎:瓦伊夏玛:opt_增伤位"
+    },
+    {
+      "id": "ST:TT:瓦雷莎:瓦伊夏玛:生存辅助",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:瓦雷莎:瓦伊夏玛",
+      "slot": "生存辅助",
+      "need": "治疗或护盾",
+      "must": false,
+      "evidence": "生存位上自行选择治疗辅助或护盾辅助均可",
+      "slot_group_id": "SG:TT:瓦雷莎:瓦伊夏玛:opt_生存辅助"
+    },
+    {
+      "id": "ST:TT:菈乌玛:超绽放队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菈乌玛:超绽放队",
+      "slot": "水位",
+      "need": "后台输出",
+      "must": false,
+      "evidence": "搭配两名后台水元素输出角色",
+      "slot_group_id": "SG:TT:菈乌玛:超绽放队:flex_element"
+    },
+    {
+      "id": "ST:TT:菈乌玛:超绽放队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:菈乌玛:超绽放队",
+      "slot": "雷位",
+      "need": "后台挂雷",
+      "must": false,
+      "evidence": "一名后台挂雷角色如久岐忍",
+      "slot_group_id": "SG:TT:菈乌玛:超绽放队:flex_element"
+    },
+    {
+      "id": "ST:TT:丝柯克:冰水直伤队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:丝柯克:冰水直伤队",
+      "slot": "冰位",
+      "need": "后台输出兼增伤辅助",
+      "must": true,
+      "evidence": "爱可菲作为冰元素后台输出兼增伤、治疗辅助角色",
+      "slot_group_id": "SG:TT:丝柯克:冰水直伤队:fixed_required"
+    },
+    {
+      "id": "ST:TT:丝柯克:冰水直伤队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:丝柯克:冰水直伤队",
+      "slot": "水位",
+      "need": "后台输出兼增伤辅助",
+      "must": true,
+      "evidence": "芙宁娜作为水元素后台输出兼增伤辅助角色",
+      "slot_group_id": "SG:TT:丝柯克:冰水直伤队:fixed_required"
+    },
+    {
+      "id": "ST:TT:伊法:感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:伊法:感电队",
+      "slot": "雷位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "欧洛伦的元素爆发作为后台输出技能",
+      "slot_group_id": "SG:TT:伊法:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:伊法:感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:伊法:感电队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": true,
+      "evidence": "伊法施放元素战技后触发夜兰、行秋的协同攻击",
+      "slot_group_id": "SG:TT:伊法:感电队:fixed_required"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:月感电队:风位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "slot": "风位",
+      "need": "扩散反应伤害/聚怪/多次大范围扩散",
+      "must": false,
+      "evidence": "风元素角色提供聚怪效果",
+      "slot_group_id": "SG:TT:梦见月瑞希:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:月感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "slot": "水位",
+      "need": "挂水/后台输出",
+      "must": false,
+      "evidence": "水元素角色提供直伤能力",
+      "slot_group_id": "SG:TT:梦见月瑞希:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:月感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "slot": "雷位",
+      "need": "直伤/后台输出",
+      "must": false,
+      "evidence": "雷元素角色提供直伤能力",
+      "slot_group_id": "SG:TT:梦见月瑞希:月感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:月感电队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:月感电队",
+      "slot": "辅助位",
+      "need": "减抗/治疗",
+      "must": false,
+      "evidence": "第四名角色可选择希诺宁提供减抗与治疗",
+      "slot_group_id": "SG:TT:梦见月瑞希:月感电队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:感电队:风位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "slot": "风位",
+      "need": "扩散反应伤害/聚怪",
+      "must": false,
+      "evidence": "风元素角色提供聚怪效果",
+      "slot_group_id": "SG:TT:梦见月瑞希:感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:感电队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "slot": "水位",
+      "need": "挂水/后台输出",
+      "must": false,
+      "evidence": "水元素角色提供直伤能力",
+      "slot_group_id": "SG:TT:梦见月瑞希:感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:感电队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "slot": "雷位",
+      "need": "直伤/后台输出",
+      "must": false,
+      "evidence": "雷元素角色提供直伤能力",
+      "slot_group_id": "SG:TT:梦见月瑞希:感电队:flex_element"
+    },
+    {
+      "id": "ST:TT:梦见月瑞希:感电队:辅助位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:梦见月瑞希:感电队",
+      "slot": "辅助位",
+      "need": "减抗/治疗",
+      "must": false,
+      "evidence": "第四名角色可选择希诺宁提供减抗与治疗",
+      "slot_group_id": "SG:TT:梦见月瑞希:感电队:opt_辅助位"
+    },
+    {
+      "id": "ST:TT:玛薇卡:增幅体系:增伤位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛薇卡:增幅体系",
+      "slot": "增伤位",
+      "need": "提供攻击力加成、伤害加成",
+      "must": true,
+      "evidence": "班尼特作为攻击力体系泛用强力辅助，是玛薇卡增幅体系中极其优秀的增伤位角色",
+      "slot_group_id": "SG:TT:玛薇卡:增幅体系:fixed_required"
+    },
+    {
+      "id": "ST:TT:玛薇卡:增幅体系:反应位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:玛薇卡:增幅体系",
+      "slot": "反应位",
+      "need": "后台输出",
+      "must": true,
+      "evidence": "玛薇卡可选择的反应位角色范围如下",
+      "slot_group_id": "SG:TT:玛薇卡:增幅体系:fixed_required"
+    },
+    {
+      "id": "ST:TT:恰斯卡:混伤队:雷位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:恰斯卡:混伤队",
+      "slot": "雷位",
+      "need": "高频挂雷",
+      "must": false,
+      "evidence": "恰斯卡可转化雷元素子弹",
+      "slot_group_id": "SG:TT:恰斯卡:混伤队:flex_element"
+    },
+    {
+      "id": "ST:TT:恰斯卡:混伤队:火位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:恰斯卡:混伤队",
+      "slot": "火位",
+      "need": "高频挂火",
+      "must": false,
+      "evidence": "恰斯卡可转化火元素子弹",
+      "slot_group_id": "SG:TT:恰斯卡:混伤队:flex_element"
+    },
+    {
+      "id": "ST:TT:恰斯卡:混伤队:水位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:恰斯卡:混伤队",
+      "slot": "水位",
+      "need": "高频挂水",
+      "must": false,
+      "evidence": "恰斯卡可转化水元素子弹",
+      "slot_group_id": "SG:TT:恰斯卡:混伤队:flex_element"
+    },
+    {
+      "id": "ST:TT:恰斯卡:混伤队:冰位",
+      "label": "SlotTemplate",
+      "team_template_id": "TT:恰斯卡:混伤队",
+      "slot": "冰位",
+      "need": "高频挂冰",
+      "must": false,
+      "evidence": "恰斯卡可转化冰元素子弹",
+      "slot_group_id": "SG:TT:恰斯卡:混伤队:flex_element"
+    }
+  ]
+}
